@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/video_bg"
+    android:gravity="center|top"
+    >
+   
+   <LinearLayout 
+      android:id="@+id/back"
+      android:layout_width="match_parent"
+      android:layout_height="50dip"
+      android:orientation="vertical"
+      android:layout_marginLeft="10dip"
+      android:gravity="left|center"
+      >
+      
+  <ImageView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/back"
+      />        
+      
+  </LinearLayout>         
+    
+   
+   <TextView 
+       android:id="@+id/text_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="您需要准备的运动器械"
+       android:layout_marginTop="5dip"
+       android:gravity="center|top"
+       android:textSize="16sp"
+       android:textColor="@color/white"
+       />
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_gravity="center"
+       >
+   
+   <GridView 
+       android:id="@+id/gridView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:numColumns="auto_fit"
+       android:verticalSpacing="10dip"
+       android:horizontalSpacing="10dip"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dip"
+       android:gravity="center"
+       android:layout_marginLeft="50dip"
+       android:layout_marginRight="50dip"
+       android:columnWidth="100dip"
+       ></GridView>
+   
+   </LinearLayout>
+   
+     <Button 
+       android:id="@+id/next"  
+       android:layout_width="220dip"
+       android:layout_height="50dip" 
+       android:background="@drawable/login_cornor" 
+       android:text="登录"
+       android:layout_gravity="center"
+       android:textColor="@color/white"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginBottom="10dip"
+       android:layout_marginTop="20dip"
+       />
+    
+    
+    
+
+</LinearLayout>

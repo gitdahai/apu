@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--<color name="white">#ffffff</color>-->
+    <color name="white_transparent">#7fffffff</color> 
+    <!--<color name="black">#000000</color>-->
+    <color name="theme_color">#eff4f4</color>
+    <color name="text_main">#71c5c3</color>
+    <color name="text_main_transparent">#7f71c5c3</color>   
+    
+    
+    <color name="line_two">#f2f2f2</color>  
+    <!--<color name="transparent">#00000000</color> -->
+    <color name="gay">#979797</color>
+    <!--<color name="red">#e41a28</color>-->
+    <color name="progress_bg">#b4c1d1</color>
+    
+    <color name="text_system_default">#666666</color>
+    <color name="text_system_default_two">#2a302f</color>
+    <!--<color name="gray">#C0C0C0</color>-->
+    <color name="gray_default">#C0C0C0</color>
+    
+    
+    <color name="box_one">#e3b5a6</color>
+    <color name="box_two">#95c4cc</color>
+    <color name="box_three">#b8cf8f</color>  
+    <color name="box_four">#e7c374</color>
+    
+    
+    <color name="box_light">#c9e6e5</color>
+    <color name="box_light_big">#b1dbda</color> 
+    <color name="box_middle">#97d3d2</color> 
+    <color name="box_deep">#71c5c3</color>  
+    <color name="box_deep_big">#399d9b</color>
+    
+   <!-- <color name="purple">#999999</color>-->
+    <color name="video_bg">#cccccc</color>
+    
+    <color name="text_tags_color">#71c5c3</color>
+    
+    
+</resources>

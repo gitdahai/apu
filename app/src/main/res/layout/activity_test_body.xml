@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_back"/>
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@color/white"
+       >
+       
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="240dip"
+        android:background="@drawable/test_body_bg"
+        />    
+       
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中医将人的体质大体分为九类，除去相对健康的平和体质外，还有另外八种处于所谓亚健康状态的体质类型。每个人体质各异这是中医辨证治疗的基础，但每个人体质又不局限于其中一种，只是它们在随着你的生活、饮食习惯的变化而表现不同。"
+        android:layout_margin="30px"
+        />   
+       
+   </LinearLayout>
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="bottom"
+       >
+       
+    <include layout="@layout/view_button"/>   
+       
+   </LinearLayout>
+   
+    
+
+</LinearLayout>

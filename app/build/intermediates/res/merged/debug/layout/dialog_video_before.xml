@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:padding="10dip"
+    >
+    
+  <TextView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="您需要准备的运动器阶"
+      android:textSize="20sp"
+      android:textColor="@color/white"
+      /> 
+    
+   <LinearLayout 
+       android:id="@+id/layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:layout_marginTop="10dip"  
+       ></LinearLayout>
+    
+  
+  <TextView 
+      android:id="@+id/text_next"
+      android:layout_width="200dip"
+      android:layout_height="50dip"
+      android:background="@drawable/login_cornor"
+      android:text="准备好了"
+      android:textSize="18sp"
+      android:textColor="@color/white"
+      android:gravity="center"
+      android:layout_marginTop="10dip"
+      />
+   
+    
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    
+ <LinearLayout 
+      android:id="@+id/back"
+      android:layout_width="match_parent"
+      android:layout_height="50dip"
+      android:orientation="vertical"
+      android:layout_marginLeft="10dip"
+      android:gravity="left|center"
+      >
+      
+  <ImageView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/back"
+      />        
+      
+  </LinearLayout>         
+    
+    
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+      
+ <RelativeLayout 
+     android:id="@+id/bottom_layout"
+     android:layout_width="match_parent"
+     android:layout_height="60dip"
+     android:layout_alignParentBottom="true"
+     >
+     
+  <ImageView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/icon_before"
+      android:layout_margin="10dip"
+      />   
+     
+  <ImageView 
+      android:id="@+id/image_next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/icon_later"
+      android:layout_margin="10dip"
+      android:layout_alignParentRight="true"
+      />       
+       
+   <LinearLayout 
+       android:id="@+id/layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"   
+       android:layout_marginBottom="10dip"  
+       ></LinearLayout>
+     
+     
+ </RelativeLayout>   
+ 
+  <FrameLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:gravity="top|center"
+      android:orientation="vertical"
+      android:layout_above="@id/bottom_layout"  
+      >
+ 
+  <com.uphealth.cn.widget.MyVideoView 
+     android:id="@+id/vv_player"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_gravity="center" 
+      />    
+        
+   <FrameLayout 
+       android:layout_width="100dip"
+       android:layout_height="100dip"
+       android:layout_gravity="center" 
+       >
+   
+    <com.uphealth.cn.widget.RoundProgressBar 
+        android:id="@+id/roundProgressBar1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />   
+        
+    <TextView 
+        android:id="@+id/text_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15"
+        android:textColor="@color/text_main"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:visibility="gone"  
+        />
+       
+       
+   </FrameLayout> 
+   
+   </FrameLayout>
+        
+        
+      
+  </RelativeLayout>  
+    
+
+</LinearLayout>

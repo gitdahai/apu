@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <include layout="@layout/title_three"/>  
+  
+  <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:paddingBottom="10dip"
+      >
+      
+  <LinearLayout 
+      android:id="@+id/frame"  
+      android:layout_width="110dip"
+      android:layout_height="110dip"
+      android:gravity="center|top"
+      android:layout_marginTop="15dip"
+      android:layout_marginLeft="15dip"
+      android:layout_marginRight="15dip"
+      android:orientation="vertical"
+      >
+      
+  <FrameLayout 
+      android:layout_width="80dip"
+      android:layout_height="80dip"
+      >
+      
+   <com.uphealth.cn.widget.RoundImageView
+        android:id="@+id/headImage"
+       android:layout_width="74.0dip"
+       android:layout_height="74.0dip"
+       android:src="@drawable/moren5"
+       /> 
+      
+   <ImageView 
+       android:id="@+id/levelImage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/icon_level" 
+       android:layout_gravity="right"
+       android:layout_margin="5dip"
+       android:visibility="gone"
+       />
+      
+  </FrameLayout> 
+  
+  <TextView 
+      android:id="@+id/text_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="银舰"
+      android:textSize="12sp"
+      android:drawablePadding="5dip"
+      android:drawableRight="@drawable/icon_nan"
+      android:gravity="center"
+      android:maxLength="6"
+      />
+  
+  </LinearLayout>    
+  
+  
+    <TextView 
+      android:id="@+id/label_attention"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="关注"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:layout_toRightOf="@id/frame"
+      android:layout_alignTop="@id/frame"
+      android:layout_marginTop="8dip"
+      />
+    
+    <TextView 
+      android:id="@+id/text_attention"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="124"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:layout_toRightOf="@id/label_attention"
+      android:layout_alignTop="@id/label_attention"
+      android:textColor="@color/text_main"
+      android:layout_marginLeft="6dip"
+      />  
+      
+  <TextView 
+      android:id="@+id/label_fans"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="粉丝"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:layout_toRightOf="@id/text_attention"
+      android:layout_alignTop="@id/text_attention"
+      android:layout_marginLeft="30dip"
+      />   
+      
+  <TextView 
+      android:id="@+id/text_fans"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="40"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:layout_toRightOf="@id/label_fans"
+      android:layout_alignTop="@id/label_fans"
+      android:textColor="@color/text_main"
+      android:layout_marginLeft="6dip"   
+      />   
+      
+  <TextView 
+      android:id="@+id/button_attention"  
+      android:layout_width="150dip"
+      android:layout_height="30dip"
+      android:text="关注"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:textColor="@color/text_main"
+      android:layout_below="@id/label_attention"
+      android:layout_toRightOf="@id/frame"
+      android:layout_alignParentLeft="@id/label_attention"
+      android:layout_alignParentRight="@id/text_fans"
+      android:background="@drawable/cornor_attention"
+      android:layout_marginTop="10dip"
+      />  
+    
+   <TextView 
+      android:id="@+id/text_address"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="北京市"
+      android:textColor="@color/text_system_default"
+      android:layout_below="@id/button_attention"
+      android:layout_toRightOf="@id/frame"
+      android:layout_alignParentLeft="@id/button_attention"
+      android:layout_marginTop="10dip"
+      />  
+      
+   <TextView 
+      android:id="@+id/text_content"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="介绍介绍介绍介绍介绍介介绍介绍介绍介绍介绍介绍介绍介绍绍"
+      android:textColor="@color/text_system_default"
+      android:layout_below="@id/frame"
+      android:layout_alignParentLeft="@id/frame"
+      android:layout_marginLeft="40dip"
+      android:textSize="12sp"
+      />   
+      
+  </RelativeLayout>
+  
+  <WebView 
+      android:id="@+id/webView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="10dip"
+      />
+    
+
+</LinearLayout>

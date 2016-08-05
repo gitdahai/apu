@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+  
+  <include layout="@layout/title_share"/>  
+  
+  <FrameLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+  
+  <WebView 
+      android:id="@+id/webView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+    
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="50dip"
+      android:orientation="vertical"
+      android:layout_gravity="bottom"  
+      android:background="@color/text_main"   
+      android:visibility="gone"
+      >
+  
+     <Button 
+       android:id="@+id/start_button"  
+       android:layout_width="match_parent"
+       android:layout_height="50dip" 
+       android:background="@color/text_main" 
+       android:text="开始今天运动"
+       android:textColor="@color/white"
+       />     
+       
+     <TextView 
+         android:id="@+id/text_download"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="正在下载大概时代感和M"
+         android:textColor="@color/white"
+         android:gravity="center_horizontal"
+         android:layout_marginTop="10dip"
+         android:visibility="gone"
+         />
+     
+    <ProgressBar
+        android:id="@+id/download_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dip"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:maxHeight="20dp"
+        android:minHeight="20dp"
+        android:progress="0"
+        android:visibility="gone"  
+        android:progressDrawable="@drawable/progressbar_horizontal_1"
+        android:secondaryProgress="0" /> 
+       
+     </LinearLayout>
+  
+    </FrameLayout> 
+
+</LinearLayout>

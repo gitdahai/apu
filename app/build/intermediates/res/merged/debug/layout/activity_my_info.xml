@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+    <include layout="@layout/title_back"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="70dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+        
+   <com.uphealth.cn.widget.CircularImage 
+        android:id="@+id/headImage"
+        android:layout_width="@dimen/head_small_size"
+        android:layout_height="@dimen/head_small_size"
+        android:background="@drawable/icon_photo_new"
+        android:layout_marginLeft="15dip"  
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+       /> 
+        
+    <TextView 
+        android:id="@+id/text_choose_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重新上传"
+        android:drawableRight="@drawable/arrows"
+        android:gravity="center|right"
+        android:textSize="16sp"
+        android:layout_marginRight="10dip"
+        />    
+        
+    </LinearLayout>
+    
+    <!-- 第二栏 -->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_marginTop="10dip"
+        >
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="昵称"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+   <EditText 
+        android:id="@+id/edit_nick"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:text="Mr wang"
+        android:gravity="center|right"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:background="@color/transparent"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:textSize="14sp"
+        />        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="性别"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+   <TextView 
+        android:id="@+id/text_gender"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:text="男"
+        android:gravity="center|right"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:drawableRight="@drawable/arrows"
+        />        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />  
+        
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="生日"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+   <TextView 
+        android:id="@+id/text_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:text="19900309"
+        android:gravity="center|right"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:drawableRight="@drawable/arrows"
+        />        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />     
+    
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="坐标"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+   <TextView 
+        android:id="@+id/text_city" 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:text="北京"
+        android:gravity="center|right"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        android:drawableRight="@drawable/arrows"
+        />        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+          android:visibility="gone"  
+        />     
+       
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="身高"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+   <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:text="165"
+        android:gravity="center|right"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        />        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+          android:visibility="gone"  
+        />        
+    
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone"  
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="BMI"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+   <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:text="20.2"
+        android:gravity="center|right"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="10dip"
+        />        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />        
+      
+   <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="45dip"
+        android:text="个人介绍"
+        android:gravity="center"
+        android:layout_marginLeft="15dip"
+        />      
+        
+    <EditText 
+        android:id="@+id/edit_remark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@color/transparent"
+        android:textSize="14sp"     
+        android:gravity="right"
+        android:maxLength="20"
+        />
+        
+    </LinearLayout>    
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />        
+        
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+        
+     <include layout="@layout/view_button"/>   
+        
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

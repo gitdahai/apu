@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_back"/>
+   
+   <ScrollView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+       >
+       
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+      
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/white"
+      >
+      
+   <TextView 
+       android:id="@+id/text_info"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="个人信息"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       />   
+      
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+   
+  <TextView 
+       android:id="@+id/text_collect"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="我的收藏"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"
+       android:layout_marginRight="5dip"  
+       />     
+  </LinearLayout>  
+  
+   <!-- 第二栏 -->
+     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/white"
+      android:layout_marginTop="10dip"
+      >
+      
+   <TextView 
+       android:id="@+id/text_bind"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="账号绑定"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       />   
+      
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+   
+  <TextView 
+       android:id="@+id/text_health"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="健康数据"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"
+       android:layout_marginRight="5dip"  
+       />     
+  </LinearLayout>  
+  
+   <!-- 第三栏 -->
+     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/white"
+      android:layout_marginTop="10dip"
+      >
+      
+   <TextView 
+       android:id="@+id/text_msg_push"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="消息推送"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       />   
+      
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+   
+  <TextView 
+       android:id="@+id/text_clear_cache"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="缓存管理"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"
+       android:layout_marginRight="5dip"  
+       />     
+  </LinearLayout>  
+        
+     
+  <!-- 第四栏 -->
+     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/white"
+      android:layout_marginTop="10dip"
+      >
+      
+   <TextView 
+       android:id="@+id/text_opinion"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="意见建议"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       />   
+      
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+   
+  <TextView 
+       android:id="@+id/text_about_us"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="关于我们"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"
+       android:layout_marginRight="5dip"  
+       />     
+       
+ <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       android:visibility="gone"  
+       />
+   
+  <TextView 
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="评价我们"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"
+       android:layout_marginRight="5dip"  
+       android:visibility="gone"
+       />     
+  
+  </LinearLayout>      
+     
+     
+     <Button 
+       android:id="@+id/button_exit"  
+       android:layout_width="match_parent"
+       android:layout_height="50dip" 
+       android:background="@drawable/edit_cornor" 
+       android:text="退出登录"
+       android:textColor="@color/black"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginBottom="10dip"
+       android:textSize="14sp"
+       android:layout_marginTop="@dimen/edit_margin_bottom"
+       /> 
+     
+     
+     
+     
+     
+      </LinearLayout>     
+   </ScrollView>
+     
+    
+
+</LinearLayout>

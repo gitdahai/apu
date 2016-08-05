@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    
+  <LinearLayout 
+      android:id="@+id/layout_left"
+      android:layout_width="100dip"
+      android:layout_height="120dip"
+      android:orientation="vertical"
+      android:gravity="center"
+      android:layout_marginTop="5dip"
+      android:layout_centerVertical="true"  
+      android:layout_marginLeft="10dip"
+      >
+    
+   <FrameLayout 
+      android:id="@+id/frameLayout"
+      android:layout_width="80dip"
+      android:layout_height="80dip"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dip"
+      >
+      
+  <com.uphealth.cn.widget.CircularImage 
+       android:id="@+id/headImage"
+       android:layout_width="@dimen/head_size"
+       android:layout_height="@dimen/head_size"
+       android:background="@drawable/icon_photo_new"
+       android:layout_gravity="center"
+       />
+      
+   <ImageView 
+       android:id="@+id/levelImage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/icon_level" 
+       android:layout_gravity="right"
+       android:layout_margin="5dip"
+       />
+      
+  </FrameLayout>   
+  
+     <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一周前"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="5dip"
+        />
+  
+   </LinearLayout>
+
+      <TextView
+          android:id="@+id/text_content"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_centerVertical="true"
+          android:layout_toRightOf="@+id/layout_left"
+          android:gravity="left"
+          android:text="内设卡怪手机卡两个阿娇说考虑过啊撒个娇看了数据看到过"
+          android:layout_marginRight="10dip"
+          android:lines="3"
+          android:textSize="18sp" />
+      
+     <View 
+         android:layout_width="match_parent"
+         android:layout_height="1dip"
+         android:background="@color/line_two"
+         android:layout_below="@id/layout_left"
+         android:layout_marginTop="10dip"
+         />
+
+</RelativeLayout>

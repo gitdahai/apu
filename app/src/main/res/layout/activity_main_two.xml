@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <include layout="@layout/title_back"  
+      /> 
+  
+   <LinearLayout 
+       android:id="@+id/layout_tap"
+       android:layout_width="match_parent"
+       android:layout_height="40dip"
+       android:orientation="horizontal"
+       android:background="@color/white"
+       >
+       
+   <TextView 
+       android:id="@+id/text_health"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="饮食"
+       android:textSize="16sp"
+       android:drawableBottom="@drawable/main_line"
+       android:layout_weight="1"
+       />  
+       
+   <TextView 
+       android:id="@+id/text_exercise"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="运动"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />    
+       
+    <TextView 
+       android:id="@+id/text_beauty"  
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="美妆护理"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />    
+       
+    <TextView 
+       android:id="@+id/text_style"  
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="生活方式"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />   
+       
+   </LinearLayout>
+    
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+   
+    <!-- 悬浮框 -->
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/theme_color"
+        > 
+   
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/white"
+       >
+   
+    <!-- 导航栏 -->
+	<LinearLayout
+	    android:id="@+id/main_navigate" 
+	    android:baselineAligned="false"
+	    android:background="#f9f9f9"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/custom_navi_height"
+	    android:layout_gravity="bottom"
+	    android:layout_alignParentBottom="true"   
+	    android:orientation="horizontal" >
+	    <RelativeLayout
+	        android:id="@+id/navi_item_home"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:clickable="true" >
+	        <TextView
+	            android:id="@+id/text_find"
+	            android:text="@string/tab_find"
+	            style="@style/main_navi_txt_style" />
+	        <ImageView
+	            android:id="@+id/image_home"
+	            android:layout_above="@id/text_find"
+	            android:contentDescription="@null"
+	            android:src="@drawable/find_selector"
+	            style="@style/main_navi_img_style" />
+	    </RelativeLayout>
+	    
+	      <RelativeLayout
+	        android:id="@+id/navi_item_personal"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:clickable="true" >
+	        <TextView
+	            android:id="@+id/text_center"
+	            android:text="@string/tab_center"
+	            style="@style/main_navi_txt_style" />
+	        <ImageView
+	            android:id="@+id/image_trip"
+	            android:layout_above="@id/text_center"
+	            android:contentDescription="@null"
+	            android:src="@drawable/center_selector"
+	            style="@style/main_navi_img_style" />
+	    </RelativeLayout>
+	</LinearLayout>
+	
+     <!-- 上边主页面 -->  
+  
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_above="@id/main_navigate"
+	   android:layout_alignParentTop="true" 
+       >
+
+      <fragment  
+        android:id="@+id/fragement_health_eat"  
+        android:name="com.uphealth.cn.ui.login.fragment.four.HealthEatFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />  
+  
+    <fragment  
+        android:id="@+id/fragement_sport"  
+        android:name="com.uphealth.cn.ui.login.fragment.four.SportFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />    
+    
+    <fragment  
+        android:id="@+id/fragement_beauty_adorn"  
+        android:name="com.uphealth.cn.ui.login.fragment.four.BeautyAdornFragmentNew"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />     	
+        
+     <fragment  
+        android:id="@+id/fragement_life_style"  
+        android:name="com.uphealth.cn.ui.login.fragment.four.LifeStyleFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />      
+       
+     
+     <!-- 后调整 -->
+     <fragment  
+        android:id="@+id/fragement_life_find"  
+        android:name="com.uphealth.cn.ui.login.fragment.CustomFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />      
+        
+    <fragment  
+        android:id="@+id/fragement_life_center"  
+        android:name="com.uphealth.cn.ui.login.fragment.CenterFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />   
+  
+	</LinearLayout>
+   
+     </RelativeLayout>
+     
+   <ImageView 
+        android:id="@+id/menu_image"
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"
+	    android:background="@drawable/app_icon"
+	    android:layout_gravity="center|bottom"
+	    android:layout_marginBottom="@dimen/menu_middle_margin"
+	    />
+	
+	</FrameLayout>
+
+</LinearLayout>

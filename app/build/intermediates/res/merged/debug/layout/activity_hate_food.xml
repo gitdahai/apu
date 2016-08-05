@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <include layout="@layout/title_common"/>
+  
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:paddingTop="15dip"
+      android:paddingBottom="10dip"
+      android:paddingLeft="10dip"
+      android:paddingRight="10dip"
+      android:gravity="center"
+      android:background="@color/white"
+      android:layout_marginBottom="5dip"
+      >
+      
+  <com.uphealth.cn.widget.MyGridView 
+      android:id="@+id/gridView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:numColumns="4"
+      android:verticalSpacing="10dip"
+      android:horizontalSpacing="10dip"
+      android:gravity="center"
+      ></com.uphealth.cn.widget.MyGridView>    
+      
+      
+  </LinearLayout>
+  
+  
+  <include layout="@layout/view_button"/>
+  
+    
+
+</LinearLayout>

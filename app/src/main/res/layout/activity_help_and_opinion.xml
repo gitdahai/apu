@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <include layout="@layout/title_back"/>  
+  
+  <ScrollView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+      
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+    
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/white"
+      android:paddingBottom="5dip"
+      >
+      
+  <com.uphealth.cn.widget.MyListView 
+      android:id="@+id/listView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      ></com.uphealth.cn.widget.MyListView>    
+   
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+  
+  
+   <TextView 
+       android:id="@+id/text"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="我还有其他问题"
+       android:layout_marginTop="15dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginBottom="15dip"
+       />   
+      
+  </LinearLayout>  
+    
+    </LinearLayout>   
+  </ScrollView>
+
+</LinearLayout>

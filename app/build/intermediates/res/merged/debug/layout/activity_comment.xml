@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_back"/>
+   
+   <ScrollView 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@color/white"
+       >
+   
+   <TextView 
+       android:id="@+id/text_sort"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="请选择类别"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       />
+   
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       /> 
+   
+  <EditText 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:lines="5"
+      android:background="@color/transparent"
+      android:hint="# 健康问阿噗  #"
+      android:gravity="top"
+      android:padding="10dip"
+      /> 
+      
+  <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />   
+   
+   <TextView 
+       android:id="@+id/text"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="所在位置"
+       android:drawableRight="@drawable/arrows"
+       android:drawableLeft="@drawable/icon_address"
+       android:gravity="center|left"
+       android:paddingLeft="10dip"
+       android:drawablePadding="5dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       />   
+  
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       /> 
+    
+   
+    <TextView 
+       android:id="@+id/texdst"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="匿名"
+       android:gravity="center|left"
+       android:paddingLeft="10dip"
+       android:drawablePadding="5dip"
+       android:textSize="16sp"  
+       android:layout_marginRight="5dip"
+       android:textColor="@color/text_main"
+       android:drawableLeft="@drawable/icon_mark"
+       />   
+   
+  </LinearLayout> 
+  
+  <com.uphealth.cn.widget.MyGridView 
+      android:id="@+id/gridView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:numColumns="4"
+      android:layout_margin="10dip"
+      android:verticalSpacing="10dip"
+      ></com.uphealth.cn.widget.MyGridView>
+  
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="bottom"
+       >
+     
+   <include layout="@layout/view_button"/>    
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:orientation="vertical"
+       ></LinearLayout>
+       
+   </LinearLayout>
+    
+      </LinearLayout>    
+   </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <include layout="@layout/title_three"/>  
+  
+  <ScrollView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+      
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+  
+  <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/white"
+      android:paddingBottom="10dip"
+      >
+      
+  <FrameLayout 
+      android:id="@+id/frameLayout"
+      android:layout_width="80dip"
+      android:layout_height="80dip"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="10dip"
+      >
+      
+  <com.uphealth.cn.widget.CircularImage 
+       android:id="@+id/headImage"
+       android:layout_width="@dimen/head_size"
+       android:layout_height="@dimen/head_size"
+       android:background="@drawable/icon_photo_new"
+       />
+      
+   <ImageView 
+       android:id="@+id/levelImage"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/icon_level" 
+       android:layout_gravity="right"
+       android:layout_margin="5dip"
+       />
+      
+  </FrameLayout> 
+  
+    <TextView 
+      android:id="@+id/text_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="银上大概舰"
+      android:textSize="16sp"
+      android:drawablePadding="5dip"
+      android:drawableRight="@drawable/icon_nan"
+      android:gravity="center"
+      android:maxLength="10"
+      android:layout_centerHorizontal="true"  
+      android:layout_below="@id/frameLayout"
+      />
+    
+    
+  <LinearLayout 
+      android:id="@+id/layout_fans"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_below="@id/text_name"
+      android:layout_marginTop="5dip"
+      >
+      
+   <TextView 
+      android:id="@+id/label_attention"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="关注"
+      android:textSize="16sp"
+      android:gravity="center"
+      />
+    
+    <TextView 
+      android:id="@+id/text_attention"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="124"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:textColor="@color/text_main"
+      android:layout_marginLeft="6dip"
+      />      
+      
+    
+   <TextView 
+      android:id="@+id/label_fans"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="粉丝"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:layout_marginLeft="30dip"
+      />   
+      
+  <TextView 
+      android:id="@+id/text_fans"  
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="40"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:textColor="@color/text_main"
+      android:layout_marginLeft="6dip"   
+      />     
+      
+  </LinearLayout>  
+  
+    <TextView 
+      android:id="@+id/text_address"  
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="北京市"
+      android:textColor="@color/text_system_default"
+      android:layout_below="@id/layout_fans"
+      android:layout_marginTop="5dip"
+      android:gravity="center"  
+      />  
+      
+  <TextView 
+      android:id="@+id/button_attention"  
+      android:layout_width="200dip"
+      android:layout_height="30dip"
+      android:text="关注"
+      android:textSize="16sp"
+      android:gravity="center"
+      android:textColor="@color/text_main"
+      android:layout_below="@id/text_address"
+      android:layout_toRightOf="@id/frame"
+      android:background="@drawable/cornor_attention"
+      android:layout_marginTop="10dip"
+      android:layout_centerHorizontal="true"
+      />  
+  
+      
+   <TextView 
+      android:id="@+id/text_content"  
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="介绍介绍介绍绍介绍介绍介绍绍"
+      android:textColor="@color/text_system_default"
+      android:textSize="12sp"
+      android:layout_below="@id/button_attention"
+      android:layout_marginTop="10dip"
+      android:gravity="center"
+      />    
+  
+      
+  </RelativeLayout>
+  
+  <com.uphealth.cn.widget.MyWebView 
+      android:id="@+id/webView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:minHeight="600dip"
+      android:layout_marginTop="10dip"
+      />
+    
+  
+     
+      </LinearLayout>    
+  </ScrollView>
+
+</LinearLayout>

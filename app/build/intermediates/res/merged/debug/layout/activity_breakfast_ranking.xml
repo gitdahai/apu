@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    
+   <include layout="@layout/title_back"/>
+   
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="100dip"
+       >
+       
+   <TextView 
+       android:id="@+id/text_index"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="1"
+       android:textSize="20sp"
+       android:textColor="@color/text_main"
+       android:layout_alignParentLeft="true"
+       android:layout_centerVertical="true"
+       android:layout_margin="15dip"
+       android:visibility="invisible"
+       />    
+       
+  <FrameLayout 
+      android:id="@+id/head_layout"
+      android:layout_width="60dip"
+      android:layout_height="60dip"
+      android:layout_toRightOf="@id/text_index"
+      android:layout_centerVertical="true"
+      >
+      
+   <com.uphealth.cn.widget.RoundImageView
+        android:id="@+id/headImage"
+       android:layout_width="54.0dip"
+       android:layout_height="54.0dip"
+       android:src="@drawable/test_01"
+       /> 
+      
+   <ImageView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/icon_level" 
+       android:layout_gravity="right"
+       />
+      
+  </FrameLayout> 
+   
+  <TextView 
+      android:id="@+id/text_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="赶刚卡了"
+      android:textSize="20dip"
+      android:layout_toRightOf="@id/head_layout"
+      android:layout_alignTop="@id/head_layout"
+      android:layout_marginLeft="10dip"
+      android:layout_marginTop="6dip"
+      />
+  
+    <TextView 
+      android:id="@+id/text_index_two"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="12名"
+      android:textSize="14dip"
+      android:layout_toRightOf="@id/head_layout"
+      android:layout_alignLeft="@id/text_name"
+      android:layout_below="@id/text_name"
+      android:textColor="@color/text_system_default"
+      />
+       
+    
+    <TextView 
+        android:id="@+id/text_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="70"
+        android:textColor="@color/text_main"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dip"
+        android:layout_centerVertical="true"
+        />
+    
+      <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="早餐打卡"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/text_day"
+        android:layout_marginRight="35dip"
+        /> 
+       
+   </RelativeLayout>
+   
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="10dip"
+       android:background="@color/theme_color"
+       />
+    
+   <ListView 
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    
+ <include layout="@layout/title_photos"/>
+ 
+ <RelativeLayout 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+     
+  <RelativeLayout 
+      android:id="@+id/layout_buttom"
+      android:layout_width="match_parent"
+      android:layout_height="45dip"
+      android:orientation="horizontal"
+      android:layout_alignParentBottom="true"
+      >
+      
+  <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dip"
+      android:background="@color/line_two"
+      android:layout_alignParentTop="true"
+      />    
+      
+  <TextView 
+      android:layout_width="60dip"
+      android:layout_height="36dip"
+      android:text="预览"
+      android:layout_alignParentLeft="true"
+      android:layout_marginLeft="15dip"
+      android:layout_centerVertical="true"
+      android:background="@drawable/border_cornor_white"
+      android:gravity="center"
+      />   
+      
+   <TextView 
+      android:id="@+id/text_next"
+      android:layout_width="80dip"
+      android:layout_height="36dip"
+      android:text="完成(0)"
+      android:layout_alignParentRight="true"
+      android:layout_marginRight="15dip"
+      android:layout_centerVertical="true"  
+      android:background="@drawable/border_cornor_white"
+      android:gravity="center"   
+      />    
+      
+  </RelativeLayout>   
+     
+  
+  <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:horizontalSpacing="20dp"
+        android:numColumns="3"
+        android:scrollbars="none"
+        android:verticalSpacing="20dp" 
+        android:layout_above="@id/layout_buttom"
+        >
+    </GridView>
+     
+     
+ </RelativeLayout>
+    
+    
+    
+
+</LinearLayout>

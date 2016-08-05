@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <ScrollView 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="right"
+       android:background="@color/white"
+       >
+       
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="共7天"
+       android:background="@drawable/day_one"
+       android:layout_marginTop="24px"
+       android:gravity="center|right"
+       android:textColor="@color/white"
+       android:textSize="16sp"
+       android:paddingRight="40px"
+       />    
+       
+   </LinearLayout>    
+       
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingLeft="20px"
+       android:paddingRight="20px"
+       android:paddingBottom="20px"
+       android:background="@color/white"  
+       >
+       
+   <FrameLayout 
+         android:layout_width="100dip"
+         android:layout_height="115dip"
+         android:layout_gravity="center|top"
+         android:layout_weight="1"
+         >
+      
+      <com.uphealth.cn.widget.ProgressBarView1
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        />
+      
+      <ImageView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/leaf_01"
+          android:layout_gravity="center"
+          />
+      
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="祛痘"
+          android:gravity="center"
+          android:layout_gravity="center|bottom"
+          android:layout_marginTop="10px"
+          />
+      
+  </FrameLayout>  
+  
+    <FrameLayout 
+         android:layout_width="100dip"
+         android:layout_height="115dip"
+         android:layout_gravity="center|top"
+         android:layout_weight="1"  
+         >
+      
+      <com.uphealth.cn.widget.ProgressBarView1
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        />
+      
+      <ImageView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/leaf_02"
+          android:layout_gravity="center"
+          />
+   
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="美白"
+        android:gravity="center"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="10px"
+        />  
+      
+  </FrameLayout>  
+  
+   <FrameLayout 
+         android:layout_width="100dip"
+         android:layout_height="115dip"
+         android:layout_gravity="center|top"
+         android:layout_weight="1"  
+         >
+      
+      <com.uphealth.cn.widget.ProgressBarView1
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        />
+      
+      <ImageView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/leaf_03"
+          android:layout_gravity="center"
+          />
+   
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="补水"
+        android:gravity="center"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="10px"
+        />     
+      
+  </FrameLayout>  
+  
+    <FrameLayout 
+         android:layout_width="100dip"
+         android:layout_height="115dip"
+         android:layout_gravity="center|top"
+         android:layout_weight="1"
+         >
+      
+      <com.uphealth.cn.widget.ProgressBarView1
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        />
+      
+      <ImageView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/leaf_04"
+          android:layout_gravity="center"
+          />
+      
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="衰老"
+        android:gravity="center"
+        android:layout_gravity="center|bottom"
+        android:layout_marginTop="10px"
+        />   
+      
+  </FrameLayout>  
+    
+       
+   </LinearLayout>
+   
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/white"
+       android:orientation="horizontal"
+       >
+       
+       
+   </LinearLayout>    
+       
+       
+       
+   <com.uphealth.cn.widget.MyListView 
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:dividerHeight="10dip"
+       android:divider="@color/theme_color"
+       android:layout_margin="10dip"
+       ></com.uphealth.cn.widget.MyListView>    
+       
+       
+       
+      </LinearLayout>   
+  </ScrollView>  
+    
+    
+
+</LinearLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_back"/>
+   
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="10dip"
+       android:gravity="center_vertical"
+       >
+       
+  <ImageView 
+      android:layout_width="@dimen/menu_icon_size"
+      android:layout_height="@dimen/menu_icon_size"
+      android:background="@drawable/app_icon"
+      />     
+       
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="我是阿噗，请问有什么可以帮您"
+       android:layout_marginLeft="10dip"
+       android:minHeight="45dip"
+       android:paddingTop="5dip"
+       android:background="@drawable/chatto_bg_left_normal"
+       android:gravity="center"
+       />
+       
+   </LinearLayout> 
+   
+    <LinearLayout 
+       android:id="@+id/linear_ask" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="10dip"
+       android:gravity="center_vertical|right"
+       android:visibility="gone"
+       >
+   
+  <TextView 
+       android:id="@+id/text_ask"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="我是阿噗，请问有什么可以帮您"
+       android:layout_marginRight="10dip"
+       android:minHeight="45dip"
+       android:background="@drawable/chatto_bg_normal"
+       android:gravity="center|right"
+       />      
+       
+  <ImageView 
+      android:layout_width="@dimen/menu_icon_size"
+      android:layout_height="@dimen/menu_icon_size"
+      android:background="@drawable/app_icon"
+      />     
+       
+   </LinearLayout> 
+   
+    <LinearLayout 
+       android:id="@+id/linear_answer" 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="10dip"
+       android:gravity="center_vertical"
+       android:visibility="gone"  
+       >
+       
+  <ImageView 
+      android:layout_width="@dimen/menu_icon_size"
+      android:layout_height="@dimen/menu_icon_size"
+      android:background="@drawable/app_icon"
+      />     
+       
+   <TextView 
+       android:id="@+id/text_answer"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="以下是根据您的问题，阿噗搜索的解决方法，点击查看"
+       android:layout_marginLeft="10dip"
+       android:minHeight="45dip"
+       android:paddingTop="5dip"
+       android:background="@drawable/chatto_bg_left_normal"
+       android:gravity="center|left"
+       />
+       
+   </LinearLayout> 
+   
+   <!-- 底部 -->
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+   
+   <RelativeLayout 
+       android:id="@+id/buttom_layout"
+       android:layout_width="match_parent"
+       android:layout_height="60dip"
+       android:background="@color/white"
+       android:layout_alignParentBottom="true"
+       >
+     
+   <TextView 
+       android:id="@+id/text_send"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="发送"
+       android:textColor="@color/text_main"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       android:layout_marginRight="10dip"
+       android:textSize="14sp"
+       />    
+       
+    <EditText 
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_cornor_two"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"  
+        android:layout_marginRight="10dip"
+        android:layout_toLeftOf="@id/text_send"
+        android:hint="请简单描述您的问题0/20"
+        android:maxLength="20"
+        android:textSize="14sp"
+        android:minHeight="40dip"
+        android:paddingLeft="5dip"
+        />
+       
+   </RelativeLayout>    
+       
+   <ListView
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/buttom_layout"
+       android:layout_margin="10dip"
+       android:divider="@null"
+       android:dividerHeight="10dip" >
+  </ListView>
+   
+    <TextView 
+       android:id="@+id/text_more"
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/setting_text_height"
+       android:text="更多"
+       android:drawableRight="@drawable/arrows"
+       android:gravity="center|left"
+       android:paddingLeft="15dip"
+       android:textSize="16sp"  
+       android:background="@drawable/edit_cornor" 
+       android:layout_margin="10dip"  
+       android:visibility="gone"
+       />   
+       
+       
+   </RelativeLayout>
+   
+   
+   
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_back"/>
+   
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+       
+   <LinearLayout 
+       android:id="@+id/bottom_layout"
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:orientation="horizontal"
+       android:background="@color/white"
+       android:gravity="center_vertical"
+       >
+       
+   <ImageView 
+       android:layout_width="40dip"
+       android:layout_height="40dip"
+       android:background="@drawable/icon_voice"
+       android:layout_margin="10dip"
+       />   
+       
+  <EditText 
+      android:layout_width="match_parent"
+      android:layout_height="40dip"
+      android:hint="请简单描述您的问题0/20"
+      android:maxLength="20"
+      android:background="@drawable/edit_cornor_two"
+      android:paddingLeft="5dip"
+      android:layout_marginRight="10dip"
+      /> 
+       
+       
+   </LinearLayout>    
+   
+   <ListView 
+       android:id="@+id/listView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:divider="@null"
+       android:dividerHeight="12dip"
+       android:layout_above="@id/bottom_layout"
+       ></ListView>       
+       
+   </RelativeLayout>
+    
+
+</LinearLayout>

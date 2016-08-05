@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/raw/music_bg.mp3",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/raw/music_bg.mp3"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/raw/music_first_action.mp3",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/raw/music_first_action.mp3"
+    }
+]

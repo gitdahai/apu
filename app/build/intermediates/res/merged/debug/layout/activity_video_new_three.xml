@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    android:id="@+id/allLayout"
+    >
+    
+   <FrameLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       >
+   
+   <com.uphealth.cn.widget.MyVideoView 
+     android:id="@+id/vv_player"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:layout_gravity="center" 
+      />  
+      
+   
+   <!-- 标题栏 -->    
+   <RelativeLayout 
+      android:layout_width="match_parent"
+      android:layout_height="60dip"
+      >
+      
+  <LinearLayout 
+      android:id="@+id/back"
+      android:layout_width="70dip"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="10dip"
+      android:layout_centerVertical="true"  
+      >
+      
+  <ImageView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/back"
+      />        
+      
+  </LinearLayout>    
+      
+  
+      
+  <TextView 
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="标题"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      android:layout_centerInParent="true"
+      android:maxLength="12"
+      android:visibility="invisible"
+      />
+  
+  <LinearLayout 
+      android:id="@+id/right"  
+      android:layout_width="120dip"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_centerVertical="true"
+      android:layout_alignParentRight="true" 
+      android:gravity="right"
+      >
+      
+   <TextView 
+      android:id="@+id/text_right"
+      android:layout_width="40dip"
+      android:layout_height="40dip"
+      android:layout_margin="10dip"
+      android:background="@drawable/music_bg"
+      android:visibility="invisible"
+      />     
+      
+      
+  </LinearLayout>
+      
+  </RelativeLayout>  
+       
+   <!-- 重新播放 -->
+   <ImageView 
+       android:id="@+id/play_image"
+       android:layout_width="40dip"
+       android:layout_height="40dip"
+       android:background="@drawable/icon_start"
+       android:layout_gravity="center"
+       android:visibility="invisible"
+       />
+   
+   
+   <!-- 进度条和暂停 -->
+   <RelativeLayout 
+       android:id="@+id/time_layout"
+       android:layout_width="match_parent"
+       android:layout_height="70dip"
+       android:layout_gravity="bottom"
+       android:layout_marginBottom="60dip"
+       >
+  
+   <LinearLayout 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/schedule_03"
+       android:orientation="horizontal"
+       android:gravity="center_vertical"
+       >    
+  
+   <TextView 
+       android:id="@+id/text_time"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="09:20"
+       android:gravity="center_vertical"
+       android:layout_centerVertical="true"
+       android:textColor="@color/white"
+       android:textSize="20sp"
+       android:paddingLeft="15dip"
+       />   
+       
+ <FrameLayout 
+       android:layout_width="60dip"
+       android:layout_height="60dip"
+       android:layout_gravity="right|center_vertical" 
+       android:layout_centerVertical="true"  
+       android:gravity="center_vertical"  
+       android:layout_marginLeft="20dip"
+       >
+   
+    <com.uphealth.cn.widget.RoundProgressBar 
+        android:id="@+id/roundProgressBar1"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_gravity="right|center_vertical"
+        />   
+        
+    <TextView 
+        android:id="@+id/text_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2/7"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+       
+   </FrameLayout>  
+   
+  </LinearLayout>
+   
+   <ImageView 
+        android:id="@+id/image_pause"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:background="@drawable/icon_pause"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="26dip"
+        android:visibility="invisible"
+        />
+       
+       
+   </RelativeLayout>
+   
+   <RelativeLayout 
+     android:id="@+id/bottom_layout"
+     android:layout_width="match_parent"
+     android:layout_height="60dip"
+     android:layout_gravity="bottom"
+     >
+     
+  <ImageView 
+      android:id="@+id/image_front"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/icon_before"
+      android:layout_margin="5dip"
+      android:layout_centerVertical="true" 
+      android:visibility="invisible"  
+      />   
+     
+  <ImageView 
+      android:id="@+id/image_next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/icon_later"
+      android:layout_margin="5dip"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"  
+      android:visibility="invisible"
+      />     
+      
+  <TextView 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="10:35"
+      android:textColor="@color/text_main"
+      android:layout_toLeftOf="@id/image_next"
+      android:layout_centerVertical="true"
+      />
+       
+   <LinearLayout 
+       android:id="@+id/layout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"   
+       ></LinearLayout>
+     
+     
+ </RelativeLayout>
+   
+       
+       
+   </FrameLayout> 
+    
+
+</LinearLayout>

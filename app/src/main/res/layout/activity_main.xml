@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/theme_color"
+    >
+    
+    <RelativeLayout 
+         android:id="@+id/main_layout"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" 
+        android:background="@color/theme_color"
+        >
+    
+    <!-- 导航栏 -->
+	<LinearLayout
+	    android:id="@+id/main_navigate"
+	    android:baselineAligned="false"
+	    android:background="#f9f9f9"
+	    android:layout_width="match_parent"
+	    android:layout_height="@dimen/custom_navi_height"
+	    android:layout_gravity="bottom"
+	    android:layout_alignParentBottom="true"
+	    android:orientation="horizontal" >
+	    <RelativeLayout
+	        android:id="@+id/navi_item_home"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:clickable="true" >
+	        <TextView
+	            android:id="@+id/text_find"
+	            android:text="@string/tab_find"
+	            style="@style/main_navi_txt_style" />
+	        <ImageView
+	            android:id="@+id/image_home"
+	            android:layout_above="@id/text_find"
+	            android:contentDescription="@null"
+	            android:src="@drawable/icon_find"
+	            style="@style/main_navi_img_style" />
+	    </RelativeLayout>
+	    
+	      <RelativeLayout
+	        android:id="@+id/navi_item_person"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:clickable="true" >
+	        <TextView
+	            android:id="@+id/text_center"
+	            android:text="@string/tab_center"
+	            style="@style/main_navi_txt_style" />
+	        <ImageView
+	            android:id="@+id/image_trip"
+	            android:layout_above="@id/text_center"
+	            android:contentDescription="@null"
+	            android:src="@drawable/icon_person"
+	            style="@style/main_navi_img_style" />
+	    </RelativeLayout>
+	</LinearLayout>
+	
+	<!-- 上边主页面 -->  
+  
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_above="@id/main_navigate"
+	   android:layout_alignParentTop="true" 
+       >
+
+      <fragment  
+        android:id="@+id/fragement_find"  
+        android:name="com.uphealth.cn.ui.login.fragment.FindFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />  
+  
+    <fragment  
+        android:id="@+id/fragement_custom"  
+        android:name="com.uphealth.cn.ui.login.fragment.CustomFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />    
+    
+    <fragment  
+        android:id="@+id/fragement_center"  
+        android:name="com.uphealth.cn.ui.login.fragment.CenterFragment"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent"  
+        android:layout_weight="1" />     	
+       
+  
+	</LinearLayout>
+	  
+     </RelativeLayout>
+     
+   <ImageView 
+        android:id="@+id/image"
+	    android:layout_width="50dip"
+	    android:layout_height="50dip"
+	    android:background="@drawable/app_icon"
+	    android:layout_gravity="center|bottom"
+	    android:layout_marginBottom="@dimen/menu_middle_margin"
+	    />
+   
+</FrameLayout>

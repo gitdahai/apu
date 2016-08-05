@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+    <include layout="@layout/title_back"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="任务提醒"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:textColor="@color/text_system_default"
+        />
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />
+   </LinearLayout> 
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日运动提醒"
+        android:layout_margin="15dip"
+        android:textColor="@color/black"
+        />    
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right|center_vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dip"
+        >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_off"
+        />
+      </LinearLayout>
+    </LinearLayout>      
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日饮食提醒"
+        android:layout_margin="15dip"
+        android:textColor="@color/black"  
+        />    
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right|center_vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dip"
+        >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_off"
+        />
+      </LinearLayout>
+    </LinearLayout>    
+    
+    <!-- 社交 -->
+      <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="社交提醒"
+        android:layout_margin="15dip"
+        android:textColor="@color/black" 
+        />    
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right|center_vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dip"
+        >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_off"
+        />
+      </LinearLayout>
+    </LinearLayout>         
+    
+   <!-- 好友.. -->
+      <View 
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@color/line_two"
+        />
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收到好友申请"
+        android:layout_margin="15dip"
+        android:textColor="@color/black" 
+        />    
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right|center_vertical"
+        android:layout_gravity="center"
+        android:layout_marginRight="15dip"
+        >
+    
+    <ImageView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/switch_off"
+        />
+      </LinearLayout>
+    </LinearLayout>           
+    
+    
+    
+    
+    
+    
+    
+        
+    </LinearLayout>  
+    
+    
+
+</LinearLayout>

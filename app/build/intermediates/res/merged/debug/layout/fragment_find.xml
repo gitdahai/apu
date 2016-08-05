@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+    <include layout="@layout/title_common"/>  
+    
+    <com.uphealth.cn.widget.refresh.PullToRefreshView 
+        android:id="@+id/main_pull_refresh_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#00000000" 
+        >
+    
+  <com.uphealth.cn.widget.ObservableScrollView 
+      android:id="@+id/scrollview" 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+       
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       >
+       
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@color/white"
+       >    
+       
+    <com.uphealth.cn.widget.MyGallery
+         android:id="@+id/gallery"
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/big_image_height"
+         />   
+         
+   <LinearLayout 
+       android:id="@+id/layout_two"
+       android:layout_width="match_parent"
+       android:layout_height="40dip"
+       android:orientation="horizontal"
+       android:background="@color/white"
+       android:visibility="gone"
+       >
+       
+   <TextView 
+       android:id="@+id/text_health"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="饮食"
+       android:textSize="16sp"
+       android:drawableBottom="@drawable/main_line"
+       android:layout_weight="1"
+       />  
+       
+   <TextView 
+       android:id="@+id/text_exercise"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="运动"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />    
+       
+    <TextView 
+       android:id="@+id/text_beauty"  
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="美妆护理"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />    
+       
+    <TextView 
+       android:id="@+id/text_style"  
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="生活方式"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />   
+       
+   </LinearLayout>
+      
+         
+    <com.uphealth.cn.widget.DragGridViewOlder
+        android:id="@+id/gridView"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:minHeight="200dip"
+        android:cacheColorHint="@android:color/transparent"
+        android:verticalSpacing="10dip"
+        android:horizontalSpacing="10dip"
+        android:stretchMode="columnWidth"  
+  	    android:gravity="center" 
+        android:numColumns="4"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="50px"
+        ></com.uphealth.cn.widget.DragGridViewOlder> 
+    
+     </LinearLayout>
+     
+  <com.uphealth.cn.widget.MyExpandablelistview 
+        android:id="@+id/eatExpandablelistviewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:focusable="false"
+        ></com.uphealth.cn.widget.MyExpandablelistview>
+  
+    
+    
+    <com.uphealth.cn.widget.MyListView 
+         android:id="@+id/sportListView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="10dip"
+         android:divider="@null"
+         android:fadeScrollbars="@null"
+         /> 
+   
+   <!-- 美妆 -->
+   
+   <LinearLayout 
+      android:id="@+id/layout_skin"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginLeft="10dip"
+      android:layout_marginRight="10dip"
+      android:layout_marginBottom="10dip"
+      android:background="@drawable/edit_cornor"
+      >
+      
+      <TextView 
+        android:id="@+id/text_name_skin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="能量早餐，减肥也要吃饱饱"
+        android:layout_margin="10dip"
+        android:textSize="16sp"
+        />
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="140dip"
+        >
+        
+    <ImageView 
+        android:id="@+id/image_skin"
+        android:layout_width="match_parent"
+        android:layout_height="140dip"
+        android:scaleType="fitXY"
+        android:background="@drawable/moren6"
+        />    
+        
+     <LinearLayout 
+        android:id="@+id/skin_tag_layout"
+        android:layout_width="60dip"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_margin="20dip"
+        >
+         
+     </LinearLayout>
+    
+    </FrameLayout>  
+      
+    <!-- 查看详情 -->
+    <LinearLayout 
+        android:id="@+id/layout_skin_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        >
+     
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="深度清洁  睡眠保湿"
+        android:gravity="center"
+        android:layout_margin="10dip"
+        android:textSize="16sp"
+        /> 
+    
+    <com.uphealth.cn.widget.MyGridView 
+        android:id="@+id/skin_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:verticalSpacing="10dip"
+        android:horizontalSpacing="10dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dip"
+        ></com.uphealth.cn.widget.MyGridView>
+    
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dip"
+        >
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+        
+   <TextView
+        android:id="@+id/skin_text_publish"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:text="发布#护肤#"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/button_gray"
+        android:textSize="16sp"
+        />        
+        
+    </LinearLayout>    
+        
+   
+    <LinearLayout 
+        android:id="@+id/skin_layout_detail"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/button_gray"
+        >
+        
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:text="查看详情"
+        android:drawableLeft="@drawable/icon_details"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:drawablePadding="10dip"
+        />        
+        
+    </LinearLayout>    
+    </LinearLayout>
+    
+    </LinearLayout>
+      
+  </LinearLayout>
+   
+   <!-- 美妆 --> 
+    
+    
+   <com.uphealth.cn.widget.MyListView 
+         android:id="@+id/beautyListView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="10dip"
+         android:divider="@null"
+         android:fadeScrollbars="@null"
+         />    
+   
+   
+    <com.uphealth.cn.widget.MyListView 
+         android:id="@+id/skinListView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="10dip"
+         android:divider="@null"
+         android:fadeScrollbars="@null"
+         />  
+     
+       
+     <com.uphealth.cn.widget.MyListView 
+         android:id="@+id/listView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="10dip"
+         android:divider="@null"
+         android:fadeScrollbars="@null"
+         />
+     
+      
+      
+   
+      </LinearLayout>    
+  
+    </com.uphealth.cn.widget.ObservableScrollView>      
+  
+  </com.uphealth.cn.widget.refresh.PullToRefreshView>
+
+</LinearLayout>

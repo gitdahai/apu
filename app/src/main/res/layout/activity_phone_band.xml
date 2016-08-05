@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_common"/>
+    
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="100dip"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_marginTop="20dip" 
+       >
+       
+   <com.uphealth.cn.widget.CircularImage 
+       android:id="@+id/headImage"
+       android:layout_width="75dip"
+       android:layout_height="75dip"
+       android:background="@drawable/photo_bg"
+       /> 
+   
+   
+   </LinearLayout> 
+   
+   <EditText 
+       android:id="@+id/edit_phone"
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:hint="手机号"
+       android:textSize="14sp"
+       android:layout_marginTop="20dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginBottom="@dimen/edit_margin_bottom"
+       android:background="@drawable/edit_cornor"
+       android:paddingLeft="10dip"
+       android:maxLength="11"
+       android:phoneNumber="true"
+       />
+   
+   <TextView 
+       android:id="@+id/text_error_phone" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="请输入正确的手机号码"
+       android:layout_marginLeft="12dip"
+       android:textColor="@color/red"
+       android:visibility="gone"  
+       />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="@dimen/edit_margin_bottom"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        >
+   
+    <TextView 
+       android:id="@+id/text_phone_code"
+       android:layout_width="100dip"
+       android:layout_height="50dip"
+       android:text="发送\n验证码"
+       android:background="@drawable/verification_cornor_default"
+       android:enabled="false"
+       android:layout_alignParentRight="true"
+       android:gravity="center"
+       android:textColor="@color/white"
+       android:textSize="16sp"
+       />     
+      
+   <EditText 
+       android:id="@+id/edit_password"
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:hint="验证码"
+       android:textSize="14sp"  
+       android:background="@drawable/password_cornor"
+       android:paddingLeft="10dip"
+       android:layout_marginRight="100dip"
+       android:maxLength="6"
+       android:phoneNumber="true" 
+       />       
+        
+    </RelativeLayout>
+    
+    <TextView 
+       android:id="@+id/text_error_code"   
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="验证码错误"
+       android:layout_marginLeft="12dip"
+       android:textColor="@color/red"
+       android:visibility="gone"
+       />
+    
+    <Button 
+       android:id="@+id/next"  
+       android:layout_width="match_parent"
+       android:layout_height="50dip" 
+       android:background="@drawable/login_cornor_default" 
+       android:enabled="false"  
+       android:text="下一步"
+       android:textColor="@color/white"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginBottom="10dip"
+       android:layout_marginTop="@dimen/edit_margin_bottom"
+       />
+    
+    
+
+</LinearLayout>

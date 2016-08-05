@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    
+   <TextView 
+      android:id="@+id/text_city"
+      android:layout_width="match_parent"
+      android:layout_height="50dip"
+      android:paddingLeft="10dip"
+      android:textColor="@color/black"
+      android:textSize="16sp"  
+      android:gravity="center|left"
+      android:drawableRight="@drawable/arrows"
+      android:paddingRight="10dip"
+      /> 
+    
+  <View 
+      android:layout_width="match_parent"
+      android:layout_height="1dip"
+      android:background="@color/line_two"
+      />   
+   
+
+</LinearLayout>

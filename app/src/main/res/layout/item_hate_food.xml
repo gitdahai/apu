@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5.0dip"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/item_icon"
+                android:layout_width="70dip"
+                android:layout_height="70dip"
+                android:layout_marginLeft="3.0dip"
+                android:layout_marginTop="3.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/moren6" />
+        </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/item_del"
+                android:src="@drawable/icon_delete"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                />
+        
+    </FrameLayout>
+

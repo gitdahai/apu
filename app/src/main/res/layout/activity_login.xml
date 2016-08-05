@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_common"/>
+    
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="100dip"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:layout_marginTop="20dip" 
+       >
+       
+       
+   <com.uphealth.cn.widget.CircularImage 
+       android:id="@+id/headImage"
+       android:layout_width="@dimen/head_size"
+       android:layout_height="@dimen/head_size"
+       android:background="@drawable/icon_photo_new"
+       />
+   
+   
+   </LinearLayout> 
+   
+   <EditText 
+       android:id="@+id/edit_phone"
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:hint="手机号"
+       android:textSize="14sp"
+       android:layout_marginTop="20dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginBottom="@dimen/edit_margin_bottom"
+       android:background="@drawable/edit_cornor"
+       android:paddingLeft="10dip"
+       android:maxLength="11"
+       android:phoneNumber="true"
+       />
+   
+  <TextView 
+       android:id="@+id/text_error_phone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="请输入正确的手机号码"
+       android:layout_marginLeft="12dip"
+       android:textColor="@color/red"
+       android:visibility="gone" 
+       /> 
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="@dimen/edit_margin_bottom"
+        android:layout_marginBottom="@dimen/edit_margin_bottom"
+        >
+   
+    <TextView 
+       android:id="@+id/text_phone_code"
+       android:layout_width="100dip"
+       android:layout_height="50dip"
+       android:text="发送\n验证码"
+       android:background="@drawable/verification_cornor_default"
+       android:enabled="false"
+       android:layout_alignParentRight="true"
+       android:gravity="center"
+       android:textColor="@color/white"
+       android:textSize="16sp"
+       />     
+      
+   <EditText 
+       android:id="@+id/edit_password"
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:hint="验证码"
+       android:textSize="14sp"  
+       android:background="@drawable/password_cornor"
+       android:paddingLeft="10dip"
+       android:layout_marginRight="100dip"
+       android:password="true"
+       android:phoneNumber="true"
+       android:maxLength="6"
+       />       
+        
+    </RelativeLayout>
+    
+    <TextView 
+       android:id="@+id/text_error_code" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="验证码错误"
+       android:layout_marginLeft="12dip"
+       android:textColor="@color/red"
+       android:visibility="gone"
+       /> 
+       
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_gravity="center_vertical"
+        >
+        
+    <ImageView 
+        android:id="@+id/image_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/check_bg"
+        />    
+        
+   <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="同意"
+        android:textColor="@color/text_system_default"
+        android:gravity="center"
+        android:layout_marginLeft="5dip"  
+        />  
+        
+    <TextView 
+        android:id="@+id/text_treaty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户协议"
+        android:textColor="@color/text_main"
+        android:gravity="center"
+        />
+        
+        
+    </LinearLayout>   
+    
+    
+      <Button 
+       android:id="@+id/next"  
+       android:layout_width="match_parent"
+       android:layout_height="50dip" 
+       android:background="@drawable/login_cornor_default" 
+       android:text="登录"
+       android:textColor="@color/white"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginTop="5dip"
+       android:enabled="false" 
+       />
+      
+      <CheckBox 
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用户协议"
+        android:paddingLeft="3dip"
+        android:layout_marginLeft="8dip"
+        android:checked="true"
+        android:textColor="@color/text_main"
+        android:visibility="gone"
+        />
+      
+   
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom" 
+        >
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+        >
+        
+    <TextView 
+        android:id="@+id/text_sina"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="微博登录"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:drawableLeft="@drawable/icon_sina"  
+        android:paddingLeft="10dip"
+        />    
+        
+    <View 
+        android:layout_width="1dip"
+        android:layout_height="36dip"
+        android:background="@color/gray"
+        android:layout_gravity="center"  
+        />
+        
+    <TextView 
+        android:id="@+id/text_weixin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="微信登录"
+        android:gravity="center"  
+        android:drawableLeft="@drawable/icon_weixin"
+        android:paddingLeft="10dip"
+        />  
+        
+   <View 
+        android:layout_width="1dip"
+        android:layout_height="36dip"
+        android:background="@color/gray"
+        android:layout_gravity="center"
+        />  
+        
+    <TextView 
+        android:id="@+id/text_qq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="QQ登录"
+        android:gravity="center" 
+        android:drawableLeft="@drawable/icon_qq"  
+        android:paddingLeft="15dip"  
+        />   
+        
+        
+        
+    </LinearLayout>    
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

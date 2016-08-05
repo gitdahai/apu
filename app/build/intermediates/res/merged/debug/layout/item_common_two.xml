@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    android:gravity="center"
+    android:id="@+id/layout_scene"
+    android:layout_gravity="center"
+    >
+   
+   <com.uphealth.cn.widget.CircularImage 
+       android:id="@+id/headImage"
+       android:layout_width="70dip"
+       android:layout_height="70dip"
+       android:background="@drawable/icon_photo_new"
+       android:layout_gravity="center"  
+       />
+    
+    <TextView 
+        android:id="@+id/item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="15dip"
+        android:layout_gravity="center"  
+        android:maxLength="5"
+        android:ellipsize="end" 
+        android:singleLine="true"
+        />
+
+</LinearLayout>

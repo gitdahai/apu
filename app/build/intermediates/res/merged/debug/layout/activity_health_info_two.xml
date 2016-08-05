@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+ <include layout="@layout/title_back"/>
+ 
+ <ScrollView 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+     
+ <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:orientation="vertical"
+     >
+    
+ 
+ <TextView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="运动程度"
+     android:layout_margin="10dip"
+     android:textStyle="bold"   
+     />
+ 
+ <RadioGroup  
+       android:id="@+id/radioGroupOne"
+       android:layout_width="match_parent"  
+       android:layout_height="wrap_content"  
+       android:orientation="horizontal"
+       android:layout_marginLeft="10dip"
+       >  
+  
+       <RadioButton  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"
+           android:button="@null"
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton"
+           android:layout_marginRight="10dip"
+           android:text="新人" />  
+  
+       <RadioButton  
+           android:id="@+id/radiobutton2"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="进阶" 
+           android:layout_marginRight="10dip"           
+           />  
+           
+         <RadioButton  
+           android:id="@+id/radiobutton3"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="达人" />  
+       
+   </RadioGroup>  
+ 
+ <TextView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="瘦身需求"
+     android:layout_margin="10dip"
+     android:textStyle="bold"   
+     />
+ 
+  <RadioGroup  
+       android:id="@+id/radioGroupTwo"
+       android:layout_width="match_parent"  
+       android:layout_height="wrap_content"  
+       android:orientation="horizontal"
+       android:layout_marginLeft="10dip"
+       >  
+  
+       <RadioButton  
+           android:id="@+id/radiobutton4"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"
+           android:button="@null"
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton"
+           android:layout_marginRight="10dip"
+           android:text="塑形" />  
+  
+       <RadioButton  
+           android:id="@+id/radiobutton5"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="减肥" 
+           android:layout_marginRight="10dip"           
+           />  
+           
+         <RadioButton  
+           android:id="@+id/radiobutton6"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="增肌" />  
+       
+   </RadioGroup>  
+ 
+ <TextView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="化妆风格"
+     android:layout_margin="10dip"
+     android:textStyle="bold"   
+     />
+ 
+   <RadioGroup  
+       android:id="@+id/radioGroupThree"
+       android:layout_width="match_parent"  
+       android:layout_height="wrap_content"  
+       android:orientation="horizontal"
+       android:layout_marginLeft="10dip"
+       >  
+  
+       <RadioButton  
+           android:id="@+id/radiobutton7"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"
+           android:button="@null"
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton"
+           android:layout_marginRight="10dip"
+           android:text="裸妆" />  
+  
+       <RadioButton  
+           android:id="@+id/radiobutton8"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="淡妆" 
+           android:layout_marginRight="10dip"           
+           />  
+           
+         <RadioButton  
+           android:id="@+id/radiobutton9"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="浓妆" />  
+       
+   </RadioGroup>  
+ 
+ 
+ <TextView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="肤质"
+     android:layout_margin="10dip"
+     android:textStyle="bold"    
+     />
+ 
+  <RadioGroup  
+       android:id="@+id/radioGroupFour"
+       android:layout_width="match_parent"  
+       android:layout_height="wrap_content"  
+       android:orientation="horizontal"
+       android:layout_marginLeft="10dip"
+       >  
+  
+       <RadioButton  
+           android:id="@+id/radiobuttodn7"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"
+           android:button="@null"
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton"
+           android:layout_marginRight="10dip"
+           android:text="油性" />  
+  
+       <RadioButton  
+           android:id="@+id/radiobutgton8"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="中性" 
+           android:layout_marginRight="10dip"           
+           />  
+           
+         <RadioButton  
+           android:id="@+id/radiobutgton9"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:layout_marginRight="10dip"
+           android:text="混合" />  
+           
+       <RadioButton  
+           android:id="@+id/radiobugtton9"  
+           android:layout_width="60dip"  
+           android:layout_height="34dip"  
+           android:background="@drawable/radiobutton_bg"  
+           android:gravity="center"
+           android:textColor="@color/color_radiobutton" 
+           android:button="@null"  
+           android:text="敏感" />     
+       
+   </RadioGroup>  
+
+ 
+<TextView 
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="脸型"
+     android:layout_margin="10dip"
+     android:textStyle="bold"
+     />
+
+<RadioGroup  
+       android:id="@+id/radioGroupFive"
+       android:layout_width="match_parent"  
+       android:layout_height="wrap_content"  
+       android:orientation="horizontal"
+       android:layout_marginLeft="10dip"
+       >  
+  
+       <RadioButton  
+           android:id="@+id/radiobutt4odn7"  
+           android:layout_width="@dimen/feature_size"  
+           android:layout_height="@dimen/feature_size"  
+           android:background="@drawable/feature_one"
+           android:button="@null"
+           android:gravity="center"
+           android:textColor="@color/transparent"
+           android:text="A"
+           android:layout_marginRight="10dip"
+           />  
+  
+       <RadioButton  
+           android:id="@+id/radiodbutgton8"  
+           android:layout_width="@dimen/feature_size"  
+           android:layout_height="@dimen/feature_size"  
+           android:background="@drawable/feature_two"  
+           android:gravity="center"
+           android:textColor="@color/transparent"
+           android:text="B"
+           android:button="@null"  
+           android:layout_marginRight="10dip"           
+           />  
+           
+         <RadioButton  
+           android:id="@+id/radiogbutgton9"  
+           android:layout_width="@dimen/feature_size"  
+           android:layout_height="@dimen/feature_size"  
+           android:background="@drawable/feature_three"  
+           android:gravity="center"
+           android:textColor="@color/transparent"
+           android:text="C"
+           android:button="@null"  
+           android:layout_marginRight="10dip"
+           />  
+       
+   </RadioGroup>  
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginLeft="10dip"  
+       android:layout_marginTop="5dip"
+       >
+       
+  <TextView 
+      android:id="@+id/text_feature_one"
+      android:layout_width="@dimen/feature_size"
+      android:layout_height="wrap_content"
+      android:text="长圆形脸"
+      android:gravity="center"
+      android:layout_marginRight="10dip"  
+      android:textSize="16sp"
+      />     
+       
+   <TextView 
+      android:id="@+id/text_feature_two"   
+      android:layout_width="@dimen/feature_size"
+      android:layout_height="wrap_content"
+      android:text="圆形脸"
+      android:gravity="center"
+      android:layout_marginRight="10dip"
+      android:textSize="16sp"   
+      />     
+      
+    <TextView 
+      android:id="@+id/text_feature_three"     
+      android:layout_width="@dimen/feature_size"
+      android:layout_height="wrap_content"
+      android:text="卵圆形脸"
+      android:gravity="center"
+      android:textSize="16sp"  
+      />     
+       
+   </LinearLayout>
+   
+ 
+  <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:gravity="bottom"
+      >
+      
+   <TextView 
+       android:id="@+id/text_look"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="先看看"
+       android:textColor="@color/text_main"
+       android:layout_marginTop="50dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       />   
+     
+   <include layout="@layout/view_button"/>
+      
+      
+  </LinearLayout> 
+    
+     </LinearLayout>    
+ </ScrollView>  
+  
+</LinearLayout>

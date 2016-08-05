@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+  <include layout="@layout/title_back"/>
+  
+  <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+    
+     <com.uphealth.cn.widget.CircularImage 
+       android:id="@+id/headImage"
+       android:layout_width="75dip"
+       android:layout_height="75dip"
+       android:background="@drawable/icon_photo_new"
+       android:layout_margin="10dip"  
+       />
+    
+    
+   <TextView 
+       android:layout_width="wrap_content"
+       android:layout_height="60dip"
+       android:text="通过几个问题找到您健康问题的原因"
+       android:textSize="16sp"
+       android:background="@drawable/ic_bubble"
+       android:layout_marginRight="10dip"
+       /> 
+        
+    </LinearLayout>
+    
+   <TextView 
+       android:id="@+id/text_index"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="1/18"
+       android:gravity="center"
+       />
+   
+   <!-- 进度条 -->
+   <ProgressBar 
+        android:id="@+id/my_progress"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:secondaryProgress="1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/progressbar_color"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="3dip"
+       />
+   
+   <!-- 列表 -->
+   
+   <TextView 
+       android:id="@+id/text_body_title"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="您的口唇一般比别人红吗"
+       android:layout_marginTop="10dip"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       />
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@drawable/border_cornor"
+       android:layout_margin="10dip"
+       android:padding="1dip"
+       >
+       
+   <ListView 
+       android:id="@+id/listview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:divider="@null"
+       ></ListView>  
+        
+       
+   </LinearLayout>
+  
+   
+    <TextView 
+       android:id="@+id/text_front"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="上一题"
+       android:textColor="@color/text_main"
+       android:layout_marginLeft="10dip"
+       android:textSize="16sp"
+       />
+    
+     <Button 
+       android:id="@+id/next"  
+       android:layout_width="match_parent"
+       android:layout_height="50dip" 
+       android:background="@drawable/login_cornor" 
+       android:text="提交"
+       android:textColor="@color/white"
+       android:layout_marginLeft="10dip"
+       android:layout_marginRight="10dip"
+       android:layout_marginBottom="10dip"
+       android:layout_marginTop="20dip"
+       android:visibility="gone"
+       />
+    
+    
+</LinearLayout>

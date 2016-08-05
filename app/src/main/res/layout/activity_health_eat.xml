@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/theme_color"
+    >
+    
+   <include layout="@layout/title_back"/> 
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="40dip"
+       android:orientation="horizontal"
+       android:background="@color/white"
+       >
+       
+   <TextView 
+       android:id="@+id/text_health"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="饮食"
+       android:textSize="16sp"
+       android:drawableBottom="@drawable/main_line"
+       android:layout_weight="1"
+       />  
+       
+   <TextView 
+       android:id="@+id/text_exercise"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="运动"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />    
+       
+    <TextView 
+       android:id="@+id/text_beauty"  
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="美妆护理"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />    
+       
+    <TextView 
+       android:id="@+id/text_style"  
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:text="生活方式"
+       android:textSize="16sp"
+       android:layout_weight="1"  
+       />   
+       
+   </LinearLayout>
+    
+   <View 
+       android:layout_width="match_parent"
+       android:layout_height="1dip"
+       android:background="@color/line_two"
+       />
+   
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@color/white"
+       ></LinearLayout>
+   
+
+</LinearLayout>
