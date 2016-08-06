@@ -32,7 +32,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
+        <!--下载服务器-->
+        <service android:name="com.download.DownloadService"/>
+
         <activity android:name="com.uphealth.cn.ui.login.home.MainActivity"
                   android:launchMode="singleTask"
             ></activity>

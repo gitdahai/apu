@@ -1,850 +1,850 @@
 [
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_follow_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_follow_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_wechat_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/login_cornor_default.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/login_cornor_default.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sina_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_back_bt_selected.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_back_bt_selected.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/dialog_ios_bg.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/dialog_ios_bg.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_dynamic_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_laiwang_dynamic_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_one_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_one_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sms_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_textfield_search_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\find_selector.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\find_selector.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_right_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\check_right_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/border_cornor_white.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/border_cornor_white.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qq_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_qq_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white.9.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_white.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_right_bt.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_right_bt.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_deep_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_deep_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_ynote.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_ynote.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_cancel.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_cancel.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/left_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/left_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_action_back.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_right_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_tab_right_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_right.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_right.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sina_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sina_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey.9.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_grey.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/progressbar_color.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/progressbar_color.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_line_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_line_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_transparent.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\white_transparent.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_left_pressed.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_tab_left_pressed.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_follow_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/messenger_button_white_bg_round.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_kakao.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_red_blue.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_red_blue.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_yixin_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_music.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_share_music.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/chatfrom_bg.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/chatfrom_bg.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_selected.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_at_selected.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/edit_cornor_two.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/edit_cornor_two.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_btn_select.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\left_btn_select.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_title_btn_cancel.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_title_btn_cancel.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chatfrom_bg.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\chatfrom_bg.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_facebook_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_facebook_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_instagram_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tx_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_tx_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_search_icon.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_search_icon.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_line.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_line.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_window_shadow_pad.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_window_shadow_pad.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_qzone_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_at_button.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_at_button.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\left_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_back_bt_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_back_bt_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_instagram_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_instagram_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/wechat_fav.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/wechat_fav.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_bt_nobgd.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_bt_nobgd.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/verification_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/verification_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_check.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_follow_check.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_location_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_location_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_yixin_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/bgd_relatly_line.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/bgd_relatly_line.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/check_right_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/check_right_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_ynote_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_ynote_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_foursquare.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_foursquare.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_edit_text_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_nav_bar_bg.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_nav_bar_bg.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_title_btn_back.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_title_btn_back.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_dialog_material_background_dark.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_five_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\white_five_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/label_round_cornor_two.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/label_round_cornor_two.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_google.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_google.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_laiwang_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_left_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\check_left_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/sina_web_default.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/sina_web_default.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_share_solid_icon.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_share_solid_icon.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_login_pressed.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_login_pressed.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_facebook.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/feature_one.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/feature_one.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_login.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_laiwang.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wechat.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_wechat.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_yixin.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qzone_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_qzone_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_colored_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\feature_three.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\feature_three.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_switch_thumb_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_cornor_white.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\border_cornor_white.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wechat.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_wechat.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\verification_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\verification_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/center_selector.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/center_selector.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_check_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tumblr_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_tumblr_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_grey_blue.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_grey_blue.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/edit_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/edit_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_linkedin_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_linkedin_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_fetch_image.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_fetch_image.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_foursquare_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_foursquare_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_gmail_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_gmail_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/right_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/right_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_oauth_check_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_facebook.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_facebook.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook_close.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_facebook_close.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_share_solid_icon.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_share_solid_icon.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_btn_select.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\single_btn_select.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/login_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/login_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_x_button.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_x_button.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_flickr_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_flickr_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_pocket_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_douban_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_douban_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_evernote.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_whatsapp_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_whatsapp_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_grey.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_grey.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_whatsapp.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_whatsapp.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_yixin_circle.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qzone_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_qzone_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wechat_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_wechat_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_bind_bg.9.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_bind_bg.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_foursquare.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_foursquare.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_cornor_two.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\edit_cornor_two.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/verification_cornor_default.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/verification_cornor_default.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_deep_big_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_deep_big_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/label_round_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/label_round_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_follow_check.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_follow_check.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/right_btn_select.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/right_btn_select.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pocket.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_pocket.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/info_icon_1.jpg",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/info_icon_1.jpg"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_one_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_one_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_white.9.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_white.9.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red_blue.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_red_blue.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_action_back.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_action_back.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin_circle_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_yixin_circle_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/find_selector.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/find_selector.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shape_solid_black.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_shape_solid_black.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/feature_two.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/feature_two.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_shareboard_item_background.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sina_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sina_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_search_icon.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_search_icon.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_qq_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin_circle_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_yixin_circle_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_location_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_douban_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_douban_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_horizontal_1.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\progressbar_horizontal_1.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/single_btn_select.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/single_btn_select.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_linkedin.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_linkedin.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_yixin_circle.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_yixin_circle.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_wxcircle.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_text_while.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_text_while.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_wxcircle_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_wxcircle_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_music.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_share_music.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_text_while.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_text_while.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pinterest_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_pinterest_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_back.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_back.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang_dynamic_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_laiwang_dynamic_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\label_no_round_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\label_no_round_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_login.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_login.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_laiwang_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/white_transparent.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/white_transparent.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_kakao_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_kakao_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_albumbackground.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_albumbackground.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang_dynamic.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_laiwang_dynamic.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/left_btn_select.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/left_btn_select.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_main_transpant.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\text_main_transpant.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_linkedin_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_linkedin_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_white_blue.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_white_blue.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/check_left_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/check_left_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_pressed.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_login_pressed.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_left_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_tab_left_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/text_label_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/text_label_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_light_big_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_light_big_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/white_five_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/white_five_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pocket_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_pocket_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_gmail_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_gmail_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_instagram_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_instagram_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\border_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/messenger_button_blue_bg_selector.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_btn_select.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\right_btn_select.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_button_left.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_tab_button_left.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\label_round_new.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\label_round_new.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_button_right.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_tab_button_right.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_pic.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_share_pic.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_flickr.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_flickr.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_del_state.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_del_state.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/button_gray.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/button_gray.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_albumbackground.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_albumbackground.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_follow_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_follow_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_grey_blue.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_grey_blue.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_bind_bg.9.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_bind_bg.9.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_at_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_ok_btn_state.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_ok_btn_state.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_two_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_two_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_gmail_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_gmail_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_oauth_check.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_ratingbar_full_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_line.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_line.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_location_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_location_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\verification_cornor_default.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\verification_cornor_default.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/label_no_round_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/label_no_round_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_cornor_three.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\edit_cornor_three.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_grey.9.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_grey.9.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_tx_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_location_ic.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_location_ic.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tx_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_tx_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_light_bar_bg.9.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_light_bar_bg.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_action_back_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_action_back_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pinterest.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_pinterest.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_foursquare_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_foursquare_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_facebook_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_facebook_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_login_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_login_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chatto_bg.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\chatto_bg.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_to_button.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_share_to_button.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\label_round_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\label_round_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng.jpg",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng.jpg"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_twitter.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_twitter.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wxcircle_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_wxcircle_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_renren_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_light_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_light_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\right_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\right_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_shareboard_item_background.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_shareboard_item_background.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\center_selector.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\center_selector.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/gradient.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/gradient.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tumblr.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_tumblr.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_text_cursor_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_pinterest_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_pinterest_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/label_round_new.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/label_round_new.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_fetch_image.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_fetch_image.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_red.9.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_red.9.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\label_no_round_cornor_new.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\label_no_round_cornor_new.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_kakao_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_kakao_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_ios_bg.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\dialog_ios_bg.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_white_blue.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_white_blue.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt_selected.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_transparent_corner.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_share_transparent_corner.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_oauth_check_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_oauth_check_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_whatsapp_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_whatsapp_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_shape_solid_grey.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_shape_solid_grey.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_gray.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\button_gray.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_wxcircle.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_wxcircle.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_color.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\progressbar_color.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_dialog_material_background_light.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_flickr_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_follow_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_follow_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_mini.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\progressbar_mini.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_facebook_close.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_facebook_close.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_ynote.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/chatto_bg.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/chatto_bg.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_four_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_four_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_nav_bar_bg.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_nav_bar_bg.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_selected.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_action_back_selected.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qq_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_qq_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pinterest.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_pinterest.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_tx_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/border_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/border_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_left_pressed.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_left_pressed.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sms_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sms_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selector.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selector.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/radiobutton_bg.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/radiobutton_bg.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sina_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sina_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_pocket.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_pocket.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_at_button.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_at_button.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/progressbar_mini.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/progressbar_mini.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_light_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_light_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_renren_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_renren_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_at_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_at_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_oauth_check.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_oauth_check.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\password_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_video.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_share_video.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_pic_choose_selector.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_pic_choose_selector.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_shape_solid_black.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_shape_solid_black.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_ynote_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_ynote_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/text_main_transpant.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/text_main_transpant.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_renren_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_renren_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_evernote.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_evernote.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_single_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\check_single_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/label_no_round_cornor_new.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/label_no_round_cornor_new.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_title_btn_preview.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_title_btn_preview.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/edit_cornor_three.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/edit_cornor_three.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_pic_choose_selector.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_pic_choose_selector.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_right_pressed.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_right_pressed.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/single_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/single_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_color_new.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\progressbar_color_new.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/password_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/password_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_middle_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_middle_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_ic.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_location_ic.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_del_state.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_del_state.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_qzone_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_qzone_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_blue.9.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_blue.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_camera_title_btn_preview.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_camera_title_btn_preview.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_back_bt.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_back_bt.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chat_send_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\chat_send_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_tab_right_pressed.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_tab_right_pressed.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobutton_bg.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\radiobutton_bg.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_instagram_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_instagram_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/messenger_button_white_bg_selector.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng.jpg",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng.jpg"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_deep_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_deep_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_location_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_location_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_two_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_two_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_right_bt_selected.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_right_bt_selected.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\label_round_cornor_two.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\label_round_cornor_two.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/chat_send_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/chat_send_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_whatsapp.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_whatsapp.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sidebar_normal.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sidebar_normal.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_to_button.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_share_to_button.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sms_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sms_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_refersh.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_refersh.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_refersh.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_refersh.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\gradient.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/check_single_btn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/check_single_btn.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_evernote_gray.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_evernote_gray.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_light_bar_bg.9.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_light_bar_bg.9.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_red.9.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_red.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_deep_big_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_deep_big_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_tab_button_left.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_tab_button_left.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_share_pic.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_share_pic.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sina_web_default.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\sina_web_default.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_line_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_line_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info_icon_1.jpg",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\info_icon_1.jpg"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_twitter.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_twitter.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_alipay.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_alipay.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_oauth_check_off.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_oauth_check_off.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_off.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_douban_off.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_button_blue.9.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_button_blue.9.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_yixin.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_yixin.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/progressbar_horizontal_1.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/progressbar_horizontal_1.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_google.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_google.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_default_avatar.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_default_avatar.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tumblr_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_tumblr_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\login_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sidebar_selector.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sidebar_selector.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_cornor_default.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\login_cornor_default.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_light_big_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_light_big_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cornor_attention.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\cornor_attention.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_tumblr.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_tumblr.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_button_login_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_button_login_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_at_selected.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_at_selected.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plugin_camera_ok_btn_state.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\plugin_camera_ok_btn_state.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_window_shadow_pad.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_window_shadow_pad.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_gmail_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_gmail_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_evernote_gray.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_evernote_gray.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_right_bt_selected.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_right_bt_selected.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_linkedin.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_linkedin.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\feature_two.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\feature_two.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_three_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_three_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_title_back_bt.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_title_back_bt.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/cornor_attention.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/cornor_attention.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\feature_one.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\feature_one.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_laiwang_dynamic.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_laiwang_dynamic.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\messenger_button_white_bg_selector.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_x_button.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_x_button.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_title_right_bt_normal.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_title_right_bt_normal.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_action_back_normal.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_action_back_normal.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/progressbar_color_new.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/progressbar_color_new.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgd_relatly_line.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\bgd_relatly_line.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_renren_on.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_renren_on.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single_btn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\single_btn.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_radio_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\box_three_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\box_three_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_alipay.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_alipay.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_label_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\text_label_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_sidebar_selected.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_sidebar_selected.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wechat_fav.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\wechat_fav.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_four_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_four_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_laiwang.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_laiwang.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/plugin_bt_nobgd.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/plugin_bt_nobgd.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_douban_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/messenger_button_blue_bg_round.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sms_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sms_on.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/feature_three.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/feature_three.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_sidebar_normal.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_sidebar_normal.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/box_middle_cornor.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/box_middle_cornor.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_transparent_corner.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_share_transparent_corner.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_action_back_selected.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_action_back_selected.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_cornor.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\edit_cornor.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_default_avatar.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_default_avatar.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_flickr.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_flickr.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable/umeng_socialize_kakao.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable/umeng_socialize_kakao.png"
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_share_video.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_share_video.png"
     }
 ]

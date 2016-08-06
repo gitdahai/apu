@@ -1,535 +1,539 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:2:1-239:12
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:2:1-242:12
 	package
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:3:5-30
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:3:5-30
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] /Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:20:5-43
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.1.0] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:8:9-35
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\apu\app\src\main\AndroidManifest.xml
 application
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:11:5-195:19
-MERGED from [com.android.support:appcompat-v7:23.1.0] /Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] /Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/AndroidManifest.xml:22:5-20
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:11:5-198:19
+MERGED from [com.android.support:appcompat-v7:23.1.0] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:15:9-41
 	android:allowBackup
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:13:9-35
 	android:icon
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:14:9-42
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:14:9-42
 	android:theme
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:16:9-40
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:12:9-28
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:12:9-28
 meta-data#apu_CHANNEL
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:19:9-22:21
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:19:9-22:21
 	android:value
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:21:13-41
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:20:13-39
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:20:13-39
 activity#com.uphealth.cn.ui.login.LoadActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:24:9-34:20
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:24:9-34:20
 	android:label
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:26:13-45
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:26:13-45
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:27:13-52
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:27:13-52
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:25:13-65
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:25:13-65
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:29:13-33:29
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:30:17-69
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:30:25-66
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:32:17-77
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:32:27-74
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:32:27-74
+service#com.download.DownloadService
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:37:9-63
+	android:name
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:37:18-61
 activity#com.uphealth.cn.ui.login.home.MainActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:36:9-38:25
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:39:9-41:25
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:37:19-50
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:40:19-50
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:36:19-76
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:39:19-76
 activity#com.uphealth.cn.ui.login.PhoneBandActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:40:9-41:70
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:43:9-44:70
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:41:19-58
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:44:19-58
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:40:19-76
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:43:19-76
 activity#com.uphealth.cn.ui.login.PersonActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:42:9-45:81
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:45:9-48:81
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:44:19-48
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:47:19-48
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:43:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:46:19-78
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:45:19-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:48:19-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:42:19-73
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:45:19-73
 activity#com.uphealth.cn.ui.login.HealthInfoSetting
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:46:9-48:81
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:49:9-51:81
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:47:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:50:19-78
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:48:19-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:51:19-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:46:19-76
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:49:19-76
 activity#com.uphealth.cn.ui.login.TestBodyActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:49:9-87
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:52:9-87
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:49:19-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:52:19-75
 activity#com.uphealth.cn.ui.login.TestBankActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:50:9-87
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:53:9-87
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:50:19-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:53:19-75
 activity#com.uphealth.cn.ui.login.LoginActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:52:9-84
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:55:9-84
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:52:19-72
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:55:19-72
 activity#com.uphealth.cn.ui.login.center.ActivitySetting
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:53:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:56:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:53:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:56:19-81
 activity#com.uphealth.cn.ui.login.center.MyInfoActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:54:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:57:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:54:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:57:19-80
 activity#com.uphealth.cn.ui.login.center.MyCollectActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:55:9-95
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:58:9-95
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:55:19-83
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:58:19-83
 activity#com.uphealth.cn.ui.login.center.AccountBindActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:56:9-97
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:59:9-97
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:56:19-85
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:59:19-85
 activity#com.uphealth.cn.ui.login.center.HealthActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:57:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:60:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:57:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:60:19-80
 activity#com.uphealth.cn.ui.login.center.MsgPushActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:58:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:61:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:58:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:61:19-81
 activity#com.uphealth.cn.ui.login.center.ClearChcheActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:59:9-96
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:62:9-96
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:59:19-84
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:62:19-84
 activity#com.uphealth.cn.ui.login.center.OpinionActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:60:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:63:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:60:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:63:19-81
 activity#com.uphealth.cn.ui.login.center.AboutUsActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:61:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:64:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:61:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:64:19-81
 activity#com.uphealth.cn.ui.login.MyHealthRecordActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:62:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:65:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:62:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:65:19-81
 activity#com.uphealth.cn.ui.login.YourPhysiqueActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:63:9-91
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:66:9-91
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:63:19-79
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:66:19-79
 activity#com.uphealth.cn.ui.login.health.WeightActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:64:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:67:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:64:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:67:19-80
 activity#com.uphealth.cn.ui.login.health.HealthAskActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:65:9-95
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:68:9-95
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:65:19-83
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:68:19-83
 activity#com.uphealth.cn.ui.login.health.ChatActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:66:9-90
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:69:9-90
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:66:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:69:19-78
 activity#com.uphealth.cn.ui.login.health.CommentActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:67:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:70:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:67:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:70:19-81
 activity#com.uphealth.cn.ui.login.eat.HealthEatActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:68:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:71:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:68:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:71:19-80
 activity#com.uphealth.cn.ui.login.home.MainTwoActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:69:9-91
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:72:9-91
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:69:19-79
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:72:19-79
 activity#com.uphealth.cn.ui.login.eat.HateFoodActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:70:9-91
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:73:9-91
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:70:19-79
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:73:19-79
 activity#com.uphealth.cn.ui.login.eat.PhotoThumbActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:71:9-73:81
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:74:9-76:81
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:72:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:75:19-78
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:73:19-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:76:19-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:71:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:74:19-81
 activity#com.uphealth.cn.ui.login.eat.MyAddressActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:74:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:77:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:74:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:77:19-80
 activity#com.uphealth.cn.ui.login.eat.FoodDetaisActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:75:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:78:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:75:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:78:19-81
 activity#com.uphealth.cn.ui.login.eat.UpFoodMenuActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:76:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:79:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:76:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:79:19-81
 activity#com.uphealth.cn.ui.login.fragment.HtmlActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:77:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:80:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:77:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:80:19-80
 activity#com.uphealth.cn.ui.login.fragment.HtmlNoTitleActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:78:9-99
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:81:9-99
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:78:19-87
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:81:19-87
 activity#com.uphealth.cn.ui.login.home.HotActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:79:9-87
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:82:9-87
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:79:19-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:82:19-75
 activity#com.uphealth.cn.ui.login.home.PersonalActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:80:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:83:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:80:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:83:19-80
 activity#com.uphealth.cn.ui.login.TestTActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:81:9-84
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:84:9-84
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:81:19-72
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:84:19-72
 activity#com.uphealth.cn.ui.login.eat.BreakfastRankingActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:82:9-99
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:85:9-99
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:82:19-87
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:85:19-87
 activity#com.uphealth.cn.ui.login.tinyvideo.TinyVideoActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:83:9-98
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:86:9-98
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:83:19-86
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:86:19-86
 activity#com.uphealth.cn.ui.login.center.HelpAndOpinionActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:84:9-100
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:87:9-100
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:84:19-88
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:87:19-88
 activity#com.uphealth.cn.ui.login.photos.PhotosActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:85:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:88:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:85:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:88:19-80
 activity#com.uphealth.cn.ui.login.photos.ImageGridActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:86:9-95
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:89:9-95
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:86:19-83
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:89:19-83
 activity#com.uphealth.cn.ui.login.video.VideoActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:87:9-90
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:90:9-90
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:87:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:90:19-78
 activity#com.uphealth.cn.ui.login.video.VideoNewActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:88:9-89:80
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:91:9-92:80
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:89:33-68
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:92:33-68
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:88:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:91:19-81
 activity#com.uphealth.cn.ui.login.video.VideoBeforeActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:90:8-91:65
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:93:8-94:65
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:91:18-53
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:94:18-53
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:90:18-83
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:93:18-83
 activity#com.uphealth.cn.ui.login.ProvinceActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:92:9-87
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:95:9-87
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:92:19-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:95:19-75
 activity#com.uphealth.cn.ui.login.CityActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:93:9-83
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:96:9-83
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:93:19-71
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:96:19-71
 activity#com.uphealth.cn.ui.login.center.mod.NickNameActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:94:9-98
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:97:9-98
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:94:19-86
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:97:19-86
 activity#com.uphealth.cn.ui.login.center.ServiceActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:95:9-93
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:98:9-93
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:95:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:98:19-81
 activity#com.uphealth.cn.ui.login.skin.SkinMoreActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:97:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:100:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:97:19-80
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:100:19-80
 activity#com.uphealth.cn.ui.login.skin.SkinBeforeActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:98:9-94
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:101:9-94
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:98:19-82
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:101:19-82
 activity#com.uphealth.cn.ui.login.home.HealthAskActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:99:9-102:81
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:102:9-105:81
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:101:19-48
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:104:19-48
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:100:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:103:19-78
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:102:19-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:105:19-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:99:19-81
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:102:19-81
 activity#com.uphealth.cn.support.base.helper.photo.AlbumActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:105:9-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:108:9-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:105:19-89
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:108:19-89
 activity#com.uphealth.cn.support.base.helper.photo.GalleryActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:106:9-94
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:109:9-94
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:106:19-91
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:109:19-91
 activity#com.uphealth.cn.support.base.helper.photo.ShowAllPhotoActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:107:9-99
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:110:9-99
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:107:19-96
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:110:19-96
 activity#com.uphealth.cn.support.base.helper.photo.ImageFileActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:108:9-96
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:111:9-96
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:108:19-93
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:111:19-93
 activity#com.uphealth.cn.ui.login.video.SkinAfterActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:109:9-94
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:112:9-94
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:109:19-82
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:112:19-82
 activity#com.uphealth.cn.ui.login.sports.SportBefaultActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:110:9-98
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:113:9-98
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:110:19-86
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:113:19-86
 activity#com.uphealth.cn.ui.login.eat.FoodAddActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:111:9-113:81
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:114:9-116:81
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:112:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:115:19-78
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:113:19-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:116:19-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:111:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:114:19-78
 activity#com.uphealth.cn.ui.login.fragment.find.HottestReplyActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:114:9-105
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:117:9-105
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:114:19-93
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:117:19-93
 activity#com.uphealth.cn.ui.login.fragment.find.HottestPeopleActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:115:9-106
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:118:9-106
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:115:19-94
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:118:19-94
 activity#com.uphealth.cn.ui.login.center.AppInstationActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:116:9-98
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:119:9-98
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:116:19-86
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:119:19-86
 activity#com.uphealth.cn.ui.login.video.VideoNewThreeActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:117:9-98
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:120:9-98
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:117:19-86
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:120:19-86
 activity#com.tencent.connect.common.AssistActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:120:9-124:75
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:123:9-127:75
 	android:screenOrientation
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:123:13-49
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:126:13-49
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:122:13-63
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:125:13-63
 	android:theme
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:124:13-72
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:127:13-72
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:121:13-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:124:13-69
 activity#com.tencent.tauth.AuthActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:127:9-139:20
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:130:9-142:20
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:129:13-44
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:132:13-44
 	android:noHistory
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:130:13-37
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:133:13-37
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:128:13-58
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:131:13-58
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:131:13-138:29
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:134:13-141:29
 action#android.intent.action.VIEW
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:132:17-69
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:135:17-69
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:132:25-66
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:135:25-66
 category#android.intent.category.DEFAULT
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:134:17-76
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:137:17-76
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:134:27-73
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:137:27-73
 category#android.intent.category.BROWSABLE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:135:17-78
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:138:17-78
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:135:27-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:138:27-75
 data
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:137:17-53
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:140:17-53
 	android:scheme
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:137:23-50
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:140:23-50
 activity#com.uphealth.cn.wxapi.WXEntryActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:148:9-152:64
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:151:9-155:64
 	android:launchMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:151:13-44
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:154:13-44
 	android:exported
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:150:13-36
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:153:13-36
 	android:theme
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:152:13-61
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:155:13-61
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:149:13-65
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:152:13-65
 activity#com.sina.weibo.sdk.component.WeiboSdkBrowser
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:155:10-160:20
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:158:10-163:20
 	android:exported
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:159:13-37
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:162:13-37
 	android:windowSoftInputMode
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:158:13-55
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:161:13-55
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:157:13-63
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:160:13-63
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:156:13-72
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:159:13-72
 activity#com.uphealth.cn.WBShareActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:163:9-171:20
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:166:9-174:20
 	android:screenOrientation
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:166:13-49
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:169:13-49
 	android:configChanges
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:165:13-63
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:168:13-63
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:164:13-44
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:167:13-44
 intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:167:13-170:29
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:170:13-173:29
 action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:168:17-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:171:17-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:168:25-89
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:171:25-89
 meta-data#UMENG_APPKEY
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:181:9-184:21
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:184:9-187:21
 	android:value
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:183:13-53
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:186:13-53
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:182:13-40
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:185:13-40
 meta-data#UMENG_CHANNEL
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:185:9-188:21
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:188:9-191:21
 	android:value
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:187:13-37
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:190:13-37
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:186:13-41
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:189:13-41
 service#com.sina.weibo.sdk.net.DownloadService
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:190:8-193:19
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:193:8-196:19
 	android:exported
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:192:13-37
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:195:13-37
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:191:13-66
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:194:13-66
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:197:5-79
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:200:5-79
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:197:22-76
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:200:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:198:5-76
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:201:5-76
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:198:22-73
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:201:22-73
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:199:5-71
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:202:5-71
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:199:22-68
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:202:22-68
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:200:5-74
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:203:5-74
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:200:22-71
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:203:22-71
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:201:5-71
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:204:5-71
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:201:22-68
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:204:22-68
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:202:5-73
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:205:5-73
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:202:22-70
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:205:22-70
 uses-permission#android.permission.CHANGE_CONFIGURATION
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:203:5-79
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:206:5-79
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:203:22-76
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:206:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:204:5-65
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:207:5-65
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:204:22-63
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:207:22-63
 uses-permission#android.permission.GET_TASKS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:206:5-68
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:209:5-68
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:206:22-65
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:209:22-65
 uses-permission#android.permission.SET_DEBUG_APP
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:208:5-72
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:211:5-72
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:208:22-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:211:22-69
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:209:5-78
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:212:5-78
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:209:22-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:212:22-75
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:210:5-74
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:213:5-74
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:210:22-71
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:213:22-71
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:214:2-94
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:217:2-94
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:214:19-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:217:19-75
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:216:2-92
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:219:2-92
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:216:19-73
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:219:19-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:218:2-89
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:221:2-89
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:218:19-70
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:221:19-70
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:220:2-88
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:223:2-88
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:220:19-69
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:223:19-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:222:2-94
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:225:2-94
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:222:19-75
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:225:19-75
 uses-permission#android.permission.INTERNET
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:224:2-64
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:227:2-64
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:224:19-61
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:227:19-61
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:226:2-97
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:229:2-97
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:226:19-78
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:229:19-78
 uses-permission#android.permission.READ_LOGS
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:228:2-81
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:231:2-81
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:228:19-62
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:231:19-62
 uses-permission#android.permission.CALL_PHONE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:229:2-65
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:232:2-65
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:229:19-63
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:232:19-63
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:230:2-76
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:233:2-76
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:230:19-74
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:233:19-74
 uses-permission#android.permission.CAMERA
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:231:2-62
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:234:2-62
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:231:19-59
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:234:19-59
 uses-feature#android.hardware.camera.flash
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:232:5-66
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:235:5-66
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:232:19-63
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:235:19-63
 uses-feature#android.hardware.camera
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:233:5-60
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:236:5-60
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:233:19-57
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:236:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:234:5-70
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:237:5-70
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:234:19-67
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:237:19-67
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:235:5-67
+ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:238:5-67
 	android:name
-		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:235:22-65
+		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:238:22-65

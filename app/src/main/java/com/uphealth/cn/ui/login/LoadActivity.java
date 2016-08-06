@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 
+import com.download.FileDownloadManager;
+import com.download.events.DownloadEvent;
 import com.uphealth.cn.R;
 import com.uphealth.cn.data.GlobalData;
 import com.uphealth.cn.ui.login.home.MainActivity;
@@ -38,9 +40,11 @@ public class LoadActivity extends BaseActivity {
 			 startActivity(intent);
 			 finish();
 		 }
-		
+
+		FileDownloadManager.testDownload(this, "http://115.28.1.196/apu/interface/plan/getPlanFileZip?id=6f8e0779aa42492b95ae0bdc1d371507");
 	}
-	
+
+
 	/*************************************************
 	 * 获取屏幕的宽度和高度
 	 */
