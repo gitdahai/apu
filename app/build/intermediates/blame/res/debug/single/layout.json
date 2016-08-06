@@ -516,12 +516,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_html.xml"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_about_us.xml"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_two.xml",
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_common_two.xml"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_about_us.xml"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_health_child.xml",
@@ -560,12 +560,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_breakfast_ranking.xml"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_beauty_adorn.xml",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_beauty_adorn.xml"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_beauty_adorn.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_beauty_adorn.xml"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo_wall.xml",

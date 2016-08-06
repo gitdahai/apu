@@ -27,4 +27,6 @@ public interface OnDownloadListener {
      * @param savePath      : 下载文件的保存地址
      */
     public void onDownloadFinish(boolean isFinish, String downloadUrl, String savePath);
+
+
 }

@@ -97,6 +97,50 @@ public class ZipUtils {
     }
 
     /***********************************************************************************************
+     * 解压缩一个文件
+     *
+     * @param zipFile 压缩文件
+     * @param folderPath 解压缩的目标目录
+     * @throws IOException 当解压缩过程出错时抛出
+     */
+    public static void upZipFileToFolder(File zipFile, String folderPath) throws ZipException, IOException {
+        File desDir = new File(folderPath);
+
+        if (!desDir.exists()) {
+            desDir.mkdirs();
+        }
+        ZipFile zf = new ZipFile(zipFile);
+        for (Enumeration<?> entries = zf.entries(); entries.hasMoreElements();) {
+            ZipEntry entry = ((ZipEntry)entries.nextElement());
+            InputStream in = zf.getInputStream(entry);
+            String entryName = entry.getName();
+            String str = null;
+            int entryNameSeparatorIndex = entryName.indexOf("/");
+            if (entryNameSeparatorIndex == -1)
+                str = folderPath + File.separator + entryName;
+            else
+                str = folderPath + File.separator + entryName.substring(entryNameSeparatorIndex + 1);
+
+            str = new String(str.getBytes("8859_1"), "GB2312");
+            File desFile = new File(str);
+            if (!desFile.exists()) {
+                File fileParentDir = desFile.getParentFile();
+                if (!fileParentDir.exists()) {
+                    fileParentDir.mkdirs();
+                }
+                desFile.createNewFile();
+            }
+            OutputStream out = new FileOutputStream(desFile);
+            byte buffer[] = new byte[BUFF_SIZE];
+            int realLength;
+            while ((realLength = in.read(buffer)) > 0) {
+                out.write(buffer, 0, realLength);
+            }
+            in.close();
+            out.close();
+        }
+    }
+    /***********************************************************************************************
      * 解压文件名包含传入文字的文件
      *
      * @param zipFile 压缩文件

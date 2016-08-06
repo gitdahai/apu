@@ -4,8 +4,15 @@ import android.content.Context;
 import android.content.Intent;
 
 import com.download.events.DownloadEvent;
+import com.download.utils.ZipUtils;
 import com.google.common.eventbus.EventBus;
 
+import org.wlf.filedownloader.DownloadFileInfo;
+import org.wlf.filedownloader.FileDownloader;
+import org.wlf.filedownloader.listener.OnDeleteDownloadFileListener;
+
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +26,7 @@ public class FileDownloadManager {
     private FileDownloadManager(){
         mEventBus = new EventBus("download");
     }
-    private List<DownloadEvent> downloadEventList = new ArrayList<>();
+    private List<DownloadTask> downloadEventList = new ArrayList<>();
 
     /**
      * 返回EventBus对象
@@ -41,8 +48,8 @@ public class FileDownloadManager {
         if (instance == null)
             instance = new FileDownloadManager();
 
-        for (DownloadEvent event : instance.downloadEventList)
-            instance.mEventBus.post(event);
+        for (DownloadTask task : instance.downloadEventList)
+            task.download();
 
         instance.downloadEventList.clear();
     }
@@ -66,41 +73,39 @@ public class FileDownloadManager {
     }
 
     /**
-     * 添加下载事件对象
-     * @param event
+     * 根据url地址下载文件
+     * @param downloadUrl       ：下载的url地址
+     * @param unzipForder       ：文件解压后，保存的文件夹（完整文件夹路径）
+     * @param listener          ：事件监听器
      */
-    public static void addDownloadEvent(DownloadEvent event){
+    public static void download(String downloadUrl, String unzipForder, ZipFileDownloadListener listener){
         if (instance == null)
             instance = new FileDownloadManager();
 
+        DownloadTask task = new DownloadTask(downloadUrl, unzipForder,listener);
+
         if (DownloadService.isStarted)
-            instance.mEventBus.post(event);
+            task.download();
         else
-            instance.downloadEventList.add(event);
+            instance.downloadEventList.add(task);
     }
 
+    /**
+     * 根据url地址下载文件（该方法，默认把文件解压到应用的data地址处）
+     * @param context
+     * @param downloadUrl   : 下载的url地址
+     * @param listener
+     */
+    public static void download(Context context, String downloadUrl, ZipFileDownloadListener listener){
+        if (instance == null)
+            instance = new FileDownloadManager();
 
-    public static void testDownload(Context context, String url){
-        FileDownloadManager.init(context);
-        DownloadEvent downloadEvent = new DownloadEvent(url);
-        downloadEvent.setListener(new OnDownloadListener(){
-            public void onDownloadStart(String downloadUrl, long downloadFileSize) {
-                System.out.println("====downloadUrl:" + downloadUrl);
-                System.out.println("====downloadFileSize:" + downloadFileSize);
-            }
+        String unzipForder = context.getFilesDir().getAbsolutePath();
+        DownloadTask task = new DownloadTask(downloadUrl, unzipForder,listener);
 
-            public void onDownloadProgress(long currentSize, long totalSize, float downloadSpeed) {
-                System.out.println("====currentSize:" + currentSize);
-                System.out.println("====totalSize:" + totalSize);
-                System.out.println("====downloadSpeed:" + downloadSpeed);
-            }
-
-            public void onDownloadFinish(boolean isFinish, String downloadUrl, String savePath) {
-                System.out.println("====isFinish:" + isFinish);
-                System.out.println("====savePath:" + savePath);
-            }
-        });
-        FileDownloadManager.addDownloadEvent(downloadEvent);
+        if (DownloadService.isStarted)
+            task.download();
+        else
+            instance.downloadEventList.add(task);
     }
-
 }

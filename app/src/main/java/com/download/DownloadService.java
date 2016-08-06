@@ -58,7 +58,7 @@ public class DownloadService extends Service {
         FileDownloadConfiguration.Builder builder = new FileDownloadConfiguration.Builder(this);
         // 2.配置Builder
         // 配置下载文件保存的文件夹
-        builder.configFileDownloadDir(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "FileDownloader");
+        builder.configFileDownloadDir(Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "apu");
         // 配置同时下载任务数量，如果不配置默认为2
         builder.configDownloadTaskSize(3);
         // 配置失败时尝试重试的次数，如果不配置默认为0不尝试

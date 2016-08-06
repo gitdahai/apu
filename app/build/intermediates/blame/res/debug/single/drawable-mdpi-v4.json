@@ -204,12 +204,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-mdpi\\com_facebook_tooltip_blue_topnub.png"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-mdpi\\messenger_bubble_large_blue.png"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\com_facebook_tooltip_black_background.9.png",
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-mdpi\\com_facebook_tooltip_black_background.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\messenger_bubble_large_blue.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-mdpi\\messenger_bubble_large_blue.png"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_015.png",

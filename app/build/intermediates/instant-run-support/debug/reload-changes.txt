@@ -1,2 +1,3 @@
-CHANGED,D:\workspace\apu\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\download\DownloadService$DownloadProccess$override.class
 CHANGED,D:\workspace\apu\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,D:\workspace\apu\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\uphealth\cn\ui\login\LoadActivity$1$override.class
+CHANGED,D:\workspace\apu\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\uphealth\cn\ui\login\LoadActivity$override.class
