@@ -19,12 +19,21 @@ class DownloadTask implements OnDeleteDownloadFileListener {
     private String unzipForder;
     private ZipFileDownloadListener listener;
 
+    /**
+     *
+     * @param downloadUrl
+     * @param unzipForder
+     * @param listener
+     */
     DownloadTask(String downloadUrl, String unzipForder, ZipFileDownloadListener listener){
         this.downloadUrl = downloadUrl;
         this.unzipForder = unzipForder;
         this.listener = listener;
     }
 
+    /**
+     *
+     */
     void download(){
         DownloadEvent event = new DownloadEvent(downloadUrl);
         event.setListener(new OnDownloadListener(){
@@ -66,10 +75,11 @@ class DownloadTask implements OnDeleteDownloadFileListener {
                     }
                 }
             }
-
         });
+
         //进行下载
-        FileDownloadManager.getEventBus().post(event);
+        //FileDownloadManager.getEventBus().post(event);
+        DownloadHelper.onDownloadEvent(event);
     }
     @Override
     public void onDeleteDownloadFilePrepared(DownloadFileInfo downloadFileInfo) {

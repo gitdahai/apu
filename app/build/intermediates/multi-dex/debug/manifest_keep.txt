@@ -1,0 +1,82 @@
+-keep class com.uphealth.cn.App {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.uphealth.cn.ui.login.LoadActivity { <init>(); }
+-keep class com.download.DownloadService { <init>(); }
+-keep class com.uphealth.cn.ui.login.home.MainActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.PhoneBandActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.PersonActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.HealthInfoSetting { <init>(); }
+-keep class com.uphealth.cn.ui.login.TestBodyActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.TestBankActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.LoginActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.ActivitySetting { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.MyInfoActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.MyCollectActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.AccountBindActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.HealthActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.MsgPushActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.ClearChcheActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.OpinionActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.AboutUsActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.MyHealthRecordActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.YourPhysiqueActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.health.WeightActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.health.HealthAskActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.health.ChatActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.health.CommentActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.HealthEatActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.home.MainTwoActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.HateFoodActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.PhotoThumbActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.MyAddressActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.FoodDetaisActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.UpFoodMenuActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.fragment.HtmlActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.fragment.HtmlNoTitleActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.home.HotActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.home.PersonalActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.TestTActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.BreakfastRankingActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.tinyvideo.TinyVideoActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.HelpAndOpinionActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.photos.PhotosActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.photos.ImageGridActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.video.VideoActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.video.VideoNewActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.video.VideoBeforeActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.ProvinceActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.CityActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.mod.NickNameActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.ServiceActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.skin.SkinMoreActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.skin.SkinBeforeActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.home.HealthAskActivity { <init>(); }
+-keep class com.uphealth.cn.support.base.helper.photo.AlbumActivity { <init>(); }
+-keep class com.uphealth.cn.support.base.helper.photo.GalleryActivity { <init>(); }
+-keep class com.uphealth.cn.support.base.helper.photo.ShowAllPhotoActivity { <init>(); }
+-keep class com.uphealth.cn.support.base.helper.photo.ImageFileActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.video.SkinAfterActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.sports.SportBefaultActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.eat.FoodAddActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.fragment.find.HottestReplyActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.fragment.find.HottestPeopleActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.center.AppInstationActivity { <init>(); }
+-keep class com.uphealth.cn.ui.login.video.VideoNewThreeActivity { <init>(); }
+-keep class com.tencent.connect.common.AssistActivity { <init>(); }
+-keep class com.tencent.tauth.AuthActivity { <init>(); }
+-keep class com.uphealth.cn.wxapi.WXEntryActivity { <init>(); }
+-keep class com.sina.weibo.sdk.component.WeiboSdkBrowser { <init>(); }
+-keep class com.uphealth.cn.WBShareActivity { <init>(); }
+-keep class com.sina.weibo.sdk.net.DownloadService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

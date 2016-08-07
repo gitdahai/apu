@@ -444,12 +444,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\edit_cornor_three.xml"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_tx_off.png",
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_tx_off.png"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_qq_on.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable\\umeng_socialize_qq_on.png"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",

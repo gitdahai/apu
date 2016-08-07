@@ -696,12 +696,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\wifi_dialog.xml"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_folder.xml",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_select_folder.xml"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_info.xml",
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_my_info.xml"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_folder.xml",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_select_folder.xml"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_before.xml",

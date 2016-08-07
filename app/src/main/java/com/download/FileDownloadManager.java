@@ -5,7 +5,6 @@ import android.content.Intent;
 
 import com.download.events.DownloadEvent;
 import com.download.utils.ZipUtils;
-import com.google.common.eventbus.EventBus;
 
 import org.wlf.filedownloader.DownloadFileInfo;
 import org.wlf.filedownloader.FileDownloader;
@@ -22,22 +21,23 @@ import java.util.List;
  */
 public class FileDownloadManager {
     private static FileDownloadManager instance;
-    private EventBus mEventBus;
-    private FileDownloadManager(){
-        mEventBus = new EventBus("download");
-    }
-    private List<DownloadTask> downloadEventList = new ArrayList<>();
+    //private EventBus mEventBus;
 
+    private List<DownloadTask> downloadEventList = new ArrayList<>();
+    private FileDownloadManager(Context context){
+        //mEventBus = new EventBus("download");
+        DownloadHelper.init(context);
+    }
     /**
      * 返回EventBus对象
      * @return
      */
-    public static EventBus getEventBus(){
+    /*public static EventBus getEventBus(){
         if (instance == null)
             instance = new FileDownloadManager();
 
         return instance.mEventBus;
-    }
+    }*/
 
     /**
      * 当下载service启动后，需要通知管理器
@@ -45,13 +45,13 @@ public class FileDownloadManager {
      * 如果有，就发送任务
      */
     static void onDownloadServiceStarted(){
-        if (instance == null)
+        /*if (instance == null)
             instance = new FileDownloadManager();
 
         for (DownloadTask task : instance.downloadEventList)
             task.download();
 
-        instance.downloadEventList.clear();
+        instance.downloadEventList.clear();*/
     }
 
     /**
@@ -59,8 +59,10 @@ public class FileDownloadManager {
      * @param context
      */
     public static void init(Context context){
-        Intent intent = new Intent(context, DownloadService.class);
-        context.startService(intent);
+        if (instance == null)
+            instance = new FileDownloadManager(context);
+        /*Intent intent = new Intent(context, DownloadService.class);
+        context.startService(intent);*/
     }
 
     /**
@@ -68,8 +70,8 @@ public class FileDownloadManager {
      * @param context
      */
     public static void release(Context context){
-        Intent intent = new Intent(context, DownloadService.class);
-        context.stopService(intent);
+        /*Intent intent = new Intent(context, DownloadService.class);
+        context.stopService(intent);*/
     }
 
     /**
@@ -80,14 +82,15 @@ public class FileDownloadManager {
      */
     public static void download(String downloadUrl, String unzipForder, ZipFileDownloadListener listener){
         if (instance == null)
-            instance = new FileDownloadManager();
+            throw new RuntimeException("FileDownloadManager 为进行初始化");
 
         DownloadTask task = new DownloadTask(downloadUrl, unzipForder,listener);
+        task.download();
 
-        if (DownloadService.isStarted)
+        /*if (DownloadService.isStarted)
             task.download();
         else
-            instance.downloadEventList.add(task);
+            instance.downloadEventList.add(task);*/
     }
 
     /**
@@ -98,14 +101,15 @@ public class FileDownloadManager {
      */
     public static void download(Context context, String downloadUrl, ZipFileDownloadListener listener){
         if (instance == null)
-            instance = new FileDownloadManager();
+            throw new RuntimeException("FileDownloadManager 为进行初始化");
 
         String unzipForder = context.getFilesDir().getAbsolutePath();
         DownloadTask task = new DownloadTask(downloadUrl, unzipForder,listener);
+        task.download();
 
-        if (DownloadService.isStarted)
+        /*if (DownloadService.isStarted)
             task.download();
         else
-            instance.downloadEventList.add(task);
+            instance.downloadEventList.add(task);*/
     }
 }

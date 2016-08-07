@@ -8,9 +8,12 @@ import android.util.DisplayMetrics;
 import com.download.FileDownloadManager;
 import com.download.ZipFileDownloadListener;
 import com.download.events.DownloadEvent;
+import com.download.utils.FileUtils;
 import com.uphealth.cn.R;
 import com.uphealth.cn.data.GlobalData;
 import com.uphealth.cn.ui.login.home.MainActivity;
+
+import java.io.File;
 
 /**
  * 加载页
@@ -69,6 +72,7 @@ public class LoadActivity extends BaseActivity {
 
 			public void onUnzipFinish(boolean isSuccess, String unzipFolder) {
 				System.out.println("=====onUnzipFinish-isSuccess:" + isSuccess + " unzipFolder=" + unzipFolder);
+				File file = FileUtils.getFileFromContextFiles(LoadActivity.this, "20160803143427.mp4");
 			}
 		});
 	}

@@ -68,12 +68,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\ad_1.jpg"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pro_test.png",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\pro_test.png"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\progresspatch_blue.9.png",
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\progresspatch_blue.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\pro_test.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\pro_test.png"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\voice_rcd_cancel_bg_focused.png",
@@ -460,12 +460,12 @@
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\tab_find_default.png"
     },
     {
-        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_white.png",
-        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\round_white.png"
-    },
-    {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\com_facebook_close.png",
         "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\com_facebook_close.png"
+    },
+    {
+        "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\round_white.png",
+        "source": "D:\\workspace\\apu\\app\\src\\main\\res\\drawable-hdpi\\round_white.png"
     },
     {
         "merged": "D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\voice_rcd_cancel_bg.png",

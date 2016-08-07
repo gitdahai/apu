@@ -17,6 +17,8 @@ ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:2:1-242:12
 		ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\workspace\apu\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:appcompat-v7:23.1.0] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.1.0] D:\workspace\apu\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion

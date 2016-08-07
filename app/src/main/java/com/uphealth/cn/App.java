@@ -1,6 +1,7 @@
 package com.uphealth.cn;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 import com.umeng.socialize.PlatformConfig;
 
@@ -11,7 +12,7 @@ import com.umeng.socialize.PlatformConfig;
 
  * @author jun.wang
  */
-public class App extends Application {
+public class App extends MultiDexApplication {
 	
 	@Override
     public void onCreate() {
