@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 
+import com.TestActivity;
 import com.uphealth.cn.R;
 import com.uphealth.cn.data.GlobalData;
 import com.uphealth.cn.ui.login.home.MainActivity;
@@ -38,9 +39,14 @@ public class LoadActivity extends BaseActivity {
 			 startActivity(intent);
 			 finish();
 		 }
-		
+
+
+		Intent intent = new Intent(this, TestActivity.class);
+		startActivity(intent);
 	}
-	
+
+
+
 	/*************************************************
 	 * 获取屏幕的宽度和高度
 	 */

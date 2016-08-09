@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_food_details.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_food_details.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_weight.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_weight.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_find.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_find.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health_eat.xml",
@@ -16,40 +16,36 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_my_collect.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_photo.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_photo.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_image_bucket.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_image_bucket.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_oauth_dialog.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_oauth_dialog.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_trans.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_common_trans.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_image_bucket_two.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_image_bucket_two.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_buttom_sport.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\view_buttom_sport.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_failed_load_page.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_help_and_opinion.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_help_and_opinion.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_album.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_album.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_photo.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\dialog_photo.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_skin_more.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_skin_more.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_life_style.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_life_style.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_app_instation.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_app_instation.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_up_food_menu.xml",
@@ -60,8 +56,8 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_common_trans.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_common_trans.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_common_two.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_app_instation.xml",
@@ -72,12 +68,16 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_failed_load_page.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_breakfast_ranking.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_breakfast_ranking.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_beauty.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_gridview_beauty.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog_button.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_sport_finish.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\dialog_sport_finish.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/include_camera_holder.xml",
@@ -92,24 +92,60 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_published_grida.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_menu.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_menu.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/act_test_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/act_test_layout.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_video_new.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_video_new.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_bucket.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_image_bucket.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_album.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_album.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_life_style.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_life_style.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_video.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\customdialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\customdialog.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_three.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/title_three.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_sport_two.xml",
@@ -118,6 +154,698 @@
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_video.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_video.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_beauty_adorn.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_beauty_adorn.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_common.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_common.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/chatting_item_msg_text_right.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/chatting_item_msg_text_right.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_health_ask.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_health_ask.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/picker_date.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/picker_date.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_food_details.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_food_details.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sport_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_sport_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_no_image_file.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_no_image_file.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_new_three.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_video_new_three.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_published_grida.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_published_grida.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_info.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_info.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_html_no_title.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_html_no_title.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_center_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_center_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_service_app.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_service_app.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mod_nickname.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_mod_nickname.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_app_instation.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_app_instation.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photos.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_photos.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_my_health_record.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_my_health_record.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_health.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_health.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_health_label.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_health_label.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_post_share.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_collect.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_my_collect.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_full_curtain.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_health_eat.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_health_eat.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_view_image.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_view_image.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_beauty_adorn.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_beauty_adorn.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_common.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\title_common.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health_ask_new.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_health_ask_new.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/movie_recorder_view.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/movie_recorder_view.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_collect.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_collect.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_app_instation.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_app_instation.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health_ask.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_health_ask.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_phone_band.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_phone_band.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_new.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_video_new.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_share.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/title_share.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_up_food_menu.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_up_food_menu.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_comment.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_comment.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_show_all_photo.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_show_all_photo.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/refresh_footer.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/refresh_footer.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_tips.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_tips.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_main_list.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_main_list.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_test_body.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test_body.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_city.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_city.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_item_published_grida.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\include_item_published_grida.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/include_item_published_grida.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/include_item_published_grida.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_province.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_province.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_sport.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_sport.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_msg_push.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_msg_push.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hate_food.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_hate_food.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_html.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_html.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_back.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\title_back.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_beauty_adorn_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_beauty_adorn_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_beauty_adorn_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_beauty_adorn_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_video_before.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\dialog_video_before.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_health_child.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_health_child.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/voice_rcd_hint_window.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/voice_rcd_hint_window.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_address.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_address.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_up_food.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_up_food.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/picker_single.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/picker_single.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_header.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\refresh_header.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_skin_befault.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_skin_befault.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_photo_wall.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_photo_wall.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_skin_after.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_skin_after.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_html.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_html.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_account_bind.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_account_bind.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/view_button.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/view_button.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_skin_more.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_skin_more.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\voice_rcd_hint_window.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\voice_rcd_hint_window.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_sport.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_sport.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_healthinfo_setting.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_healthinfo_setting.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_video_before.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_video_before.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_common_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_common_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_view_image.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_view_image.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_menu.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_menu.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_sport.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_sport.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\buttom_popup_takephotos.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\buttom_popup_takephotos.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_health_ask.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_health_ask.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hot.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_hot.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/buttom_popup_takephotos.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/buttom_popup_takephotos.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_phone_band.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_phone_band.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hottest_people.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_hottest_people.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_back.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/title_back.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_video_new_three.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_video_new_three.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_t.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_test_t.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_chat.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_test_bank.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_test_bank.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_photos.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_photos.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_load.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_load.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_about_us.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_life_style.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_life_style.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_test.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_image_file.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_image_file.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_msg_push.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_msg_push.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo_wall.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_photo_wall.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_sport_finish.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_sport_finish.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_address.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_my_address.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_string.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_string.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_publish_dynamic.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_publish_dynamic.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_clear_chche.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_clear_chche.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\wifi_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\wifi_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_publish_dynamic.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_publish_dynamic.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_select_folder.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_select_folder.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_health_eat.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_health_eat.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_life_style.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_life_style.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_sport_befault.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_sport_befault.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_video.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_video.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_help_and_opinion.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_help_and_opinion.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_food_details.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_food_details.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_find.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_find.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_photo.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_photo.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_image_bucket.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_image_bucket.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_oauth_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_date.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\picker_date.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_healthinfo_setting.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_healthinfo_setting.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_album.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_album.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_skin_more.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_skin_more.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_life_style.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_life_style.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clear_chche.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_clear_chche.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_common_trans.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_common_trans.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_breakfast_ranking.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_breakfast_ranking.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_find.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_find.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_food_add.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_food_add.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_up_food_menu.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_up_food_menu.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_main_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_breakfast_ranking.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_breakfast_ranking.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_common.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_common.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -132,52 +860,64 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test_t.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_beauty_adorn.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_beauty_adorn.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chatting_item_msg_text_left.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\chatting_item_msg_text_left.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/customdialog.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/customdialog.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_common.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_common.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_circle.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_circle.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_test_bank.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test_bank.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_hottest_people.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_hottest_people.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_health_record.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_health_record.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_test_bank.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test_bank.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/chatting_item_msg_text_right.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/chatting_item_msg_text_right.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_circle.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_circle.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_health_record.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_my_health_record.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hate_food.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_hate_food.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_health_record.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_health_record.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_health.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_health.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_skin_after.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_skin_after.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_three.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\title_three.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/act_image_grid.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/act_image_grid.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_health_ask.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_health_ask.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_image_grid.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\act_image_grid.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/picker_date.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/picker_date.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_center_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_center_two.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
@@ -188,20 +928,20 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_hot.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_base_alert_dialog.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_base_alert_dialog.xml"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/act_image_bucket.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/act_image_bucket.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_action.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/view_buttom_eat.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/view_buttom_eat.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_beauty_adorn.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_beauty_adorn.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_test_bank.xml",
@@ -224,6 +964,10 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_video.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\dialog_video.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_photos.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_photos.xml"
     },
@@ -236,44 +980,48 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_load.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_info.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_info.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_full_curtain.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_hottestreply.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_hottestreply.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_center_two.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_center_two.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_toolbar.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_health_record.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_my_health_record.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_setting.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_service_app.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_service_app.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_app_instation.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_app_instation.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tiny_video.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_tiny_video.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_list.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\dialog_list.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_skin_more.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_skin_more.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_my_health_record.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_my_health_record.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_skin_after.xml",
@@ -292,6 +1040,14 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_simple_spinner_item.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_simple_spinner_item.xml"
     },
@@ -300,48 +1056,36 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_hate_food.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_full_curtain.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_full_curtain.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_health_ask_new.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_health_ask_new.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_health_eat.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_health_eat.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_body.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_test_body.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health_ask_new.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_health_ask_new.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_publish_dynamic.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_publish_dynamic.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/movie_recorder_view.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/movie_recorder_view.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_collect.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_collect.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_video_before.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_video_before.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health_ask.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_health_ask.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_share.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/title_share.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_comment.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_comment.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_show_all_photo.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_show_all_photo.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_photos.xml",
@@ -352,48 +1096,36 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/view_buttom_sport.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/refresh_footer.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/refresh_footer.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_tips.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_tips.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_test_body.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test_body.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_sport_befault.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_sport_befault.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_health.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_city.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_city.xml"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_image_file.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_image_file.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_full_alert_dialog.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_skin_after.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_skin_after.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/include_item_published_grida.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/include_item_published_grida.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_health_eat.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_health_eat.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_province.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_province.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_show_all_photo.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_show_all_photo.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_msg_push.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_msg_push.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_city.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_city.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_sport.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_sport.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_string.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_string.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_health_info_two.xml",
@@ -408,104 +1140,124 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_hottest_reply.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_hottest_reply.xml"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_select_imageview.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_select_imageview.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_beauty_adorn_two.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_beauty_adorn_two.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_hottest_reply.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_hottest_reply.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_personal.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_personal.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_health_child.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_health_child.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_gallery.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_gallery.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/voice_rcd_hint_window.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/voice_rcd_hint_window.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_my_address.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_my_address.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_your_physique.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_your_physique.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/refresh_header.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/refresh_header.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_photos.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_photos.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/picker_single.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/picker_single.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_photos.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_photos.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_big_media.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_photo_wall.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_photo_wall.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_personal.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_account_bind.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_account_bind.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_skin_after.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_skin_after.xml"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_html.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_html.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_health_info_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_health_info_two.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_health_ask.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_health_ask.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_up_food.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_up_food.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_shareboard_item.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_shareboard_item.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_media_cancel_action.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_buttom_eat.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\view_buttom_eat.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/view_button.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/view_button.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_health_child.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_health_child.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_beauty_adorn_new.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_beauty_adorn_new.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_opinion.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_opinion.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_info.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_my_info.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_gallery.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_gallery.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_person.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_person.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_sport.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_sport.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_sport.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_sport.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_healthinfo_setting.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_healthinfo_setting.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_button.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\view_button.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_my_health_record_two.xml",
@@ -516,8 +1268,8 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_tiny_video.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_video_before.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_video_before.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hottest_people.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_hottest_people.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_food_add.xml",
@@ -532,64 +1284,100 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_login.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_food_add.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_food_add.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_common_two.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_common_two.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_bank.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_test_bank.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_your_physique.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_your_physique.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_titile_bar.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_titile_bar.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_view_image.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_view_image.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hottestreply.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_hottestreply.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_grid.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_image_grid.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\picker_single.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\picker_single.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chatting_item_msg_text_right.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\chatting_item_msg_text_right.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comment.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_comment.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_center.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_center.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_custom.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_custom.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help_and_opinion.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_help_and_opinion.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\movie_recorder_view.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\movie_recorder_view.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_hate_food.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_hate_food.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_imageview.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_select_imageview.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_person.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_person.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_health.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_health.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_list.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_list.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/buttom_popup_takephotos.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/buttom_popup_takephotos.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_phone_band.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_phone_band.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_back.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/title_back.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_address.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_address.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
@@ -616,20 +1404,12 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_video_new_three.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_video_new_three.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_chat.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_chat.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_collect.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_my_collect.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -640,6 +1420,10 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_video_before.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_html_no_title.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_html_no_title.xml"
     },
@@ -648,16 +1432,20 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\plugin_camera_select_folder.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\plugin_camera_select_folder.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_skin_more.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_skin_more.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_circle.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_circle.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_share.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\title_share.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_no_image_file.xml",
@@ -668,20 +1456,32 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_weight.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_test.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_test.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_custom.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\fragment_custom.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_center.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_center.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_my_health_record_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_my_health_record_two.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_post_share.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_post_share.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_tips.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\dialog_tips.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_breakfast_ranking.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_breakfast_ranking.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_city.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_city.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_food_add.xml",
@@ -696,6 +1496,10 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_beauty_adorn.xml"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\act_image_bucket.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\act_image_bucket.xml"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/title_common.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/title_common.xml"
     },
@@ -704,20 +1508,16 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_image_grid.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_sport_finish.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_sport_finish.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/umeng_socialize_full_alert_dialog_item.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/umeng_socialize_full_alert_dialog_item.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_camera_holder.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\include_camera_holder.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/fragment_beauty_adorn_new.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/fragment_beauty_adorn_new.xml"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_province.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_province.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -728,20 +1528,8 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_breakfast_ranking.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_string.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_string.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_publish_dynamic.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_publish_dynamic.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_clear_chche.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_clear_chche.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_hottest_reply.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_hottest_reply.xml"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_main_list.xml",
@@ -752,27 +1540,19 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_skin_befault.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/plugin_camera_select_folder.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/plugin_camera_select_folder.xml"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_up_food_menu.xml",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_up_food_menu.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_photos.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\title_photos.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/item_life_style.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/item_life_style.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service_app.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\activity_service_app.xml"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/activity_sport_befault.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/activity_sport_befault.xml"
-    },
-    {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/layout/dialog_video.xml",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/layout/dialog_video.xml"
+        "merged": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_image_bucket_two.xml",
+        "source": "/Users/orson/android-workspace/Apu2/D:\\workspace\\apu\\app\\src\\main\\res\\layout\\item_image_bucket_two.xml"
     }
 ]

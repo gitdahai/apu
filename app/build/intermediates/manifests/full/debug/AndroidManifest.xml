@@ -73,9 +73,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.uphealth.cn.ui.login.home.MainActivity"
-            android:launchMode="singleTask" />
+
+        <!-- 测试 -->
+        <activity android:name="com.TestActivity" />
+
+        <!-- 下载服务器 -->
+        <service android:name="com.download.DownloadService" />
+
         <activity
             android:name="com.uphealth.cn.ui.login.PhoneBandActivity"
             android:windowSoftInputMode="adjustPan" />
@@ -107,7 +111,6 @@
         <activity android:name="com.uphealth.cn.ui.login.health.ChatActivity" />
         <activity android:name="com.uphealth.cn.ui.login.health.CommentActivity" />
         <activity android:name="com.uphealth.cn.ui.login.eat.HealthEatActivity" />
-        <activity android:name="com.uphealth.cn.ui.login.home.MainTwoActivity" />
         <activity android:name="com.uphealth.cn.ui.login.eat.HateFoodActivity" />
         <activity
             android:name="com.uphealth.cn.ui.login.eat.PhotoThumbActivity"
@@ -144,8 +147,6 @@
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="standard"
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-        <activity android:name="com.uphealth.cn.support.base.helper.photo.AlbumActivity" />
-        <activity android:name="com.uphealth.cn.support.base.helper.photo.GalleryActivity" />
         <activity android:name="com.uphealth.cn.support.base.helper.photo.ShowAllPhotoActivity" />
         <activity android:name="com.uphealth.cn.support.base.helper.photo.ImageFileActivity" />
         <activity android:name="com.uphealth.cn.ui.login.video.SkinAfterActivity" />
@@ -158,62 +159,6 @@
         <activity android:name="com.uphealth.cn.ui.login.fragment.find.HottestPeopleActivity" />
         <activity android:name="com.uphealth.cn.ui.login.center.AppInstationActivity" />
         <activity android:name="com.uphealth.cn.ui.login.video.VideoNewThreeActivity" />
-
-        <!-- qq回调需要注册该activity -->
-        <activity
-            android:name="com.tencent.connect.common.AssistActivity"
-            android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <!-- qq授权需要注册该activity -->
-        <activity
-            android:name="com.tencent.tauth.AuthActivity"
-            android:launchMode="singleTask"
-            android:noHistory="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-                <!-- 把 1101255276改成自己的腾讯开放平台的appid -->
-                <data android:scheme="1105373742" />
-            </intent-filter>
-        </activity>
-
-        <!-- 应用授权 activity -->
-        <!--
-            <activity
-            android:name="cn.bidaround.ytcore.login.AuthActivity"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-        -->
-
-
-        <!-- 微信分享需要注册该activity -->
-        <activity
-            android:name="com.uphealth.cn.wxapi.WXEntryActivity"
-            android:exported="true"
-            android:launchMode="singleTask"
-            android:theme="@android:style/Theme.Translucent" />
-        <activity
-            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
-            android:configChanges="keyboardHidden|orientation"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
-
-        <!-- Share edit page -->
-        <activity
-            android:name="com.uphealth.cn.WBShareActivity"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
 
         <!-- 没安装客户端下登录 -->
         <!--
@@ -234,11 +179,6 @@
             android:name="UMENG_CHANNEL"
             android:value="uphealth" >
         </meta-data>
-
-        <service
-            android:name="com.sina.weibo.sdk.net.DownloadService"
-            android:exported="false" >
-        </service>
     </application>
 
 </manifest>
