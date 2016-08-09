@@ -579,8 +579,8 @@ com/uphealth/cn/ui/login/LoginActivity$8.class
 android/support/v4/media/MediaMetadataCompat$LongKey.class
 com/uphealth/cn/ui/login/skin/SkinBeforeActivity$4.class
 android/support/annotation/StyleableRes.class
-bolts/WebViewAppLinkResolver$2$2.class
 org/apache/http/impl/io/HttpResponseParser.class
+bolts/WebViewAppLinkResolver$2$2.class
 com/uphealth/cn/ui/login/PersonActivity$5.class
 com/umeng/socialize/common/QueuedWork$DialogThread.class
 com/uphealth/cn/ui/login/center/AboutUsActivity.class

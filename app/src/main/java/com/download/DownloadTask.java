@@ -14,16 +14,19 @@ class DownloadTask{
     private String downloadUrl;
     private String unzipForder;
     private ZipFileDownloadListener listener;
+    private boolean isUpdate;       //数据是否有更新
 
     /*==============================================================================================
      *
      * @param downloadUrl
      * @param unzipForder
+     * param isUpdate
      * @param listener
      */
-    DownloadTask(String downloadUrl, String unzipForder, ZipFileDownloadListener listener){
+    DownloadTask(String downloadUrl, String unzipForder, boolean isUpdate, ZipFileDownloadListener listener){
         this.downloadUrl = downloadUrl;
         this.unzipForder = unzipForder;
+        this.isUpdate = isUpdate;
         this.listener = listener;
     }
 
@@ -32,7 +35,7 @@ class DownloadTask{
      */
     void download(){
         DownloadEvent event = new DownloadEvent(downloadUrl);
-
+        event.setUpdate(isUpdate);
         event.setListener(new OnDownloadListener(){
             public void onDownloadStart(String downloadUrl, long downloadFileSize) {
                 if (listener != null)

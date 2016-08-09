@@ -1,17 +1,7 @@
 package com.download;
 
 import android.content.Context;
-import android.content.Intent;
 
-import com.download.events.DownloadEvent;
-import com.download.utils.ZipUtils;
-
-import org.wlf.filedownloader.DownloadFileInfo;
-import org.wlf.filedownloader.FileDownloader;
-import org.wlf.filedownloader.listener.OnDeleteDownloadFileListener;
-
-import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -84,13 +74,28 @@ public class FileDownloadManager {
         if (instance == null)
             throw new RuntimeException("FileDownloadManager 为进行初始化");
 
-        DownloadTask task = new DownloadTask(downloadUrl, unzipForder,listener);
+        DownloadTask task = new DownloadTask(downloadUrl, unzipForder, false, listener);
         task.download();
 
         /*if (DownloadService.isStarted)
             task.download();
         else
             instance.downloadEventList.add(task);*/
+    }
+
+    /**
+     *
+     * @param downloadUrl
+     * @param unzipForder
+     * @param isUpdate      ： 是否数据有更新（true=有更新， false=无更新）
+     * @param listener
+     */
+    public static void download(String downloadUrl, String unzipForder, boolean isUpdate, ZipFileDownloadListener listener){
+        if (instance == null)
+            throw new RuntimeException("FileDownloadManager 为进行初始化");
+
+        DownloadTask task = new DownloadTask(downloadUrl, unzipForder, isUpdate, listener);
+        task.download();
     }
 
     /**
@@ -104,12 +109,28 @@ public class FileDownloadManager {
             throw new RuntimeException("FileDownloadManager 为进行初始化");
 
         String unzipForder = context.getFilesDir().getAbsolutePath();
-        DownloadTask task = new DownloadTask(downloadUrl, unzipForder,listener);
+        DownloadTask task = new DownloadTask(downloadUrl, unzipForder, false, listener);
         task.download();
 
         /*if (DownloadService.isStarted)
             task.download();
         else
             instance.downloadEventList.add(task);*/
+    }
+
+    /***********************************************************************************************
+     * 下载文件
+     * @param context
+     * @param downloadUrl
+     * @param isUpdate      ： 是否数据有更新（true=有更新， false=无更新）
+     * @param listener
+     */
+    public static void download(Context context, String downloadUrl, boolean isUpdate, ZipFileDownloadListener listener){
+        if (instance == null)
+            throw new RuntimeException("FileDownloadManager 为进行初始化");
+
+        String unzipForder = context.getFilesDir().getAbsolutePath();
+        DownloadTask task = new DownloadTask(downloadUrl, unzipForder, isUpdate, listener);
+        task.download();
     }
 }

@@ -49,7 +49,7 @@ public class DownloadHelper {
             throw new RuntimeException("FileDownloadManager 没有进行初始化");
 
         if (event != null){
-            DownloadProccess downloadProccess = new DownloadProccess(event.getDownloadUrl(), event.getSavePath(), event.getListener());
+            DownloadProccess downloadProccess = new DownloadProccess(event.getDownloadUrl(), event.getSavePath(), event.isUpdate() ,event.getListener());
             downloadProccess.toDownloading();
         }
     }

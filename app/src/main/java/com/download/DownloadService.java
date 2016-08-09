@@ -8,10 +8,8 @@ import android.support.annotation.Nullable;
 
 import com.download.events.DownloadEvent;
 
-import org.wlf.filedownloader.DownloadFileInfo;
 import org.wlf.filedownloader.FileDownloadConfiguration;
 import org.wlf.filedownloader.FileDownloader;
-import org.wlf.filedownloader.listener.OnFileDownloadStatusListener;
 
 import java.io.File;
 
@@ -77,7 +75,7 @@ public class DownloadService extends Service {
      */
     public void onDownloadEvent(DownloadEvent event){
         if (event != null){
-            DownloadProccess downloadProccess = new DownloadProccess(event.getDownloadUrl(), event.getSavePath(), event.getListener());
+            DownloadProccess downloadProccess = new DownloadProccess(event.getDownloadUrl(), event.getSavePath(), event.isUpdate(), event.getListener());
             downloadProccess.toDownloading();
         }
     }

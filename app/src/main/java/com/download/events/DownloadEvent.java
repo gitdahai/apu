@@ -10,6 +10,7 @@ import com.download.OnDownloadListener;
 public class DownloadEvent {
     private String downloadUrl;             //下载的地址
     private String savePath;                //默认保存在应用的/data目录下
+    private boolean isUpdate;               //数据是否存在跟新
     private OnDownloadListener listener;    //下载事件监听器
 
     /**
@@ -45,5 +46,13 @@ public class DownloadEvent {
 
     public void setSavePath(String savePath) {
         this.savePath = savePath;
+    }
+
+    public boolean isUpdate() {
+        return isUpdate;
+    }
+
+    public void setUpdate(boolean update) {
+        isUpdate = update;
     }
 }

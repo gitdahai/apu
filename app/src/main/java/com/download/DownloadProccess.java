@@ -15,6 +15,7 @@ import java.io.File;
 public class DownloadProccess{
     private String downloadUrl;
     private String savePath;
+    private boolean isUpdate;
     private OnDownloadListener downloadListener;
 
     /**
@@ -23,9 +24,10 @@ public class DownloadProccess{
      * @param savePath
      * @param downloadListener
      */
-     DownloadProccess(String downloadUrl, String savePath, OnDownloadListener downloadListener){
+     DownloadProccess(String downloadUrl, String savePath,  boolean isUpdate, OnDownloadListener downloadListener){
         this.downloadUrl = downloadUrl;
         this.savePath = savePath;
+         this.isUpdate = isUpdate;
         this.downloadListener = downloadListener;
     }
 
@@ -40,12 +42,13 @@ public class DownloadProccess{
         String shortName = FileUtils.getFileShortName(downloadUrl);
         File file = new File(downloadDir + "/" + shortName);
 
-        if (!file.exists())
+        if (!file.exists() || isUpdate)
             FileDownloader.delete(downloadUrl, true, deleteListener);
-
-        //开始下载
-        FileDownloader.registerDownloadStatusListener(downloadStatusListener);
-        FileDownloader.start(downloadUrl);
+        else{
+            //开始下载
+            FileDownloader.registerDownloadStatusListener(downloadStatusListener);
+            FileDownloader.start(downloadUrl);
+        }
     }
 
     /*==============================================================================================
@@ -59,6 +62,9 @@ public class DownloadProccess{
 
         public void onDeleteDownloadFileSuccess(DownloadFileInfo downloadFileInfo) {
             System.out.println("===onDeleteDownloadFileSuccess===  ");
+            //开始下载
+            FileDownloader.registerDownloadStatusListener(downloadStatusListener);
+            FileDownloader.start(downloadUrl);
         }
 
         public void onDeleteDownloadFileFailed(DownloadFileInfo downloadFileInfo, DeleteDownloadFileFailReason deleteDownloadFileFailReason) {

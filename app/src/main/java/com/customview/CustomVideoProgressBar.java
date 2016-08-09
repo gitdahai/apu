@@ -82,6 +82,16 @@ public class CustomVideoProgressBar extends View{
     }
 
     /***********************************************************************************************
+     * 重置方法，重置后，将恢复到默认状态
+     */
+    public void reset(){
+        nodes.clear();
+        maxProgress = 0;
+        curProgress = 0;
+        this.invalidate();
+    }
+
+    /***********************************************************************************************
      * 设置节点分界线的宽度
      * @param width
      */
@@ -115,11 +125,15 @@ public class CustomVideoProgressBar extends View{
     @Override
     protected synchronized void onDraw(Canvas canvas) {
         if (isMeasured){
-            if (curProgress > maxProgress)
-                curProgress = maxProgress;
-
             //绘制背景色
             canvas.drawRect(bgRect, bgPaint);
+
+            //没有设置参数，直接返回
+            if (maxProgress == 0)
+                return;
+
+            if (curProgress > maxProgress)
+                curProgress = maxProgress;
 
             //----------绘制节点--------------------------
             int nodeProcess = 0;
