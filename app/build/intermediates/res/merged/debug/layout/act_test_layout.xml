@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:gravity="bottom">
 
-    <com.customview.CustomVideoProgressBar
+    <com.customview.CustomVideoProgressBar1
         android:id="@+id/progress_bar"
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="10dp"
         android:layout_gravity="bottom">
 
-    </com.customview.CustomVideoProgressBar>
+    </com.customview.CustomVideoProgressBar1>
 </LinearLayout>

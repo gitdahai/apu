@@ -42,8 +42,8 @@ com/uphealth/cn/ui/login/home/HealthAskActivity$2.class
 org/apache/http/client/methods/HttpUriRequest.class
 com/umeng/socialize/common/QueuedWork.class
 com/TestActivity.class
-com/sina/weibo/sdk/auth/Oauth2AccessToken.class
 org/wlf/filedownloader/listener/OnRenameDownloadFileListener$OnRenameDownloadFileFailReason.class
+com/sina/weibo/sdk/auth/Oauth2AccessToken.class
 com/uphealth/cn/ui/login/MyHealthRecordActivity$1.class
 com/uphealth/cn/ui/login/LoginActivity$16.class
 org/wlf/filedownloader/listener/OnFileDownloadStatusListener$OnFileDownloadStatusFailReason.class
@@ -198,7 +198,6 @@ android/support/v7/view/ActionMode$Callback.class
 org/apache/http/params/DefaultedHttpParams.class
 com/uphealth/cn/support/base/helper/photo/adapter/AlbumGridViewAdapter$IOnItemCameraClickListener.class
 com/uphealth/cn/ui/login/fragment/HtmlActivity.class
-com/customview/CustomVideoProgressBar.class
 org/apache/http/entity/BasicHttpEntity.class
 com/uphealth/cn/ui/login/photos/PhotosActivity$3.class
 com/uphealth/cn/R$anim.class
@@ -364,8 +363,8 @@ android/support/annotation/StringDef.class
 com/sina/weibo/sdk/net/WeiboParameters.class
 com/uphealth/cn/ui/login/TestBankActivity$5.class
 com/uphealth/cn/ui/login/TestTActivity.class
-org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.class
 org/apache/http/entity/mime/content/InputStreamBody.class
+org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.class
 com/uphealth/cn/utils/Utils.class
 com/uphealth/cn/ui/login/PersonActivity$10.class
 com/uphealth/cn/dialog/CustomDialog.class
@@ -460,13 +459,14 @@ com/uphealth/cn/ui/login/video/VideoNewActivity$7.class
 android/support/v4/media/RatingCompat$1.class
 android/support/v4/view/ViewCompat$JBViewCompatImpl.class
 com/google/gson/reflect/TypeToken.class
-org/apache/http/client/protocol/ResponseAuthCache.class
 org/apache/http/entity/InputStreamEntity.class
+org/apache/http/client/protocol/ResponseAuthCache.class
 com/uphealth/cn/dialog/WifiDialog$Builder.class
 org/apache/http/annotation/Immutable.class
 com/google/gson/annotations/SerializedName.class
 android/support/v4/media/MediaMetadataCompatApi21.class
 org/apache/http/params/HttpParams.class
+com/customview/CustomVideoProgressBar1.class
 com/umeng/socialize/UMShareAPI$a.class
 org/apache/http/client/methods/AbortableHttpRequest.class
 android/support/annotation/IntegerRes.class
@@ -660,8 +660,8 @@ com/uphealth/cn/ui/login/CityActivity$4.class
 com/uphealth/cn/ui/login/video/VideoActivity$1.class
 android/support/v4/media/session/PlaybackStateCompat$CustomAction.class
 org/apache/http/message/AbstractHttpMessage.class
-org/apache/http/impl/conn/SingleClientConnManager.class
 org/apache/http/entity/ByteArrayEntity.class
+org/apache/http/impl/conn/SingleClientConnManager.class
 android/support/annotation/WorkerThread.class
 com/umeng/socialize/media/UMImage.class
 android/support/annotation/FractionRes.class

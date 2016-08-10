@@ -75,7 +75,9 @@
         </activity>
 
         <!-- 测试 -->
-        <activity android:name="com.TestActivity" />
+        <activity
+            android:name="com.TestActivity"
+            android:screenOrientation="landscape" />
 
         <!-- 下载服务器 -->
         <service android:name="com.download.DownloadService" />

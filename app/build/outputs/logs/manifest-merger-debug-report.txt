@@ -68,7 +68,9 @@ ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:32:27-74
 activity#com.TestActivity
-ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:37:9-62
+ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:37:9-100
+	android:screenOrientation
+		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:37:51-88
 	android:name
 		ADDED from /Users/orson/android-workspace/Apu2/app/src/main/AndroidManifest.xml:37:19-50
 service#com.download.DownloadService

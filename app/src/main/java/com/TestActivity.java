@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.customview.CustomVideoProgressBar;
+import com.customview.CustomVideoProgressBar1;
 import com.download.FileDownloadManager;
 import com.download.ZipFileDownloadListener;
 import com.download.utils.FileUtils;
@@ -25,8 +25,8 @@ public class TestActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_test_layout);
 
-        testDownloadFile();
-        //textProgress();
+        //testDownloadFile();
+        textProgress();
     }
 
     private void testDownloadFile(){
@@ -60,7 +60,7 @@ public class TestActivity extends Activity {
 
 
     private void textProgress(){
-        final CustomVideoProgressBar progressBar = (CustomVideoProgressBar)findViewById(R.id.progress_bar);
+        final CustomVideoProgressBar1 progressBar = (CustomVideoProgressBar1)findViewById(R.id.progress_bar);
         List<Integer> nodes = new ArrayList<>();
         nodes.add(new Integer(42345));
         nodes.add(new Integer(68888));
