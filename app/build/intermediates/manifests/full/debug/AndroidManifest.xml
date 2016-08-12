@@ -63,21 +63,31 @@
             android:value="apu-share_yt" >
         </meta-data>
 
+        <!--
         <activity
             android:name="com.uphealth.cn.ui.login.LoadActivity"
-            android:label="@string/app_name"
-            android:windowSoftInputMode="adjustPan" >
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="adjustPan"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        -->
+
 
         <!-- 测试 -->
         <activity
             android:name="com.TestActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <!-- 下载服务器 -->
         <service android:name="com.download.DownloadService" />

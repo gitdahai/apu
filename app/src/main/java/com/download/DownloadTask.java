@@ -36,6 +36,7 @@ class DownloadTask{
     void download(){
         DownloadEvent event = new DownloadEvent(downloadUrl);
         event.setUpdate(isUpdate);
+
         event.setListener(new OnDownloadListener(){
             public void onDownloadStart(String downloadUrl, long downloadFileSize) {
                 if (listener != null)

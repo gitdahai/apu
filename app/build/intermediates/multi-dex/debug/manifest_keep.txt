@@ -2,7 +2,6 @@
     <init>();
     void attachBaseContext(android.content.Context);
 }
--keep class com.uphealth.cn.ui.login.LoadActivity { <init>(); }
 -keep class com.TestActivity { <init>(); }
 -keep class com.download.DownloadService { <init>(); }
 -keep class com.uphealth.cn.ui.login.PhoneBandActivity { <init>(); }

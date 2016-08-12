@@ -18,6 +18,8 @@ public class DownloadProccess{
     private boolean isUpdate;
     private OnDownloadListener downloadListener;
 
+    private boolean isDownloading;
+
     /**
      *
      * @param downloadUrl
@@ -36,7 +38,6 @@ public class DownloadProccess{
      * 进行下载操作
      */
     void toDownloading(){
-
         //清除掉不存在的“下载文件”，以便与可以重新下载
         String downloadDir = FileDownloader.getDownloadDir();
         String shortName = FileUtils.getFileShortName(downloadUrl);
@@ -56,22 +57,33 @@ public class DownloadProccess{
      */
     private OnDeleteDownloadFileListener deleteListener = new OnDeleteDownloadFileListener(){
         public void onDeleteDownloadFilePrepared(DownloadFileInfo downloadFileInfo) {
-            System.out.println("===onDeleteDownloadFilePrepared===  ");
+            //System.out.println("===onDeleteDownloadFilePrepared===  ");
         }
 
-
         public void onDeleteDownloadFileSuccess(DownloadFileInfo downloadFileInfo) {
-            System.out.println("===onDeleteDownloadFileSuccess===  ");
-            //开始下载
-            FileDownloader.registerDownloadStatusListener(downloadStatusListener);
-            FileDownloader.start(downloadUrl);
+            //System.out.println("===onDeleteDownloadFileSuccess===  ");
+            onDownload();
         }
 
         public void onDeleteDownloadFileFailed(DownloadFileInfo downloadFileInfo, DeleteDownloadFileFailReason deleteDownloadFileFailReason) {
-            System.out.println("===onDeleteDownloadFileSuccess===  ");
+            //System.out.println("===onDeleteDownloadFileSuccess===  ");
+            onDownload();
         }
     };
 
+
+    /*==============================================================================================
+     * //开始下载
+     */
+    private void onDownload(){
+        if (isDownloading)
+            return;
+
+        isDownloading = true;
+
+        FileDownloader.registerDownloadStatusListener(downloadStatusListener);
+        FileDownloader.start(downloadUrl);
+    }
 
     /*==============================================================================================
      * 文件下载监听器

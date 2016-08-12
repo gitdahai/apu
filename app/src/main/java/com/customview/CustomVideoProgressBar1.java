@@ -111,8 +111,6 @@ public class CustomVideoProgressBar1 extends View{
 
         for (Integer i : nodes)
             maxProgress += i;
-
-
     }
 
     /***********************************************************************************************
@@ -128,9 +126,6 @@ public class CustomVideoProgressBar1 extends View{
     @Override
     protected synchronized void onDraw(Canvas canvas) {
         if (isMeasured){
-            //绘制背景色
-            //canvas.drawRect(bgRect, bgPaint);
-
             //没有设置参数，直接返回
             if (maxProgress == 0)
                 return;
@@ -150,20 +145,6 @@ public class CustomVideoProgressBar1 extends View{
 
             if (curProgress > maxProgress)
                 curProgress = maxProgress;
-
-            //----------绘制节点--------------------------
-            /*int nodeProcess = 0;
-            int nodeWidth = 0;
-            float percentum = 0f;
-
-            for (int count=0; count<nodes.size() - 1; count++){
-                nodeProcess += nodes.get(count);
-                percentum = (float)nodeProcess / maxProgress;
-                nodeWidth = (int)(mWidth * percentum);
-
-                ndRect.set(nodeWidth - nodeRectWidth, 0, nodeWidth, mHeight);
-                canvas.drawRect(ndRect, ndPaint);
-            }*/
 
 
             //----------绘制前景色-------------------------
