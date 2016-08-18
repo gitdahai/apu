@@ -1,14 +1,5 @@
 package com.uphealth.cn.ui.login.skin;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -20,18 +11,22 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
+import com.customview.PullToRefreshView;
 import com.uphealth.cn.R;
 import com.uphealth.cn.adapter.SkinMoreAdapter;
-import com.uphealth.cn.bean.CommonBean;
 import com.uphealth.cn.data.Contants;
 import com.uphealth.cn.model.SkinModel;
 import com.uphealth.cn.ui.login.BaseActivity;
 import com.uphealth.cn.widget.MyListView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnFooterRefreshListener;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 更多阿噗的护肤
@@ -40,7 +35,7 @@ import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
 
  * @author jun.wang
  */
-public class SkinMoreActivity extends BaseActivity implements OnHeaderRefreshListener, OnFooterRefreshListener, OnClickListener {
+public class SkinMoreActivity extends BaseActivity implements PullToRefreshView.OnHeaderRefreshListener, PullToRefreshView.OnFooterRefreshListener, OnClickListener {
 	private PullToRefreshView pullToRefreshView ;
 	private MyListView listview ;
 	SkinMoreAdapter adapter ;

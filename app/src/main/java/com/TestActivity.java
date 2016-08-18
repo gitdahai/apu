@@ -4,16 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.customview.CircleProgressBar;
-import com.customview.CustomVideoProgressBar1;
+import com.ant.liao.GifView;
+import com.customview.PullToRefreshView;
 import com.download.FileDownloadManager;
 import com.download.ZipFileDownloadListener;
 import com.download.utils.FileUtils;
 import com.uphealth.cn.R;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by orson on 16/8/8.
@@ -161,6 +159,7 @@ import java.util.List;
 public class TestActivity extends Activity {
     private Handler mHandler;
     private int progress;
+    private GifView mGifView;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -168,7 +167,25 @@ public class TestActivity extends Activity {
 
         //testDownloadFile();
        //textProgress();
-        testCircleProgress();
+        //testCircleProgress();
+
+        //mGifView = (GifView)findViewById(R.id.gifview);
+        //mGifView.setGifImage(R.drawable.gif_refresh);
+        testPullToRefresh();
+    }
+
+
+    private void testPullToRefresh(){
+        PullToRefreshView listView = (PullToRefreshView)findViewById(R.id.list_view);
+        listView.setHeadGifImage(R.drawable.gif_refresh);
+
+        listView.setOnHeaderRefreshListener(new PullToRefreshView.OnHeaderRefreshListener(){
+            public void onHeaderRefresh(PullToRefreshView view) {
+
+            }
+        });
+
+
     }
 
     private void testDownloadFile(){
@@ -202,7 +219,7 @@ public class TestActivity extends Activity {
 
 
     private void textProgress(){
-        final CustomVideoProgressBar1 progressBar = (CustomVideoProgressBar1)findViewById(R.id.progress_bar);
+        /*final CustomVideoProgressBar1 progressBar = (CustomVideoProgressBar1)findViewById(R.id.progress_bar);
         List<Integer> nodes = new ArrayList<>();
         nodes.add(new Integer(42345));
         nodes.add(new Integer(68888));
@@ -225,12 +242,12 @@ public class TestActivity extends Activity {
 
                 progressBar.setProgress(progress);
             }
-        }, 500);
+        }, 500);*/
 
     }
 
     private void testCircleProgress(){
-        final int total = 10000;
+        /*final int total = 10000;
         final CircleProgressBar CircleProgressBar = (CircleProgressBar)findViewById(R.id.circle_progress);
         CircleProgressBar.setMaxProgress(total);
 
@@ -251,6 +268,6 @@ public class TestActivity extends Activity {
 
                 CircleProgressBar.setCurProgress(progress);
             }
-        }, 500);
+        }, 500);*/
     }
 }

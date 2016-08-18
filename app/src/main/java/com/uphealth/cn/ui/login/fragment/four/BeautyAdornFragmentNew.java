@@ -26,6 +26,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.customview.PullToRefreshView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.uphealth.cn.R;
@@ -50,9 +51,6 @@ import com.uphealth.cn.utils.Utils;
 import com.uphealth.cn.widget.MyGridView;
 import com.uphealth.cn.widget.MyListView;
 import com.uphealth.cn.widget.ProgressBarView1;
-import com.uphealth.cn.widget.refresh.PullToRefreshView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnFooterRefreshListener;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -71,10 +69,10 @@ import java.util.List;
  * @author jun.wang
  */
 @TargetApi(Build.VERSION_CODES.KITKAT)
-public class BeautyAdornFragmentNew extends Fragment implements OnClickListener, OnHeaderRefreshListener, OnFooterRefreshListener{
+public class BeautyAdornFragmentNew extends Fragment implements OnClickListener, PullToRefreshView.OnHeaderRefreshListener, PullToRefreshView.OnFooterRefreshListener {
 	
 	private View view ;
-	private PullToRefreshView pullToRefreshView ;	
+	private PullToRefreshView pullToRefreshView ;
 	protected RequestQueue requestQueue = null;
 	LoadImage loadImage ;
 	

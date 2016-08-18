@@ -31,6 +31,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.customview.PullToRefreshView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.uphealth.cn.R;
@@ -51,9 +52,6 @@ import com.uphealth.cn.widget.CircularImage;
 import com.uphealth.cn.widget.MyExpandablelistview;
 import com.uphealth.cn.widget.MyListView;
 import com.uphealth.cn.widget.ProgressBarView1;
-import com.uphealth.cn.widget.refresh.PullToRefreshView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnFooterRefreshListener;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -66,7 +64,7 @@ import java.util.List;
 
 @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
 @SuppressLint({ "InflateParams", "HandlerLeak", "RtlHardcoded" })
-public class HealthEatFragment extends Fragment implements OnClickListener, OnHeaderRefreshListener, OnFooterRefreshListener {
+public class HealthEatFragment extends Fragment implements OnClickListener, PullToRefreshView.OnHeaderRefreshListener, PullToRefreshView.OnFooterRefreshListener {
 	private View view ;
 	private MyListView eat_ListView ;
 	HealthAdapter adapter ;
@@ -75,7 +73,7 @@ public class HealthEatFragment extends Fragment implements OnClickListener, OnHe
 	LayoutInflater inflater ;
 	private TextView text_plan , up_plan ;
 	
-	private PullToRefreshView pullToRefreshView ;	
+	private PullToRefreshView pullToRefreshView ;
 	MyExpandablelistview expandablelistview ;
 	private MyExpandableListAdapter expandAdapter;
 	

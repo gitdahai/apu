@@ -1,35 +1,5 @@
 package com.uphealth.cn.ui.login.fragment.four;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.uphealth.cn.R;
-import com.uphealth.cn.adapter.CircleAdapter;
-import com.uphealth.cn.adapter.LifeStyleAdapter;
-import com.uphealth.cn.adapter.MainListAdapter;
-import com.uphealth.cn.data.Contants;
-import com.uphealth.cn.data.GlobalData;
-import com.uphealth.cn.data.HtmlUrl;
-import com.uphealth.cn.model.ArticleModel;
-import com.uphealth.cn.network.ErrorMsg;
-import com.uphealth.cn.ui.login.fragment.HtmlActivity;
-import com.uphealth.cn.widget.refresh.PullToRefreshView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnFooterRefreshListener;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -42,13 +12,38 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.customview.PullToRefreshView;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.uphealth.cn.R;
+import com.uphealth.cn.adapter.LifeStyleAdapter;
+import com.uphealth.cn.data.Contants;
+import com.uphealth.cn.data.GlobalData;
+import com.uphealth.cn.data.HtmlUrl;
+import com.uphealth.cn.model.ArticleModel;
+import com.uphealth.cn.ui.login.fragment.HtmlActivity;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
 /**
  * @description 生活方式 
  * @data 2016年5月27日
 
  * @author jun.wang
  */
-public class LifeStyleFragment extends Fragment implements OnHeaderRefreshListener, OnFooterRefreshListener {
+public class LifeStyleFragment extends Fragment implements PullToRefreshView.OnHeaderRefreshListener, PullToRefreshView.OnFooterRefreshListener {
 	private View view ;
 	private ListView listView ;
 	LifeStyleAdapter adapter ;

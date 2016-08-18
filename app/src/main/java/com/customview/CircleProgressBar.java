@@ -66,7 +66,7 @@ public class CircleProgressBar extends View {
         fgPaint.setStrokeCap(Paint.Cap.ROUND);
 
         // 一个材质,打造出一个线性梯度沿著一条线。
-        Shader mShader = new SweepGradient(mWidth >> 1, mHeight >> 1, new int[] {endColor, startColor}, null);
+        Shader mShader = new SweepGradient(mWidth >> 1, mHeight >> 1, new int[] {0xff71c5c3, 0xfff2d69e, 0xfff4e2b1, 0xffff6ad}, null);
         fgPaint.setShader(mShader);
     }
 

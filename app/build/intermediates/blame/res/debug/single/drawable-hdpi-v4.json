@@ -436,6 +436,10 @@
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable-hdpi/moren7.png"
     },
     {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/gif_refresh.gif",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable-hdpi/gif_refresh.gif"
+    },
+    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/tab_center_press.png",
         "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable-hdpi/tab_center_press.png"
     },

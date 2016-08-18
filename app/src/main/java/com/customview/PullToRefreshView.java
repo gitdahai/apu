@@ -1,4 +1,4 @@
-package com.uphealth.cn.widget.refresh;
+package com.customview;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,12 +10,10 @@ import android.view.ViewGroup;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
 import android.widget.AdapterView;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.ProgressBar;
 import android.widget.ScrollView;
-import android.widget.TextView;
 
+import com.ant.liao.GifView;
 import com.uphealth.cn.R;
 
 /**
@@ -70,23 +68,23 @@ public class PullToRefreshView extends LinearLayout {
 	/**
 	 * header view image
 	 */
-	private ImageView mHeaderImageView;
+	//private ImageView mHeaderImageView;
 	/**
 	 * footer view image
 	 */
-	private ImageView mFooterImageView;
+	//private ImageView mFooterImageView;
 	/**
 	 * header tip text
 	 */
-	private TextView mHeaderTextView;
+	//private TextView mHeaderTextView;
 	/**
 	 * footer tip text
 	 */
-	private TextView mFooterTextView;
+	//private TextView mFooterTextView;
 	/**
 	 * header refresh time
 	 */
-	private TextView mHeaderUpdateTextView;
+	//private TextView mHeaderUpdateTextView;
 	/**
 	 * footer refresh time
 	 */
@@ -94,11 +92,11 @@ public class PullToRefreshView extends LinearLayout {
 	/**
 	 * header progress bar
 	 */
-	private ProgressBar mHeaderProgressBar;
+	//private ProgressBar mHeaderProgressBar;
 	/**
 	 * footer progress bar
 	 */
-	private ProgressBar mFooterProgressBar;
+	//private ProgressBar mFooterProgressBar;
 	/**
 	 * layout inflater
 	 */
@@ -132,6 +130,9 @@ public class PullToRefreshView extends LinearLayout {
 	 */
 	private OnHeaderRefreshListener mOnHeaderRefreshListener;
 
+	private GifView mHeadGifView;
+	private GifView mFooterGifView;
+
 	/**
 	 * last update time
 	 */
@@ -149,8 +150,7 @@ public class PullToRefreshView extends LinearLayout {
 
 	/**
 	 * init
-	 * 
-	 * @param context
+	 *
 	 */
 	private void init() {
 		// 需要设置成vertical
@@ -179,20 +179,23 @@ public class PullToRefreshView extends LinearLayout {
 		// header view
 		mHeaderView = mInflater.inflate(R.layout.refresh_header, this, false);
 
-		mHeaderImageView = (ImageView) mHeaderView
-				.findViewById(R.id.pull_to_refresh_image);
-		mHeaderTextView = (TextView) mHeaderView
-				.findViewById(R.id.pull_to_refresh_text);
-		mHeaderUpdateTextView = (TextView) mHeaderView
-				.findViewById(R.id.pull_to_refresh_updated_at);
-		mHeaderProgressBar = (ProgressBar) mHeaderView
-				.findViewById(R.id.pull_to_refresh_progress);
+		//mHeaderImageView = (ImageView) mHeaderView.findViewById(R.id.pull_to_refresh_image);
+
+		//mHeaderTextView = (TextView) mHeaderView.findViewById(R.id.pull_to_refresh_text);
+
+		//mHeaderUpdateTextView = (TextView) mHeaderView.findViewById(R.id.pull_to_refresh_updated_at);
+
+		//mHeaderProgressBar = (ProgressBar) mHeaderView.findViewById(R.id.pull_to_refresh_progress);
+
+		//新增
+		mHeadGifView = (GifView)mHeaderView.findViewById(R.id.head_gifview);
+
 		// header layout
 		measureView(mHeaderView);
 
 		mHeaderViewHeight = mHeaderView.getMeasuredHeight();
-		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT,
-				mHeaderViewHeight);
+		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT, mHeaderViewHeight);
+
 		// 设置topMargin的值为负的header View高度,即将其隐藏在最上方
 		params.topMargin = -(mHeaderViewHeight);
 		// mHeaderView.setLayoutParams(params1);
@@ -203,12 +206,12 @@ public class PullToRefreshView extends LinearLayout {
 	private void addFooterView() {
 		// footer view
 		mFooterView = mInflater.inflate(R.layout.refresh_footer, this, false);
-		mFooterImageView = (ImageView) mFooterView
-				.findViewById(R.id.pull_to_load_image);
-		mFooterTextView = (TextView) mFooterView
-				.findViewById(R.id.pull_to_load_text);
-		mFooterProgressBar = (ProgressBar) mFooterView
-				.findViewById(R.id.pull_to_load_progress);
+		//mFooterImageView = (ImageView) mFooterView.findViewById(R.id.pull_to_load_image);
+		//mFooterTextView = (TextView) mFooterView.findViewById(R.id.pull_to_load_text);
+		//mFooterProgressBar = (ProgressBar) mFooterView.findViewById(R.id.pull_to_load_progress);
+
+		mFooterGifView = (GifView)mFooterView.findViewById(R.id.footer_gifview);
+
 		// footer layout
 		measureView(mFooterView);
 		mFooterViewHeight = mFooterView.getMeasuredHeight();
@@ -276,6 +279,14 @@ public class PullToRefreshView extends LinearLayout {
 					MeasureSpec.UNSPECIFIED);
 		}
 		child.measure(childWidthSpec, childHeightSpec);
+	}
+
+	/**
+	 * 设置头部gif图像
+	 * @param resId
+     */
+	public void setHeadGifImage(int resId){
+		mHeadGifView.setGifImage(resId);
 	}
 
 	@Override
@@ -429,20 +440,28 @@ public class PullToRefreshView extends LinearLayout {
 		int newTopMargin = changingHeaderViewTopMargin(deltaY);
 		// 当header view的topMargin>=0时，说明已经完全显示出来了,修改header view 的提示状态
 		if (newTopMargin >= 0 && mHeaderState != RELEASE_TO_REFRESH) {
-			mHeaderTextView.setText("松开后刷新");
+
+			/*mHeaderTextView.setText("松开后刷新");
 			mHeaderUpdateTextView.setVisibility(View.VISIBLE);
 			mHeaderTextView.setTextColor(getResources().getColor(R.color.text_main));
 			mHeaderImageView.clearAnimation();
-			mHeaderImageView.startAnimation(mFlipAnimation);
+			mHeaderImageView.startAnimation(mFlipAnimation);*/
+
+			mHeadGifView.setVisibility(View.VISIBLE);
+
 			mHeaderState = RELEASE_TO_REFRESH;
-		} else if (newTopMargin < 0 && newTopMargin > -mHeaderViewHeight) {// 拖动时没有释放
-			mHeaderImageView.clearAnimation();
+		}
+		else if (newTopMargin < 0 && newTopMargin > -mHeaderViewHeight) {// 拖动时没有释放
+			/*mHeaderImageView.clearAnimation();
 			mHeaderImageView.startAnimation(mFlipAnimation);
-			// mHeaderImageView.
 			mHeaderTextView.setText("下拉刷新");
-			mHeaderTextView.setTextColor(getResources().getColor(R.color.text_main));
+			mHeaderTextView.setTextColor(getResources().getColor(R.color.text_main));*/
+
+			mHeadGifView.setVisibility(View.VISIBLE);
+
 			mHeaderState = PULL_TO_REFRESH;
 		}
+
 	}
 
 	/**
@@ -458,16 +477,20 @@ public class PullToRefreshView extends LinearLayout {
 		// 说明footer view 完全显示出来了，修改footer view 的提示状态
 		if (Math.abs(newTopMargin) >= (mHeaderViewHeight + mFooterViewHeight)
 				&& mFooterState != RELEASE_TO_REFRESH) {
-			mFooterTextView.setText("松开后加载");
+			/*mFooterTextView.setText("松开后加载");
 			mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));
 			mFooterImageView.clearAnimation();
-			mFooterImageView.startAnimation(mFlipAnimation);
+			mFooterImageView.startAnimation(mFlipAnimation);*/
+
+			mFooterGifView.setVisibility(View.VISIBLE);
 			mFooterState = RELEASE_TO_REFRESH;
 		} else if (Math.abs(newTopMargin) < (mHeaderViewHeight + mFooterViewHeight)) {
-			mFooterImageView.clearAnimation();
+			/*mFooterImageView.clearAnimation();
 			mFooterImageView.startAnimation(mFlipAnimation);
 			mFooterTextView.setText("上拉加载更多");
-			mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));
+			mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));*/
+
+			mFooterGifView.setVisibility(View.VISIBLE);
 			mFooterState = PULL_TO_REFRESH;
 		}
 	}
@@ -504,12 +527,15 @@ public class PullToRefreshView extends LinearLayout {
 	private void headerRefreshing() {
 		mHeaderState = REFRESHING;
 		setHeaderTopMargin(0);
-		mHeaderImageView.setVisibility(View.GONE);
+		/*mHeaderImageView.setVisibility(View.GONE);
 		mHeaderImageView.clearAnimation();
 		mHeaderImageView.setImageDrawable(null);
 		mHeaderProgressBar.setVisibility(View.VISIBLE);
 		mHeaderTextView.setText("正在刷新...");
-		mHeaderTextView.setTextColor(getResources().getColor(R.color.text_main));
+		mHeaderTextView.setTextColor(getResources().getColor(R.color.text_main));*/
+
+		mHeadGifView.setVisibility(View.VISIBLE);
+
 		if (mOnHeaderRefreshListener != null) {
 			mOnHeaderRefreshListener.onHeaderRefresh(this);
 		}
@@ -523,12 +549,14 @@ public class PullToRefreshView extends LinearLayout {
 		mFooterState = REFRESHING;
 		int top = mHeaderViewHeight + mFooterViewHeight;
 		setHeaderTopMargin(-top);
-		mFooterImageView.setVisibility(View.GONE);
+		/*mFooterImageView.setVisibility(View.GONE);
 		mFooterImageView.clearAnimation();
 		mFooterImageView.setImageDrawable(null);
 		mFooterProgressBar.setVisibility(View.VISIBLE);
 		mFooterTextView.setText("加载中...");
-		mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));
+		mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));*/
+
+		mFooterGifView.setVisibility(View.VISIBLE);
 		if (mOnFooterRefreshListener != null) {
 			mOnFooterRefreshListener.onFooterRefresh(this);
 		}
@@ -553,11 +581,14 @@ public class PullToRefreshView extends LinearLayout {
 	 */
 	public void onHeaderRefreshComplete() {
 		setHeaderTopMargin(-mHeaderViewHeight);
-		mHeaderImageView.setVisibility(View.VISIBLE);
+		/*mHeaderImageView.setVisibility(View.VISIBLE);
 		mHeaderImageView.setImageResource(R.drawable.ic_pulltorefresh_arrow);
 		mHeaderTextView.setText("下拉刷新");
 		mHeaderTextView.setTextColor(getResources().getColor(R.color.text_main));
-		mHeaderProgressBar.setVisibility(View.GONE);
+		mHeaderProgressBar.setVisibility(View.GONE);*/
+
+		mHeadGifView.setVisibility(View.GONE);
+
 		// mHeaderUpdateTextView.setText("");
 		mHeaderState = PULL_TO_REFRESH;
 	}
@@ -578,12 +609,13 @@ public class PullToRefreshView extends LinearLayout {
 	 */
 	public void onFooterRefreshComplete() {
 		setHeaderTopMargin(-mHeaderViewHeight);
-		mFooterImageView.setVisibility(View.VISIBLE);
+		/*mFooterImageView.setVisibility(View.VISIBLE);
 		mFooterImageView.setImageResource(R.drawable.ic_pulltorefresh_arrow_up);
 		mFooterTextView.setText("上拉加载更多");
 		mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));
-		mFooterProgressBar.setVisibility(View.GONE);
-		// mHeaderUpdateTextView.setText("");
+		mFooterProgressBar.setVisibility(View.GONE);*/
+		
+		mFooterGifView.setVisibility(View.GONE);
 		mFooterState = PULL_TO_REFRESH;
 	}
 
@@ -594,13 +626,13 @@ public class PullToRefreshView extends LinearLayout {
 	 *            Last updated at.
 	 */
 	public void setLastUpdated(CharSequence lastUpdated) {
-		if (lastUpdated != null) {
+		/*if (lastUpdated != null) {
 			mHeaderUpdateTextView.setVisibility(View.VISIBLE);
 			mHeaderUpdateTextView.setText(lastUpdated);
 			mHeaderUpdateTextView.setTextColor(getResources().getColor(R.color.text_main));
 		} else {
 			mHeaderUpdateTextView.setVisibility(View.GONE);
-		}
+		}*/
 	}
 
 	/**

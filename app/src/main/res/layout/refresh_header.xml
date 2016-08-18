@@ -24,7 +24,14 @@
     android:paddingBottom="15dip"
     android:paddingTop="10dip" >
 
-    <ProgressBar
+    <com.ant.liao.GifView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/head_gifview">
+
+    </com.ant.liao.GifView>
+
+    <!--<ProgressBar
         android:id="@+id/pull_to_refresh_progress"
         style="?android:attr/progressBarStyleSmall"
         android:layout_width="wrap_content"
@@ -65,6 +72,6 @@
         android:gravity="center"
         android:text="更新于：07-28 15:32"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:visibility="gone" />
+        android:visibility="gone" />-->
 
 </RelativeLayout>

@@ -1,13 +1,28 @@
 package com.uphealth.cn.ui.login.fragment;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.support.v4.app.Fragment;
+import android.text.TextUtils;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.AbsListView;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.BaseExpandableListAdapter;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -15,6 +30,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.customview.PullToRefreshView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.uphealth.cn.R;
@@ -35,20 +51,11 @@ import com.uphealth.cn.loadimage.LoadImage;
 import com.uphealth.cn.model.ArticleModel;
 import com.uphealth.cn.model.FoodPlanItemModel;
 import com.uphealth.cn.model.FoodPlanModel;
-import com.uphealth.cn.model.LoginModel;
 import com.uphealth.cn.model.SkinModel;
 import com.uphealth.cn.model.SportPlanModel;
-import com.uphealth.cn.network.ErrorMsg;
 import com.uphealth.cn.ui.login.HealthInfoSetting;
-import com.uphealth.cn.ui.login.LoginActivity;
-import com.uphealth.cn.ui.login.PersonActivity;
-import com.uphealth.cn.ui.login.center.ActivitySetting;
-import com.uphealth.cn.ui.login.eat.BreakfastRankingActivity;
 import com.uphealth.cn.ui.login.eat.PhotoThumbActivity;
-import com.uphealth.cn.ui.login.fragment.four.HealthEatFragment.MyExpandableListAdapter;
-import com.uphealth.cn.ui.login.health.CommentActivity;
 import com.uphealth.cn.ui.login.health.WeightActivity;
-import com.uphealth.cn.ui.login.home.MainActivity;
 import com.uphealth.cn.ui.login.home.MainTwoActivity;
 import com.uphealth.cn.utils.Utils;
 import com.uphealth.cn.widget.CircularImage;
@@ -58,37 +65,15 @@ import com.uphealth.cn.widget.MyGallery;
 import com.uphealth.cn.widget.MyGridView;
 import com.uphealth.cn.widget.MyListView;
 import com.uphealth.cn.widget.ObservableScrollView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnFooterRefreshListener;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.support.v4.app.Fragment;
-import android.text.TextUtils;
-import android.view.Gravity;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.view.View.OnTouchListener;
-import android.view.ViewGroup;
-import android.view.animation.AnimationUtils;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AbsListView;
-import android.widget.BaseExpandableListAdapter;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.ScrollView;
-import android.widget.TextView;
-import android.widget.Toast;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
 /**
  * @description 发现主界面 
  * @data 2016年5月14日
@@ -96,7 +81,7 @@ import android.widget.Toast;
  * @author jun.wang
  */
 @SuppressLint({ "ClickableViewAccessibility", "ShowToast" })
-public class FindFragment extends Fragment implements OnClickListener, ScrollViewListener, OnHeaderRefreshListener, OnFooterRefreshListener {
+public class FindFragment extends Fragment implements OnClickListener, ScrollViewListener, PullToRefreshView.OnHeaderRefreshListener, PullToRefreshView.OnFooterRefreshListener {
 	private View view ;
 	private MyGallery gallery ;
 	CircleAdapter adapter ;
@@ -627,7 +612,7 @@ public class FindFragment extends Fragment implements OnClickListener, ScrollVie
 				pullToRefreshView.onFooterRefreshComplete();
 //				gridViewData.add(R.drawable.pic1);
 //				myAdapter.setGridViewData(gridViewData);
-				Toast.makeText(getActivity(), "加载更多数据!", 0).show();
+				Toast.makeText(getActivity(), "加载更多数据!", Toast.LENGTH_LONG).show();
 			}
 
 		}, 3000);
@@ -642,7 +627,7 @@ public class FindFragment extends Fragment implements OnClickListener, ScrollVie
 						+ Calendar.getInstance().getTime().toLocaleString());
 				pullToRefreshView.onHeaderRefreshComplete();
 
-				Toast.makeText(getActivity(), "数据刷新完成!", 0).show();
+				Toast.makeText(getActivity(), "数据刷新完成!", Toast.LENGTH_LONG).show();
 			}
 
 		}, 3000);

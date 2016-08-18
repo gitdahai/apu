@@ -16,30 +16,30 @@ import android.view.View;
 @SuppressLint("ClickableViewAccessibility")
 public class ProgressBarView2 extends View {
 
-	/**     * ½ø¶ÈÌõËùÕ¼ÓÃµÄ½Ç¶È     */
+	/**     * è¿›åº¦æ¡æ‰€å ç”¨çš„è§’åº¦     */
 	private static final int ARC_FULL_DEGREE = 300;
-	/**     * »¡ÏßµÄ¿í¶È     */
+	/**     * å¼§çº¿çš„å®½åº¦     */
 	private static final int STROKE_WIDTH = 16;
-	/**     * ×é¼þµÄ¿í£¬¸ß     */
+	/**     * ç»„ä»¶çš„å®½ï¼Œé«˜     */
 	private int width, height ;
-	/**     * ½ø¶ÈÌõ×î´óÖµºÍµ±Ç°½ø¶ÈÖµ     */
+	/**     * è¿›åº¦æ¡æœ€å¤§å€¼å’Œå½“å‰è¿›åº¦å€¼     */
 	private float max = 360;
 
 	private float progress = 160 ;
 
-	/**     * ÊÇ·ñÔÊÐíÍÏ¶¯½ø¶ÈÌõ     */
+	/**     * æ˜¯å¦å…è®¸æ‹–åŠ¨è¿›åº¦æ¡     */
 	private boolean draggingEnabled = false;
-	/**     * »æÖÆ»¡ÏßµÄ¾ØÐÎÇøÓò     */
+	/**     * ç»˜åˆ¶å¼§çº¿çš„çŸ©å½¢åŒºåŸŸ     */
 	private RectF circleRectF;
-	/**     * »æÖÆ»¡ÏßµÄ»­±Ê     */
+	/**     * ç»˜åˆ¶å¼§çº¿çš„ç”»ç¬”     */
 	private Paint progressPaint;
-	/**     * »æÖÆÎÄ×ÖµÄ»­±Ê     */
+	/**     * ç»˜åˆ¶æ–‡å­—çš„ç”»ç¬”     */
 	private Paint textPaint;
-	/**     * »æÖÆµ±Ç°½ø¶ÈÖµµÄ»­±Ê     */
+	/**     * ç»˜åˆ¶å½“å‰è¿›åº¦å€¼çš„ç”»ç¬”     */
 	private Paint thumbPaint;
-	/**     * Ô²»¡µÄ°ë¾¶     */
+	/**     * åœ†å¼§çš„åŠå¾„     */
 	private int circleRadius;
-	/**     * Ô²»¡Ô²ÐÄÎ»ÖÃ     */
+	/**     * åœ†å¼§åœ†å¿ƒä½ç½®     */
 	private int centerX, centerY;
 	private Typeface digitalFont, defaultFont;
 	public ProgressBarView2(Context context) {
@@ -61,23 +61,23 @@ public class ProgressBarView2 extends View {
 		progressPaint = new Paint();        
 		progressPaint.setAntiAlias(true);      
 		progressPaint.setStrokeWidth(STROKE_WIDTH);   
-		progressPaint.setStyle(Paint.Style.STROKE); //ÉèÖÃ¿ÕÐÄ        
+		progressPaint.setStyle(Paint.Style.STROKE); //è®¾ç½®ç©ºå¿ƒ        
 		textPaint = new Paint();       
 		textPaint.setColor(Color.WHITE);        
 		textPaint.setAntiAlias(true);        
 		thumbPaint = new Paint();        
 		thumbPaint.setAntiAlias(true);        
-//		//Ê¹ÓÃ×Ô¶¨Òå×ÖÌå        
+//		//ä½¿ç”¨è‡ªå®šä¹‰å­—ä½“        
 //		digitalFont = Typeface.createFromAsset(getContext().getAssets(), "digital-7.ttf");
 //		defaultFont = textPaint.getTypeface();   
 
 		width = 300;          
 		height = 300;       
-		//¼ÆËãÔ²»¡°ë¾¶ºÍÔ²ÐÄµã       
+		//è®¡ç®—åœ†å¼§åŠå¾„å’Œåœ†å¿ƒç‚¹       
 		circleRadius = (Math.min(width, height) - STROKE_WIDTH * 5) / 2;     
 		centerX = width / 2;          
 		centerY = height / 2;        
-		//Ô²»¡ËùÔÚ¾ØÐÎÇøÓò         
+		//åœ†å¼§æ‰€åœ¨çŸ©å½¢åŒºåŸŸ         
 		circleRectF = new RectF();       
 		circleRectF.left = centerX - circleRadius;     
 		circleRectF.top = centerY - circleRadius;        
@@ -92,11 +92,11 @@ public class ProgressBarView2 extends View {
 //	    	if (width == 0 || height == 0) {            
 //	    		width = getWidth();          
 //	    		height = getHeight();       
-//	    		//¼ÆËãÔ²»¡°ë¾¶ºÍÔ²ÐÄµã       
+//	    		//è®¡ç®—åœ†å¼§åŠå¾„å’Œåœ†å¿ƒç‚¹       
 //	    		circleRadius = (Math.min(width, height) - STROKE_WIDTH * 5) / 2;     
 //	    		centerX = width / 2;          
 //	    		centerY = height / 2;        
-//	    		//Ô²»¡ËùÔÚ¾ØÐÎÇøÓò         
+//	    		//åœ†å¼§æ‰€åœ¨çŸ©å½¢åŒºåŸŸ         
 //	    		circleRectF = new RectF();       
 //	    		circleRectF.left = centerX - circleRadius;     
 //	    		circleRectF.top = centerY - circleRadius;        
@@ -114,48 +114,48 @@ public class ProgressBarView2 extends View {
 
 		System.out.println("HealthEatFragment"+"onDraw");
 		float start = 90 + ((360 - ARC_FULL_DEGREE) >> 1);
-		//½ø¶ÈÌõÆðÊ¼µã
+		//è¿›åº¦æ¡èµ·å§‹ç‚¹
 		float sweep1 = ARC_FULL_DEGREE * (progress / max);
-		//½ø¶È»®¹ýµÄ½Ç¶È
+		//è¿›åº¦åˆ’è¿‡çš„è§’åº¦
 		float sweep2 = ARC_FULL_DEGREE - sweep1;
-		//Ê£ÓàµÄ½Ç¶È        //»æÖÆÆðÊ¼Î»ÖÃÐ¡Ô²ÐÎ
+		//å‰©ä½™çš„è§’åº¦        //ç»˜åˆ¶èµ·å§‹ä½ç½®å°åœ†å½¢
 		progressPaint.setColor(Color.parseColor("#65cfcf"));
 		float radians = (float) (((360.0f - ARC_FULL_DEGREE) / 2) / 180 * Math.PI);
 		float startX = centerX - circleRadius * (float) Math.sin(radians);
 		float startY = centerY + circleRadius * (float) Math.cos(radians);
 		canvas.drawCircle(startX, startY, 0.1f, progressPaint);
-		//»æÖÆ½ø¶ÈÌõ
+		//ç»˜åˆ¶è¿›åº¦æ¡
 		canvas.drawArc(circleRectF, start, sweep1, false, progressPaint);
-		//»æÖÆ½ø¶ÈÌõ±³¾°
+		//ç»˜åˆ¶è¿›åº¦æ¡èƒŒæ™¯
 		progressPaint.setColor(Color.parseColor("#45505c"));
 		canvas.drawArc(circleRectF, start + sweep1, sweep2, false, progressPaint);
-		//»æÖÆ½áÊøÎ»ÖÃÐ¡Ô²ÐÎ
+		//ç»˜åˆ¶ç»“æŸä½ç½®å°åœ†å½¢
 		float endX = centerX + circleRadius * (float) Math.sin(radians);
 		float endY = centerY + circleRadius * (float) Math.cos(radians);
 		canvas.drawCircle(endX, endY, 0.1f, progressPaint);
-		//ÉÏÒ»ÐÐÎÄ×Ö
+		//ä¸Šä¸€è¡Œæ–‡å­—
 //	        	textPaint.setTypeface(digitalFont);       
 		textPaint.setTextSize(20);
 		String text = (int) (100 * progress / max) + "";
 		float textLen = textPaint.measureText(text);
-		//¼ÆËãÎÄ×Ö¸ß¶È
+		//è®¡ç®—æ–‡å­—é«˜åº¦
 		textPaint.getTextBounds(text, 0, text.length(), textBounds);
 		float h1 = textBounds.height();
-		//% Ç°ÃæµÄÊý×ÖË®Æ½¾ÓÖÐ£¬ÊÊµ±µ÷Õû
+		//% å‰é¢çš„æ•°å­—æ°´å¹³å±…ä¸­ï¼Œé€‚å½“è°ƒæ•´
 		float extra = text.startsWith("1") ? -textPaint.measureText("1") / 2 : 0;
 		canvas.drawText(text, centerX - textLen / 2 + extra, centerY - 30 + h1 / 2, textPaint);
-		//°Ù·ÖºÅ
+		//ç™¾åˆ†å·
 		textPaint.setTextSize(20);
 		canvas.drawText("%", centerX + textLen / 2 + extra + 5, centerY - 30 + h1 / 2, textPaint);
-		//ÏÂÒ»ÐÐÎÄ×Ö
+		//ä¸‹ä¸€è¡Œæ–‡å­—
 //	        	textPaint.setTypeface(defaultFont);    
 		textPaint.setTextSize(20);
-//	        	text = "¿ÉÓÃÄÚ´æ³ä×ã";    
+//	        	text = "å¯ç”¨å†…å­˜å……è¶³";    
 		textLen = textPaint.measureText(text);
 		textPaint.getTextBounds(text, 0, text.length(), textBounds);
 		float h2 = textBounds.height();
 		canvas.drawText(text, centerX - textLen / 2, centerY + h1 / 2 + h2, textPaint);
-		//»æÖÆ½ø¶ÈÎ»ÖÃ£¬Ò²¿ÉÒÔÖ±½ÓÌæ»»³ÉÒ»ÕÅÍ¼Æ¬
+		//ç»˜åˆ¶è¿›åº¦ä½ç½®ï¼Œä¹Ÿå¯ä»¥ç›´æŽ¥æ›¿æ¢æˆä¸€å¼ å›¾ç‰‡
 		float progressRadians = (float) (((360.0f - ARC_FULL_DEGREE) / 2 + sweep1) / 180 * Math.PI);
 		float thumbX = centerX - circleRadius * (float) Math.sin(progressRadians);
 		float thumbY = centerY + circleRadius * (float) Math.cos(progressRadians);
@@ -174,14 +174,14 @@ public class ProgressBarView2 extends View {
 		if (!draggingEnabled) {
 			return super.onTouchEvent(event);
 		}
-		//´¦ÀíÍÏ¶¯ÊÂ¼þ
+		//å¤„ç†æ‹–åŠ¨äº‹ä»¶
 		float currentX = event.getX();
 		float currentY = event.getY();
 		int action = event.getAction();
 
 		switch (action) {
 			case MotionEvent.ACTION_DOWN:
-				//ÅÐ¶ÏÊÇ·ñÔÚ½ø¶ÈÌõthumbÎ»ÖÃ
+				//åˆ¤æ–­æ˜¯å¦åœ¨è¿›åº¦æ¡thumbä½ç½®
 				if (checkOnArc(currentX, currentY)) {
 					float newProgress = calDegreeByPosition(currentX, currentY) / ARC_FULL_DEGREE * max;
 					setProgressSync(newProgress);
@@ -191,7 +191,7 @@ public class ProgressBarView2 extends View {
 
 			case MotionEvent.ACTION_MOVE:
 				if (isDragging) {
-					//ÅÐ¶ÏÍÏ¶¯Ê±ÊÇ·ñÒÆ³öÈ¥ÁË
+					//åˆ¤æ–­æ‹–åŠ¨æ—¶æ˜¯å¦ç§»å‡ºåŽ»äº†
 					if (checkOnArc(currentX, currentY))
 						setProgressSync(calDegreeByPosition(currentX, currentY) / ARC_FULL_DEGREE * max);
 					else
@@ -210,7 +210,7 @@ public class ProgressBarView2 extends View {
 		return (float) Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
 	}
 
-	/**     * ÅÐ¶Ï¸ÃµãÊÇ·ñÔÚ»¡ÏßÉÏ£¨¸½½ü£©     */
+	/**     * åˆ¤æ–­è¯¥ç‚¹æ˜¯å¦åœ¨å¼§çº¿ä¸Šï¼ˆé™„è¿‘ï¼‰     */
 	private boolean checkOnArc(float currentX, float currentY) {
 		float distance = calDistance(currentX, currentY, centerX, centerY);
 		float degree = calDegreeByPosition(currentX, currentY);
@@ -218,7 +218,7 @@ public class ProgressBarView2 extends View {
 				&& (degree >= -8 && degree <= ARC_FULL_DEGREE + 8);
 	}
 
-	/**     * ¸ù¾Ýµ±Ç°Î»ÖÃ£¬¼ÆËã³ö½ø¶ÈÌõÒÑ¾­×ª¹ýµÄ½Ç¶È¡£     */
+	/**     * æ ¹æ®å½“å‰ä½ç½®ï¼Œè®¡ç®—å‡ºè¿›åº¦æ¡å·²ç»è½¬è¿‡çš„è§’åº¦ã€‚     */
 	private float calDegreeByPosition(float currentX, float currentY) {
 		float a1 = (float) (Math.atan(1.0f * (centerX - currentX) / (currentY - centerY)) / Math.PI * 180);
 
@@ -248,7 +248,7 @@ public class ProgressBarView2 extends View {
 	  invalidate();
 	}
 
-	 //±£Ö¤progressµÄÖµÎ»ÓÚ[0,max]
+	 //ä¿è¯progressçš„å€¼ä½äºŽ[0,max]
 	private float checkProgress(float progress) {
 	  if (progress < 0) {
 		  return 0;

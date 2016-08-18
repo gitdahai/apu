@@ -1,45 +1,5 @@
 package com.uphealth.cn.ui.login.fragment.four;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.uphealth.cn.R;
-import com.uphealth.cn.adapter.MainListAdapter;
-import com.uphealth.cn.adapter.SportAdapter;
-import com.uphealth.cn.adapter.SportAdapterTwo;
-import com.uphealth.cn.data.Contants;
-import com.uphealth.cn.data.GlobalData;
-import com.uphealth.cn.data.HtmlUrl;
-import com.uphealth.cn.loadimage.LoadImage;
-import com.uphealth.cn.model.ArticleModel;
-import com.uphealth.cn.model.LoginModel;
-import com.uphealth.cn.model.SceneModel;
-import com.uphealth.cn.model.SportPlanModel;
-import com.uphealth.cn.network.ErrorMsg;
-import com.uphealth.cn.ui.login.LoginActivity;
-import com.uphealth.cn.ui.login.PersonActivity;
-import com.uphealth.cn.ui.login.fragment.HtmlActivity;
-import com.uphealth.cn.ui.login.home.MainActivity;
-import com.uphealth.cn.utils.Utils;
-import com.uphealth.cn.widget.MyListView;
-import com.uphealth.cn.widget.ProgressBarView1;
-import com.uphealth.cn.widget.refresh.PullToRefreshView;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnFooterRefreshListener;
-import com.uphealth.cn.widget.refresh.PullToRefreshView.OnHeaderRefreshListener;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
@@ -51,12 +11,42 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.customview.PullToRefreshView;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+import com.uphealth.cn.R;
+import com.uphealth.cn.adapter.MainListAdapter;
+import com.uphealth.cn.adapter.SportAdapterTwo;
+import com.uphealth.cn.data.Contants;
+import com.uphealth.cn.data.GlobalData;
+import com.uphealth.cn.data.HtmlUrl;
+import com.uphealth.cn.loadimage.LoadImage;
+import com.uphealth.cn.model.ArticleModel;
+import com.uphealth.cn.model.SceneModel;
+import com.uphealth.cn.model.SportPlanModel;
+import com.uphealth.cn.ui.login.fragment.HtmlActivity;
+import com.uphealth.cn.utils.Utils;
+import com.uphealth.cn.widget.MyListView;
+import com.uphealth.cn.widget.ProgressBarView1;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
 
 /**
  * @description 运动界面
@@ -64,13 +54,13 @@ import android.widget.AdapterView.OnItemClickListener;
 
  * @author jun.wang
  */
-public class SportFragment extends Fragment implements OnClickListener, OnHeaderRefreshListener, OnFooterRefreshListener {
+public class SportFragment extends Fragment implements OnClickListener, PullToRefreshView.OnHeaderRefreshListener, PullToRefreshView.OnFooterRefreshListener {
 	private View view ;
 	private View bottomView ;
 	private MyListView listView ;
 	SportAdapterTwo adapter ; 
 	LayoutInflater inflater ;
-	private PullToRefreshView pullToRefreshView ;	
+	private PullToRefreshView pullToRefreshView ;
 	
 	protected RequestQueue requestQueue = null;
 	private List<SportPlanModel> lists = new ArrayList<>() ; 

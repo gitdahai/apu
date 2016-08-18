@@ -188,12 +188,12 @@
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/leaf_03.png",
-        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable-xxhdpi/leaf_03.png"
-    },
-    {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "/Users/orson/android-workspace/Apu2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/leaf_03.png",
+        "source": "/Users/orson/android-workspace/Apu2/app/src/main/res/drawable-xxhdpi/leaf_03.png"
     },
     {
         "merged": "/Users/orson/android-workspace/Apu2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/beauty_02.png",

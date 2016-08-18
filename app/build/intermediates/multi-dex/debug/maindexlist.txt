@@ -78,6 +78,7 @@ com/uphealth/cn/ui/login/TestBankActivity$2.class
 com/uphealth/cn/ui/login/center/MyInfoActivity.class
 android/support/v7/widget/LinearLayoutCompat$OrientationMode.class
 com/uphealth/cn/ui/login/photos/ImageItem.class
+com/customview/PullToRefreshView$OnHeaderRefreshListener.class
 com/uphealth/cn/ui/login/center/MyCollectActivity$4.class
 android/support/v4/app/FragmentActivity.class
 android/support/v4/media/session/MediaSessionCompat$1.class
@@ -157,7 +158,6 @@ com/uphealth/cn/ui/login/eat/MyAddressActivity$4.class
 android/support/v4/view/animation/FastOutSlowInInterpolator.class
 android/support/v4/widget/SlidingPaneLayout.class
 com/uphealth/cn/ui/login/PersonActivity$9.class
-com/uphealth/cn/widget/refresh/PullToRefreshView$OnFooterRefreshListener.class
 com/uphealth/cn/ui/login/home/MainActivity.class
 com/uphealth/cn/bean/ThirdBean.class
 android/support/v4/media/MediaMetadataCompat$TextKey.class
@@ -337,6 +337,7 @@ android/support/annotation/DrawableRes.class
 org/apache/http/impl/client/DefaultProxyAuthenticationHandler.class
 android/support/v4/media/RatingCompatApi21.class
 com/uphealth/cn/ui/login/home/HealthAskActivity$6.class
+com/customview/PullToRefreshView$OnFooterRefreshListener.class
 android/support/v4/media/MediaMetadataCompat$BitmapKey.class
 com/umeng/socialize/utils/ContextUtil.class
 com/uphealth/cn/ui/login/center/MyInfoActivity$5.class
@@ -362,8 +363,8 @@ android/support/annotation/StringDef.class
 com/sina/weibo/sdk/net/WeiboParameters.class
 com/uphealth/cn/ui/login/TestBankActivity$5.class
 com/uphealth/cn/ui/login/TestTActivity.class
-org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.class
 org/apache/http/entity/mime/content/InputStreamBody.class
+org/apache/http/impl/conn/tsccm/ThreadSafeClientConnManager.class
 com/uphealth/cn/utils/Utils.class
 com/uphealth/cn/ui/login/PersonActivity$10.class
 com/uphealth/cn/dialog/CustomDialog.class
@@ -398,7 +399,6 @@ com/uphealth/cn/ui/login/health/ChatActivity$3.class
 com/uphealth/cn/R$layout.class
 android/support/v4/view/ViewCompat$JbMr1ViewCompatImpl.class
 org/apache/http/protocol/UriPatternMatcher.class
-com/TestActivity$3.class
 com/uphealth/cn/ui/login/LoginActivity$5.class
 com/uphealth/cn/ui/login/center/MyCollectActivity.class
 com/uphealth/cn/bean/PhysiqueBean.class
@@ -434,6 +434,7 @@ org/wlf/filedownloader/DownloadFileInfo.class
 android/support/annotation/AnimatorRes.class
 com/uphealth/cn/dialog/VideoDialog$Builder.class
 android/support/v7/app/ActionBar$Tab.class
+com/customview/PullToRefreshView.class
 com/uphealth/cn/ui/login/video/VideoNewThreeActivity$3.class
 com/uphealth/cn/ui/login/health/ChatMsgViewAdapter.class
 com/android/volley/VolleyLog.class
@@ -459,7 +460,6 @@ com/uphealth/cn/ui/login/video/VideoNewActivity$7.class
 android/support/v4/media/RatingCompat$1.class
 android/support/v4/view/ViewCompat$JBViewCompatImpl.class
 com/google/gson/reflect/TypeToken.class
-com/customview/CircleProgressBar.class
 org/apache/http/client/protocol/ResponseAuthCache.class
 org/apache/http/entity/InputStreamEntity.class
 com/uphealth/cn/dialog/WifiDialog$Builder.class
@@ -467,7 +467,6 @@ org/apache/http/annotation/Immutable.class
 com/google/gson/annotations/SerializedName.class
 android/support/v4/media/MediaMetadataCompatApi21.class
 org/apache/http/params/HttpParams.class
-com/customview/CustomVideoProgressBar1.class
 com/umeng/socialize/UMShareAPI$a.class
 org/apache/http/client/methods/AbortableHttpRequest.class
 android/support/annotation/IntegerRes.class
@@ -517,7 +516,6 @@ org/apache/http/annotation/GuardedBy.class
 com/uphealth/cn/ui/login/skin/SkinBeforeActivity$5.class
 org/wlf/filedownloader/listener/OnMoveDownloadFileListener$OnMoveDownloadFileFailReason.class
 com/uphealth/cn/ui/login/HealthInfoSetting.class
-com/uphealth/cn/widget/refresh/PullToRefreshView$OnHeaderRefreshListener.class
 com/umeng/socialize/handler/UMSSOHandler.class
 com/uphealth/cn/ui/login/health/WeightActivity$2.class
 android/support/v7/app/ActionBar$NavigationMode.class
@@ -684,7 +682,6 @@ org/apache/http/client/utils/URIUtils.class
 com/uphealth/cn/ui/login/center/HelpAndOpinionActivity.class
 android/support/annotation/UiThread.class
 com/uphealth/cn/ui/login/eat/FoodAddActivity$6.class
-com/uphealth/cn/widget/refresh/PullToRefreshView.class
 com/uphealth/cn/ui/login/LoginActivity$13.class
 com/uphealth/cn/ui/login/eat/UpFoodMenuActivity.class
 com/uphealth/cn/model/CommonModel.class
