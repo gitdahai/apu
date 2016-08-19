@@ -175,6 +175,14 @@ public class PullToRefreshView extends LinearLayout {
 		addHeaderView();
 	}
 
+	private void initHeaderAndfooterView(){
+		mHeaderView = mInflater.inflate(R.layout.refresh_header, this, false);
+		mHeadGifView = (GifView)mHeaderView.findViewById(R.id.head_gifview);
+		mFooterView = mInflater.inflate(R.layout.refresh_footer, this, false);
+		mHeadGifView = (GifView)mHeaderView.findViewById(R.id.head_gifview);
+	}
+
+
 	private void addHeaderView() {
 		// header view
 		mHeaderView = mInflater.inflate(R.layout.refresh_header, this, false);
@@ -189,6 +197,7 @@ public class PullToRefreshView extends LinearLayout {
 
 		//新增
 		mHeadGifView = (GifView)mHeaderView.findViewById(R.id.head_gifview);
+		mHeadGifView.setGifImage(R.drawable.gif_list_header);
 
 		// header layout
 		measureView(mHeaderView);
@@ -211,12 +220,13 @@ public class PullToRefreshView extends LinearLayout {
 		//mFooterProgressBar = (ProgressBar) mFooterView.findViewById(R.id.pull_to_load_progress);
 
 		mFooterGifView = (GifView)mFooterView.findViewById(R.id.footer_gifview);
+		mFooterGifView.setGifImage(R.drawable.gif_list_footer);
 
 		// footer layout
 		measureView(mFooterView);
 		mFooterViewHeight = mFooterView.getMeasuredHeight();
-		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT,
-				mFooterViewHeight);
+		LayoutParams params = new LayoutParams(LayoutParams.MATCH_PARENT,mFooterViewHeight);
+
 		// int top = getHeight();
 		// params.topMargin
 		// =getHeight();//在这里getHeight()==0,但在onInterceptTouchEvent()方法里getHeight()已经有值了,不再是0;
@@ -287,6 +297,14 @@ public class PullToRefreshView extends LinearLayout {
      */
 	public void setHeadGifImage(int resId){
 		mHeadGifView.setGifImage(resId);
+	}
+
+	/**
+	 * 设置页脚gif动画资源
+	 * @param resId
+     */
+	public void setmFooterGifImage(int resId){
+		mFooterGifView.setGifImage(resId);
 	}
 
 	@Override
@@ -614,7 +632,7 @@ public class PullToRefreshView extends LinearLayout {
 		mFooterTextView.setText("上拉加载更多");
 		mFooterTextView.setTextColor(getResources().getColor(R.color.text_main));
 		mFooterProgressBar.setVisibility(View.GONE);*/
-		
+
 		mFooterGifView.setVisibility(View.GONE);
 		mFooterState = PULL_TO_REFRESH;
 	}

@@ -176,16 +176,36 @@ public class TestActivity extends Activity {
 
 
     private void testPullToRefresh(){
-        PullToRefreshView listView = (PullToRefreshView)findViewById(R.id.list_view);
-        listView.setHeadGifImage(R.drawable.gif_refresh);
+        final PullToRefreshView listView = (PullToRefreshView)findViewById(R.id.list_view);
+        //listView.setHeadGifImage(R.drawable.gif_refresh);
+        //listView.setmFooterGifImage(R.drawable.gif_list_footer);
 
         listView.setOnHeaderRefreshListener(new PullToRefreshView.OnHeaderRefreshListener(){
             public void onHeaderRefresh(PullToRefreshView view) {
-
+                try {
+                    Thread.sleep(3000);
+                    listView.onHeaderRefreshComplete();
+                    System.out.println("--------------------------");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         });
 
 
+        listView.setOnFooterRefreshListener(new PullToRefreshView.OnFooterRefreshListener(){
+            public void onFooterRefresh(PullToRefreshView view) {
+                try {
+                    Thread.sleep(3000);
+                    listView.onFooterRefreshComplete();
+                    System.out.println("=============================");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
     }
 
     private void testDownloadFile(){
